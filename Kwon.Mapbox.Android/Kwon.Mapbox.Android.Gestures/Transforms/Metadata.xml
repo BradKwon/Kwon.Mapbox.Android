@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!-- namespace -->
+    <attr path="/api/package[@name='com.mapbox.android.gestures']" name="managedName">Mapbox.Android.Gestures</attr>
+    
+    <!-- corrections -->
+    <remove-node path="/api/package[@name='com.mapbox.android.gestures']/class[@name='AndroidGesturesManager']/method[@name='setMutuallyExclusiveGestures' and count(parameter)=1 and parameter[1][@type='java.util.Set&lt;java.lang.Integer&gt;...']]" />
+    <remove-node path="/api/package[@name='com.mapbox.android.gestures']/class[@name='AndroidGesturesManager']/constructor[@name='AndroidGesturesManager' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='java.util.Set&lt;java.lang.Integer&gt;...']]" />
+</metadata>

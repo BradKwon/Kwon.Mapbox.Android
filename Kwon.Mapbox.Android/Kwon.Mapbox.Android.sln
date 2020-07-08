@@ -9,6 +9,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Facebook.Soloader.Andr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Sdk.Geojson.Android", "Kwon.Mapbox.Sdk.Geojson.Android\Kwon.Mapbox.Sdk.Geojson.Android.csproj", "{28864801-B2A7-4E69-920A-C78C0AA3F1AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Android.Gestures", "Kwon.Mapbox.Android.Gestures\Kwon.Mapbox.Android.Gestures.csproj", "{4641FE42-3A16-4B7B-9F5A-9682F0248647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Android.Accounts", "Kwon.Mapbox.Android.Accounts\Kwon.Mapbox.Android.Accounts.csproj", "{BC343C63-C457-4086-A1C9-CEAA8FD5E0E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Android.Core", "Kwon.Mapbox.Android.Core\Kwon.Mapbox.Android.Core.csproj", "{39E65A64-4329-4115-9935-90E903ADDC8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Android.Telemetry", "Kwon.Mapbox.Android.Telemetry\Kwon.Mapbox.Android.Telemetry.csproj", "{56E9B357-145E-4F1D-9983-E25F85672E01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Android.Sdk", "Kwon.Mapbox.Android.Sdk\Kwon.Mapbox.Android.Sdk.csproj", "{C87F417A-B2A1-41B6-AB6D-C6F5E2D69EF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Sdk.Turf.Android", "Kwon.Mapbox.Sdk.Turf.Android\Kwon.Mapbox.Sdk.Turf.Android.csproj", "{A1300564-8927-4D97-BF05-91FECE646509}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,5 +43,29 @@ Global
 		{28864801-B2A7-4E69-920A-C78C0AA3F1AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28864801-B2A7-4E69-920A-C78C0AA3F1AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28864801-B2A7-4E69-920A-C78C0AA3F1AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4641FE42-3A16-4B7B-9F5A-9682F0248647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4641FE42-3A16-4B7B-9F5A-9682F0248647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4641FE42-3A16-4B7B-9F5A-9682F0248647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4641FE42-3A16-4B7B-9F5A-9682F0248647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC343C63-C457-4086-A1C9-CEAA8FD5E0E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC343C63-C457-4086-A1C9-CEAA8FD5E0E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC343C63-C457-4086-A1C9-CEAA8FD5E0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC343C63-C457-4086-A1C9-CEAA8FD5E0E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39E65A64-4329-4115-9935-90E903ADDC8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39E65A64-4329-4115-9935-90E903ADDC8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39E65A64-4329-4115-9935-90E903ADDC8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39E65A64-4329-4115-9935-90E903ADDC8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E9B357-145E-4F1D-9983-E25F85672E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E9B357-145E-4F1D-9983-E25F85672E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E9B357-145E-4F1D-9983-E25F85672E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E9B357-145E-4F1D-9983-E25F85672E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C87F417A-B2A1-41B6-AB6D-C6F5E2D69EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C87F417A-B2A1-41B6-AB6D-C6F5E2D69EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C87F417A-B2A1-41B6-AB6D-C6F5E2D69EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C87F417A-B2A1-41B6-AB6D-C6F5E2D69EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1300564-8927-4D97-BF05-91FECE646509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1300564-8927-4D97-BF05-91FECE646509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1300564-8927-4D97-BF05-91FECE646509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1300564-8927-4D97-BF05-91FECE646509}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

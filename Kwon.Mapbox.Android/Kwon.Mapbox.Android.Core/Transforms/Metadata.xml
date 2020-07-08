@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!-- namespace -->
+    <attr path="/api/package[@name='com.mapbox.android.core']" name="managedName">Mapbox.Android.Core</attr>
+    <attr path="/api/package[@name='com.mapbox.android.core.connectivity']" name="managedName">Mapbox.Android.Core.Connectivity</attr>
+    <attr path="/api/package[@name='com.mapbox.android.core.crashreporter']" name="managedName">Mapbox.Android.Core.Crashreporter</attr>
+    <attr path="/api/package[@name='com.mapbox.android.core.location']" name="managedName">Mapbox.Android.Core.Location</attr>
+    <attr path="/api/package[@name='com.mapbox.android.core.metrics']" name="managedName">Mapbox.Android.Core.Metrics</attr>
+    <attr path="/api/package[@name='com.mapbox.android.core.permissions']" name="managedName">Mapbox.Android.Core.Permissions</attr>
+</metadata>

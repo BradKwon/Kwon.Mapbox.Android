@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!-- namespace -->
+    <attr path="/api/package[@name='com.mapbox.android.telemetry']" name="managedName">Mapbox.Android.Telemetry</attr>
+    <attr path="/api/package[@name='com.mapbox.android.telemetry.crash']" name="managedName">Mapbox.Android.Telemetry.Crash</attr>
+    <attr path="/api/package[@name='com.mapbox.android.telemetry.location']" name="managedName">Mapbox.Android.Telemetry.Location</attr>
+    <attr path="/api/package[@name='com.mapbox.android.telemetry.metrics']" name="managedName">Mapbox.Android.Telemetry.Metrics</attr>
+    <attr path="/api/package[@name='com.mapbox.android.telemetry.metrics.network']" name="managedName">Mapbox.Android.Telemetry.Metrics.Network</attr>
+    <attr path="/api/package[@name='com.mapbox.android.telemetry.provider']" name="managedName">Mapbox.Android.Telemetry.Provider</attr>
+</metadata>
