@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Android.Sdk", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Sdk.Turf.Android", "Kwon.Mapbox.Sdk.Turf.Android\Kwon.Mapbox.Sdk.Turf.Android.csproj", "{A1300564-8927-4D97-BF05-91FECE646509}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Sdk.Services.Android", "Kwon.Mapbox.Sdk.Services.Android\Kwon.Mapbox.Sdk.Services.Android.csproj", "{802852E2-FAD8-4DCC-A9E8-8C7CA895A617}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Sdk.Core.Android", "Kwon.Mapbox.Sdk.Core.Android\Kwon.Mapbox.Sdk.Core.Android.csproj", "{2EDD0B18-66B3-4FF5-BE0C-A44FDD32F71F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,5 +71,13 @@ Global
 		{A1300564-8927-4D97-BF05-91FECE646509}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1300564-8927-4D97-BF05-91FECE646509}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1300564-8927-4D97-BF05-91FECE646509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{802852E2-FAD8-4DCC-A9E8-8C7CA895A617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802852E2-FAD8-4DCC-A9E8-8C7CA895A617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802852E2-FAD8-4DCC-A9E8-8C7CA895A617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802852E2-FAD8-4DCC-A9E8-8C7CA895A617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EDD0B18-66B3-4FF5-BE0C-A44FDD32F71F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EDD0B18-66B3-4FF5-BE0C-A44FDD32F71F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EDD0B18-66B3-4FF5-BE0C-A44FDD32F71F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EDD0B18-66B3-4FF5-BE0C-A44FDD32F71F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
