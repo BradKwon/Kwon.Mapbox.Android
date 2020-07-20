@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!-- namespace -->
+    <attr path="/api/package[@name='com.mapbox.services.android.navigation']" name="managedName">Mapbox.Services.Android.Navigation</attr>
+    <attr path="/api/package[@name='com.mapbox.services.android.navigation.v5.exception']" name="managedName">Mapbox.Services.Android.Navigation.V5.Exception</attr>
+    <attr path="/api/package[@name='com.mapbox.services.android.navigation.v5.instruction']" name="managedName">Mapbox.Services.Android.Navigation.V5.Instruction</attr>
+    <attr path="/api/package[@name='com.mapbox.services.android.navigation.v5.location']" name="managedName">Mapbox.Services.Android.Navigation.V5.Location</attr>
+    <attr path="/api/package[@name='com.mapbox.services.android.navigation.v5.location.replay']" name="managedName">Mapbox.Services.Android.Navigation.V5.Location.Replay</attr>
+    <attr path="/api/package[@name='com.mapbox.services.android.navigation.v5.milestone']" name="managedName">Mapbox.Services.Android.Navigation.V5.Milestone</attr>
+    <attr path="/api/package[@name='com.mapbox.services.android.navigation.v5.navigation.camera']" name="managedName">Mapbox.Services.Android.Navigation.V5.Navigation.Camera</attr>
+    <attr path="/api/package[@name='com.mapbox.services.android.navigation.v5.navigation']" name="managedName">Mapbox.Services.Android.Navigation.V5.Navigation</attr>
+    <attr path="/api/package[@name='com.mapbox.services.android.navigation.v5.navigation.metrics.audio']" name="managedName">Mapbox.Services.Android.Navigation.V5.Navigation.Metrics.Audio</attr>
+    <attr path="/api/package[@name='com.mapbox.services.android.navigation.v5.navigation.metrics']" name="managedName">Mapbox.Services.Android.Navigation.V5.Navigation.Metrics</attr>
+    <attr path="/api/package[@name='com.mapbox.services.android.navigation.v5.navigation.notification']" name="managedName">Mapbox.Services.Android.Navigation.V5.Navigation.Notification</attr>
+    <attr path="/api/package[@name='com.mapbox.services.android.navigation.v5.offroute']" name="managedName">Mapbox.Services.Android.Navigation.V5.Offroute</attr>
+    <attr path="/api/package[@name='com.mapbox.services.android.navigation.v5.route']" name="managedName">Mapbox.Services.Android.Navigation.V5.Route</attr>
+    <attr path="/api/package[@name='com.mapbox.services.android.navigation.v5.routeprogress']" name="managedName">Mapbox.Services.Android.Navigation.V5.Routeprogress</attr>
+    <attr path="/api/package[@name='com.mapbox.services.android.navigation.v5.snap']" name="managedName">Mapbox.Services.Android.Navigation.V5.Snap</attr>
+    <attr path="/api/package[@name='com.mapbox.services.android.navigation.v5.utils.abbreviation']" name="managedName">Mapbox.Services.Android.Navigation.V5.Utils.Abbreviation</attr>
+    <attr path="/api/package[@name='com.mapbox.services.android.navigation.v5.utils']" name="managedName">Mapbox.Services.Android.Navigation.V5.Utils</attr>
+    <attr path="/api/package[@name='com.mapbox.services.android.navigation.v5.utils.span']" name="managedName">Mapbox.Services.Android.Navigation.V5.Utils.Span</attr>
+    <attr path="/api/package[@name='com.mapbox.services.android.navigation.v5.utils.time']" name="managedName">Mapbox.Services.Android.Navigation.V5.Utils.Time</attr>
+    
+    <!-- corrections -->
+    <remove-node path="/api/package[@name='com.mapbox.services.android.navigation.v5.milestone']/class[@name='Milestone.Builder']/method[@name='build' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='com.mapbox.services.android.navigation.v5.milestone']/class[@name='Milestone.Builder']/method[@name='setTrigger' and count(parameter)=1 and parameter[1][@type='com.mapbox.services.android.navigation.v5.milestone.Trigger.Statement']]" />
+</metadata>

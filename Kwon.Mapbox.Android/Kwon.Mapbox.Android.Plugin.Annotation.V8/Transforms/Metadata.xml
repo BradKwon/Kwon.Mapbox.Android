@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!-- namespace -->
+    <attr path="/api/package[@name='com.mapbox.mapboxsdk.plugins.annotation']" name="managedName">Mapbox.Mapboxsdk.Plugins.Annotation</attr>
+</metadata>

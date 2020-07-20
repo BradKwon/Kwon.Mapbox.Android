@@ -18,6 +18,16 @@
     <AndroidClassParser>class-parse</AndroidClassParser>
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <PackageId>Kwon.Mapbox.Sdk.Services</PackageId>
+    <PackageVersion>4.9.0.0</PackageVersion>
+    <Authors>Brad Kwon</Authors>
+    <PackageLicenseUrl>https://github.com/BradKwon/Kwon.Mapbox.Android/blob/master/LICENSE</PackageLicenseUrl>
+    <Owners>Brad Kwon</Owners>
+    <PackageProjectUrl>https://github.com/BradKwon/Kwon.Mapbox.Android</PackageProjectUrl>
+    <PackageReleaseNotes>Initial release of Mapbox.Sdk.Services 4.9.0</PackageReleaseNotes>
+    <Summary>Mapbox SDK Services binding library for Xamarin.Android</Summary>
+    <Title>Kwon.Mapbox.Sdk.Services</Title>
+    <Description>Mapbox SDK Services binding library for Xamarin.Android</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
