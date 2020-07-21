@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("Mapbox.Navigation.UI.Android.TestApp.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("MapboxNavigation.UI.Droid.TestApp.Resource", IsApplication=true)]
 
-namespace Mapbox.Navigation.UI.Android.TestApp
+namespace MapboxNavigation.UI.Droid.TestApp
 {
 	
 	
@@ -25,188 +25,188 @@ namespace Mapbox.Navigation.UI.Android.TestApp
 		
 		public static void UpdateIdValues()
 		{
-			global::Xamarin.Essentials.Resource.Attribute.alpha = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Attribute.alpha;
-			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Attribute.coordinatorLayoutStyle;
-			global::Xamarin.Essentials.Resource.Attribute.font = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Attribute.font;
-			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Attribute.fontProviderAuthority;
-			global::Xamarin.Essentials.Resource.Attribute.fontProviderCerts = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Attribute.fontProviderCerts;
-			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchStrategy = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Attribute.fontProviderFetchStrategy;
-			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchTimeout = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Attribute.fontProviderFetchTimeout;
-			global::Xamarin.Essentials.Resource.Attribute.fontProviderPackage = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Attribute.fontProviderPackage;
-			global::Xamarin.Essentials.Resource.Attribute.fontProviderQuery = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Attribute.fontProviderQuery;
-			global::Xamarin.Essentials.Resource.Attribute.fontStyle = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Attribute.fontStyle;
-			global::Xamarin.Essentials.Resource.Attribute.fontVariationSettings = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Attribute.fontVariationSettings;
-			global::Xamarin.Essentials.Resource.Attribute.fontWeight = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Attribute.fontWeight;
-			global::Xamarin.Essentials.Resource.Attribute.keylines = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Attribute.keylines;
-			global::Xamarin.Essentials.Resource.Attribute.layout_anchor = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Attribute.layout_anchor;
-			global::Xamarin.Essentials.Resource.Attribute.layout_anchorGravity = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Attribute.layout_anchorGravity;
-			global::Xamarin.Essentials.Resource.Attribute.layout_behavior = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Attribute.layout_behavior;
-			global::Xamarin.Essentials.Resource.Attribute.layout_dodgeInsetEdges = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Attribute.layout_dodgeInsetEdges;
-			global::Xamarin.Essentials.Resource.Attribute.layout_insetEdge = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Attribute.layout_insetEdge;
-			global::Xamarin.Essentials.Resource.Attribute.layout_keyline = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Attribute.layout_keyline;
-			global::Xamarin.Essentials.Resource.Attribute.statusBarBackground = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Attribute.statusBarBackground;
-			global::Xamarin.Essentials.Resource.Attribute.ttcIndex = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Attribute.ttcIndex;
-			global::Xamarin.Essentials.Resource.Color.browser_actions_bg_grey = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Color.browser_actions_bg_grey;
-			global::Xamarin.Essentials.Resource.Color.browser_actions_divider_color = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Color.browser_actions_divider_color;
-			global::Xamarin.Essentials.Resource.Color.browser_actions_text_color = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Color.browser_actions_text_color;
-			global::Xamarin.Essentials.Resource.Color.browser_actions_title_color = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Color.browser_actions_title_color;
-			global::Xamarin.Essentials.Resource.Color.notification_action_color_filter = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Color.notification_action_color_filter;
-			global::Xamarin.Essentials.Resource.Color.notification_icon_bg_color = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Color.notification_icon_bg_color;
-			global::Xamarin.Essentials.Resource.Color.ripple_material_light = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Color.ripple_material_light;
-			global::Xamarin.Essentials.Resource.Color.secondary_text_default_material_light = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Color.secondary_text_default_material_light;
-			global::Xamarin.Essentials.Resource.Dimension.browser_actions_context_menu_max_width = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.browser_actions_context_menu_max_width;
-			global::Xamarin.Essentials.Resource.Dimension.browser_actions_context_menu_min_padding = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.browser_actions_context_menu_min_padding;
-			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_horizontal_material = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_vertical_material = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.compat_button_inset_vertical_material;
-			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_horizontal_material = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_vertical_material = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.compat_button_padding_vertical_material;
-			global::Xamarin.Essentials.Resource.Dimension.compat_control_corner_material = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.compat_control_corner_material;
-			global::Xamarin.Essentials.Resource.Dimension.compat_notification_large_icon_max_height = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.compat_notification_large_icon_max_height;
-			global::Xamarin.Essentials.Resource.Dimension.compat_notification_large_icon_max_width = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::Xamarin.Essentials.Resource.Dimension.notification_action_icon_size = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.notification_action_icon_size;
-			global::Xamarin.Essentials.Resource.Dimension.notification_action_text_size = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.notification_action_text_size;
-			global::Xamarin.Essentials.Resource.Dimension.notification_big_circle_margin = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.notification_big_circle_margin;
-			global::Xamarin.Essentials.Resource.Dimension.notification_content_margin_start = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.notification_content_margin_start;
-			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_height = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.notification_large_icon_height;
-			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_width = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.notification_large_icon_width;
-			global::Xamarin.Essentials.Resource.Dimension.notification_main_column_padding_top = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.notification_main_column_padding_top;
-			global::Xamarin.Essentials.Resource.Dimension.notification_media_narrow_margin = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.notification_media_narrow_margin;
-			global::Xamarin.Essentials.Resource.Dimension.notification_right_icon_size = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.notification_right_icon_size;
-			global::Xamarin.Essentials.Resource.Dimension.notification_right_side_padding_top = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.notification_right_side_padding_top;
-			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_background_padding = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.notification_small_icon_background_padding;
-			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_size_as_large = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Xamarin.Essentials.Resource.Dimension.notification_subtext_size = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.notification_subtext_size;
-			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.notification_top_pad;
-			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad_large_text = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Dimension.notification_top_pad_large_text;
-			global::Xamarin.Essentials.Resource.Drawable.notification_action_background = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Drawable.notification_action_background;
-			global::Xamarin.Essentials.Resource.Drawable.notification_bg = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Drawable.notification_bg;
-			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Drawable.notification_bg_low;
-			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_normal = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Drawable.notification_bg_low_normal;
-			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_pressed = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Drawable.notification_bg_low_pressed;
-			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Drawable.notification_bg_normal;
-			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal_pressed = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Drawable.notification_bg_normal_pressed;
-			global::Xamarin.Essentials.Resource.Drawable.notification_icon_background = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Drawable.notification_icon_background;
-			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_bg = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Drawable.notification_template_icon_bg;
-			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_low_bg = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Drawable.notification_template_icon_low_bg;
-			global::Xamarin.Essentials.Resource.Drawable.notification_tile_bg = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Drawable.notification_tile_bg;
-			global::Xamarin.Essentials.Resource.Drawable.notify_panel_notification_icon_bg = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Xamarin.Essentials.Resource.Id.action_container = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.action_container;
-			global::Xamarin.Essentials.Resource.Id.action_divider = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.action_divider;
-			global::Xamarin.Essentials.Resource.Id.action_image = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.action_image;
-			global::Xamarin.Essentials.Resource.Id.action_text = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.action_text;
-			global::Xamarin.Essentials.Resource.Id.actions = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.actions;
-			global::Xamarin.Essentials.Resource.Id.all = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.all;
-			global::Xamarin.Essentials.Resource.Id.async = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.async;
-			global::Xamarin.Essentials.Resource.Id.blocking = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.blocking;
-			global::Xamarin.Essentials.Resource.Id.bottom = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.bottom;
-			global::Xamarin.Essentials.Resource.Id.browser_actions_header_text = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.browser_actions_header_text;
-			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_icon = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.browser_actions_menu_item_icon;
-			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_text = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.browser_actions_menu_item_text;
-			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_items = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.browser_actions_menu_items;
-			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_view = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.browser_actions_menu_view;
-			global::Xamarin.Essentials.Resource.Id.center = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.center;
-			global::Xamarin.Essentials.Resource.Id.center_horizontal = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.center_horizontal;
-			global::Xamarin.Essentials.Resource.Id.center_vertical = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.center_vertical;
-			global::Xamarin.Essentials.Resource.Id.chronometer = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.chronometer;
-			global::Xamarin.Essentials.Resource.Id.clip_horizontal = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.clip_horizontal;
-			global::Xamarin.Essentials.Resource.Id.clip_vertical = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.clip_vertical;
-			global::Xamarin.Essentials.Resource.Id.end = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.end;
-			global::Xamarin.Essentials.Resource.Id.fill = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.fill;
-			global::Xamarin.Essentials.Resource.Id.fill_horizontal = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.fill_horizontal;
-			global::Xamarin.Essentials.Resource.Id.fill_vertical = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.fill_vertical;
-			global::Xamarin.Essentials.Resource.Id.forever = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.forever;
-			global::Xamarin.Essentials.Resource.Id.icon = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.icon;
-			global::Xamarin.Essentials.Resource.Id.icon_group = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.icon_group;
-			global::Xamarin.Essentials.Resource.Id.info = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.info;
-			global::Xamarin.Essentials.Resource.Id.italic = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.italic;
-			global::Xamarin.Essentials.Resource.Id.left = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.left;
-			global::Xamarin.Essentials.Resource.Id.line1 = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.line1;
-			global::Xamarin.Essentials.Resource.Id.line3 = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.line3;
-			global::Xamarin.Essentials.Resource.Id.none = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.none;
-			global::Xamarin.Essentials.Resource.Id.normal = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.normal;
-			global::Xamarin.Essentials.Resource.Id.notification_background = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.notification_background;
-			global::Xamarin.Essentials.Resource.Id.notification_main_column = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.notification_main_column;
-			global::Xamarin.Essentials.Resource.Id.notification_main_column_container = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.notification_main_column_container;
-			global::Xamarin.Essentials.Resource.Id.right = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.right;
-			global::Xamarin.Essentials.Resource.Id.right_icon = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.right_icon;
-			global::Xamarin.Essentials.Resource.Id.right_side = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.right_side;
-			global::Xamarin.Essentials.Resource.Id.start = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.start;
-			global::Xamarin.Essentials.Resource.Id.tag_transition_group = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.tag_transition_group;
-			global::Xamarin.Essentials.Resource.Id.tag_unhandled_key_event_manager = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.tag_unhandled_key_event_manager;
-			global::Xamarin.Essentials.Resource.Id.tag_unhandled_key_listeners = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.tag_unhandled_key_listeners;
-			global::Xamarin.Essentials.Resource.Id.text = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.text;
-			global::Xamarin.Essentials.Resource.Id.text2 = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.text2;
-			global::Xamarin.Essentials.Resource.Id.time = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.time;
-			global::Xamarin.Essentials.Resource.Id.title = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.title;
-			global::Xamarin.Essentials.Resource.Id.top = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Id.top;
-			global::Xamarin.Essentials.Resource.Integer.status_bar_notification_info_maxnum = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_page = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Layout.browser_actions_context_menu_page;
-			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_row = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Layout.browser_actions_context_menu_row;
-			global::Xamarin.Essentials.Resource.Layout.notification_action = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Layout.notification_action;
-			global::Xamarin.Essentials.Resource.Layout.notification_action_tombstone = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Layout.notification_action_tombstone;
-			global::Xamarin.Essentials.Resource.Layout.notification_template_custom_big = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Layout.notification_template_custom_big;
-			global::Xamarin.Essentials.Resource.Layout.notification_template_icon_group = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Layout.notification_template_icon_group;
-			global::Xamarin.Essentials.Resource.Layout.notification_template_part_chronometer = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Layout.notification_template_part_chronometer;
-			global::Xamarin.Essentials.Resource.Layout.notification_template_part_time = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Layout.notification_template_part_time;
-			global::Xamarin.Essentials.Resource.String.status_bar_notification_info_overflow = global::Mapbox.Navigation.UI.Android.TestApp.Resource.String.status_bar_notification_info_overflow;
-			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Style.TextAppearance_Compat_Notification;
-			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Info = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Time = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Title = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionContainer = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionText = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Xamarin.Essentials.Resource.Style.Widget_Support_CoordinatorLayout = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Style.Widget_Support_CoordinatorLayout;
-			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
-			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.ColorStateListItem;
-			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_alpha = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.ColorStateListItem_alpha;
-			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_alpha = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_color = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.ColorStateListItem_android_color;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.CoordinatorLayout;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_keylines = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.CoordinatorLayout_Layout;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.FontFamily;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderAuthority = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderCerts = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderPackage = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderQuery = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.FontFamilyFont;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_font = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.FontFamilyFont_android_font;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.FontFamilyFont_android_ttcIndex;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_font = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.FontFamilyFont_font;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontStyle = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.FontFamilyFont_fontVariationSettings;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontWeight = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_ttcIndex = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.FontFamilyFont_ttcIndex;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.GradientColor;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerColor = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.GradientColor_android_centerColor;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerX = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.GradientColor_android_centerX;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerY = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.GradientColor_android_centerY;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_endColor = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.GradientColor_android_endColor;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_endX = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.GradientColor_android_endX;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_endY = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.GradientColor_android_endY;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_gradientRadius = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.GradientColor_android_gradientRadius;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startColor = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.GradientColor_android_startColor;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startX = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.GradientColor_android_startX;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startY = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.GradientColor_android_startY;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_tileMode = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.GradientColor_android_tileMode;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_type = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.GradientColor_android_type;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.GradientColorItem;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_color = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.GradientColorItem_android_color;
-			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_offset = global::Mapbox.Navigation.UI.Android.TestApp.Resource.Styleable.GradientColorItem_android_offset;
+			global::Xamarin.Essentials.Resource.Attribute.alpha = global::MapboxNavigation.UI.Droid.TestApp.Resource.Attribute.alpha;
+			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::MapboxNavigation.UI.Droid.TestApp.Resource.Attribute.coordinatorLayoutStyle;
+			global::Xamarin.Essentials.Resource.Attribute.font = global::MapboxNavigation.UI.Droid.TestApp.Resource.Attribute.font;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::MapboxNavigation.UI.Droid.TestApp.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderCerts = global::MapboxNavigation.UI.Droid.TestApp.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchStrategy = global::MapboxNavigation.UI.Droid.TestApp.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchTimeout = global::MapboxNavigation.UI.Droid.TestApp.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderPackage = global::MapboxNavigation.UI.Droid.TestApp.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderQuery = global::MapboxNavigation.UI.Droid.TestApp.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Essentials.Resource.Attribute.fontStyle = global::MapboxNavigation.UI.Droid.TestApp.Resource.Attribute.fontStyle;
+			global::Xamarin.Essentials.Resource.Attribute.fontVariationSettings = global::MapboxNavigation.UI.Droid.TestApp.Resource.Attribute.fontVariationSettings;
+			global::Xamarin.Essentials.Resource.Attribute.fontWeight = global::MapboxNavigation.UI.Droid.TestApp.Resource.Attribute.fontWeight;
+			global::Xamarin.Essentials.Resource.Attribute.keylines = global::MapboxNavigation.UI.Droid.TestApp.Resource.Attribute.keylines;
+			global::Xamarin.Essentials.Resource.Attribute.layout_anchor = global::MapboxNavigation.UI.Droid.TestApp.Resource.Attribute.layout_anchor;
+			global::Xamarin.Essentials.Resource.Attribute.layout_anchorGravity = global::MapboxNavigation.UI.Droid.TestApp.Resource.Attribute.layout_anchorGravity;
+			global::Xamarin.Essentials.Resource.Attribute.layout_behavior = global::MapboxNavigation.UI.Droid.TestApp.Resource.Attribute.layout_behavior;
+			global::Xamarin.Essentials.Resource.Attribute.layout_dodgeInsetEdges = global::MapboxNavigation.UI.Droid.TestApp.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xamarin.Essentials.Resource.Attribute.layout_insetEdge = global::MapboxNavigation.UI.Droid.TestApp.Resource.Attribute.layout_insetEdge;
+			global::Xamarin.Essentials.Resource.Attribute.layout_keyline = global::MapboxNavigation.UI.Droid.TestApp.Resource.Attribute.layout_keyline;
+			global::Xamarin.Essentials.Resource.Attribute.statusBarBackground = global::MapboxNavigation.UI.Droid.TestApp.Resource.Attribute.statusBarBackground;
+			global::Xamarin.Essentials.Resource.Attribute.ttcIndex = global::MapboxNavigation.UI.Droid.TestApp.Resource.Attribute.ttcIndex;
+			global::Xamarin.Essentials.Resource.Color.browser_actions_bg_grey = global::MapboxNavigation.UI.Droid.TestApp.Resource.Color.browser_actions_bg_grey;
+			global::Xamarin.Essentials.Resource.Color.browser_actions_divider_color = global::MapboxNavigation.UI.Droid.TestApp.Resource.Color.browser_actions_divider_color;
+			global::Xamarin.Essentials.Resource.Color.browser_actions_text_color = global::MapboxNavigation.UI.Droid.TestApp.Resource.Color.browser_actions_text_color;
+			global::Xamarin.Essentials.Resource.Color.browser_actions_title_color = global::MapboxNavigation.UI.Droid.TestApp.Resource.Color.browser_actions_title_color;
+			global::Xamarin.Essentials.Resource.Color.notification_action_color_filter = global::MapboxNavigation.UI.Droid.TestApp.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Essentials.Resource.Color.notification_icon_bg_color = global::MapboxNavigation.UI.Droid.TestApp.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Essentials.Resource.Color.ripple_material_light = global::MapboxNavigation.UI.Droid.TestApp.Resource.Color.ripple_material_light;
+			global::Xamarin.Essentials.Resource.Color.secondary_text_default_material_light = global::MapboxNavigation.UI.Droid.TestApp.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Essentials.Resource.Dimension.browser_actions_context_menu_max_width = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Xamarin.Essentials.Resource.Dimension.browser_actions_context_menu_min_padding = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_horizontal_material = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_vertical_material = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_horizontal_material = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_vertical_material = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_control_corner_material = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_notification_large_icon_max_height = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Xamarin.Essentials.Resource.Dimension.compat_notification_large_icon_max_width = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Xamarin.Essentials.Resource.Dimension.notification_action_icon_size = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_action_text_size = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_big_circle_margin = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Essentials.Resource.Dimension.notification_content_margin_start = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_height = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_width = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Essentials.Resource.Dimension.notification_main_column_padding_top = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Essentials.Resource.Dimension.notification_media_narrow_margin = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Essentials.Resource.Dimension.notification_right_icon_size = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_right_side_padding_top = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_background_padding = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_size_as_large = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Essentials.Resource.Dimension.notification_subtext_size = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad_large_text = global::MapboxNavigation.UI.Droid.TestApp.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Essentials.Resource.Drawable.notification_action_background = global::MapboxNavigation.UI.Droid.TestApp.Resource.Drawable.notification_action_background;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg = global::MapboxNavigation.UI.Droid.TestApp.Resource.Drawable.notification_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low = global::MapboxNavigation.UI.Droid.TestApp.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_normal = global::MapboxNavigation.UI.Droid.TestApp.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_pressed = global::MapboxNavigation.UI.Droid.TestApp.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal = global::MapboxNavigation.UI.Droid.TestApp.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal_pressed = global::MapboxNavigation.UI.Droid.TestApp.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Essentials.Resource.Drawable.notification_icon_background = global::MapboxNavigation.UI.Droid.TestApp.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_bg = global::MapboxNavigation.UI.Droid.TestApp.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_low_bg = global::MapboxNavigation.UI.Droid.TestApp.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_tile_bg = global::MapboxNavigation.UI.Droid.TestApp.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notify_panel_notification_icon_bg = global::MapboxNavigation.UI.Droid.TestApp.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Essentials.Resource.Id.action_container = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.action_container;
+			global::Xamarin.Essentials.Resource.Id.action_divider = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.action_divider;
+			global::Xamarin.Essentials.Resource.Id.action_image = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.action_image;
+			global::Xamarin.Essentials.Resource.Id.action_text = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.action_text;
+			global::Xamarin.Essentials.Resource.Id.actions = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.actions;
+			global::Xamarin.Essentials.Resource.Id.all = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.all;
+			global::Xamarin.Essentials.Resource.Id.async = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.async;
+			global::Xamarin.Essentials.Resource.Id.blocking = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.blocking;
+			global::Xamarin.Essentials.Resource.Id.bottom = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.bottom;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_header_text = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.browser_actions_header_text;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_icon = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.browser_actions_menu_item_icon;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_text = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.browser_actions_menu_item_text;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_items = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.browser_actions_menu_items;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_view = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.browser_actions_menu_view;
+			global::Xamarin.Essentials.Resource.Id.center = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.center;
+			global::Xamarin.Essentials.Resource.Id.center_horizontal = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.center_horizontal;
+			global::Xamarin.Essentials.Resource.Id.center_vertical = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.center_vertical;
+			global::Xamarin.Essentials.Resource.Id.chronometer = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.chronometer;
+			global::Xamarin.Essentials.Resource.Id.clip_horizontal = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.clip_horizontal;
+			global::Xamarin.Essentials.Resource.Id.clip_vertical = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.clip_vertical;
+			global::Xamarin.Essentials.Resource.Id.end = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.end;
+			global::Xamarin.Essentials.Resource.Id.fill = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.fill;
+			global::Xamarin.Essentials.Resource.Id.fill_horizontal = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.fill_horizontal;
+			global::Xamarin.Essentials.Resource.Id.fill_vertical = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.fill_vertical;
+			global::Xamarin.Essentials.Resource.Id.forever = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.forever;
+			global::Xamarin.Essentials.Resource.Id.icon = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.icon;
+			global::Xamarin.Essentials.Resource.Id.icon_group = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.icon_group;
+			global::Xamarin.Essentials.Resource.Id.info = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.info;
+			global::Xamarin.Essentials.Resource.Id.italic = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.italic;
+			global::Xamarin.Essentials.Resource.Id.left = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.left;
+			global::Xamarin.Essentials.Resource.Id.line1 = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.line1;
+			global::Xamarin.Essentials.Resource.Id.line3 = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.line3;
+			global::Xamarin.Essentials.Resource.Id.none = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.none;
+			global::Xamarin.Essentials.Resource.Id.normal = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.normal;
+			global::Xamarin.Essentials.Resource.Id.notification_background = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.notification_background;
+			global::Xamarin.Essentials.Resource.Id.notification_main_column = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.notification_main_column;
+			global::Xamarin.Essentials.Resource.Id.notification_main_column_container = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.notification_main_column_container;
+			global::Xamarin.Essentials.Resource.Id.right = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.right;
+			global::Xamarin.Essentials.Resource.Id.right_icon = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.right_icon;
+			global::Xamarin.Essentials.Resource.Id.right_side = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.right_side;
+			global::Xamarin.Essentials.Resource.Id.start = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.start;
+			global::Xamarin.Essentials.Resource.Id.tag_transition_group = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.tag_transition_group;
+			global::Xamarin.Essentials.Resource.Id.tag_unhandled_key_event_manager = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.tag_unhandled_key_event_manager;
+			global::Xamarin.Essentials.Resource.Id.tag_unhandled_key_listeners = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.tag_unhandled_key_listeners;
+			global::Xamarin.Essentials.Resource.Id.text = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.text;
+			global::Xamarin.Essentials.Resource.Id.text2 = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.text2;
+			global::Xamarin.Essentials.Resource.Id.time = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.time;
+			global::Xamarin.Essentials.Resource.Id.title = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.title;
+			global::Xamarin.Essentials.Resource.Id.top = global::MapboxNavigation.UI.Droid.TestApp.Resource.Id.top;
+			global::Xamarin.Essentials.Resource.Integer.status_bar_notification_info_maxnum = global::MapboxNavigation.UI.Droid.TestApp.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_page = global::MapboxNavigation.UI.Droid.TestApp.Resource.Layout.browser_actions_context_menu_page;
+			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_row = global::MapboxNavigation.UI.Droid.TestApp.Resource.Layout.browser_actions_context_menu_row;
+			global::Xamarin.Essentials.Resource.Layout.notification_action = global::MapboxNavigation.UI.Droid.TestApp.Resource.Layout.notification_action;
+			global::Xamarin.Essentials.Resource.Layout.notification_action_tombstone = global::MapboxNavigation.UI.Droid.TestApp.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_custom_big = global::MapboxNavigation.UI.Droid.TestApp.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_icon_group = global::MapboxNavigation.UI.Droid.TestApp.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_part_chronometer = global::MapboxNavigation.UI.Droid.TestApp.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_part_time = global::MapboxNavigation.UI.Droid.TestApp.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Essentials.Resource.String.status_bar_notification_info_overflow = global::MapboxNavigation.UI.Droid.TestApp.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification = global::MapboxNavigation.UI.Droid.TestApp.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Info = global::MapboxNavigation.UI.Droid.TestApp.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::MapboxNavigation.UI.Droid.TestApp.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Time = global::MapboxNavigation.UI.Droid.TestApp.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Title = global::MapboxNavigation.UI.Droid.TestApp.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionContainer = global::MapboxNavigation.UI.Droid.TestApp.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionText = global::MapboxNavigation.UI.Droid.TestApp.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Essentials.Resource.Style.Widget_Support_CoordinatorLayout = global::MapboxNavigation.UI.Droid.TestApp.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::MapboxNavigation.UI.Droid.TestApp.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
+			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.ColorStateListItem;
+			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_alpha = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_alpha = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_color = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.CoordinatorLayout;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_keylines = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Xamarin.Essentials.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.FontFamily;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderAuthority = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderCerts = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderPackage = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderQuery = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_font = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontStyle = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontWeight = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_font = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontStyle = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontWeight = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_ttcIndex = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.GradientColor;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerColor = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.GradientColor_android_centerColor;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerX = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.GradientColor_android_centerX;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerY = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.GradientColor_android_centerY;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_endColor = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.GradientColor_android_endColor;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_endX = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.GradientColor_android_endX;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_endY = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.GradientColor_android_endY;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_gradientRadius = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startColor = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.GradientColor_android_startColor;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startX = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.GradientColor_android_startX;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startY = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.GradientColor_android_startY;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_tileMode = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.GradientColor_android_tileMode;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_type = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.GradientColorItem;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_color = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.GradientColorItem_android_color;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_offset = global::MapboxNavigation.UI.Droid.TestApp.Resource.Styleable.GradientColorItem_android_offset;
 		}
 		
 		public partial class Animation
@@ -297,16 +297,37 @@ namespace Mapbox.Navigation.UI.Android.TestApp
 			public const int design_snackbar_out = 2130771995;
 			
 			// aapt resource value: 0x7F01001C
-			public const int slide_down_top = 2130771996;
+			public const int fragment_close_enter = 2130771996;
 			
 			// aapt resource value: 0x7F01001D
-			public const int slide_in_right = 2130771997;
+			public const int fragment_close_exit = 2130771997;
 			
 			// aapt resource value: 0x7F01001E
-			public const int slide_out_right = 2130771998;
+			public const int fragment_fade_enter = 2130771998;
 			
 			// aapt resource value: 0x7F01001F
-			public const int slide_up_top = 2130771999;
+			public const int fragment_fade_exit = 2130771999;
+			
+			// aapt resource value: 0x7F010020
+			public const int fragment_fast_out_extra_slow_in = 2130772000;
+			
+			// aapt resource value: 0x7F010021
+			public const int fragment_open_enter = 2130772001;
+			
+			// aapt resource value: 0x7F010022
+			public const int fragment_open_exit = 2130772002;
+			
+			// aapt resource value: 0x7F010023
+			public const int slide_down_top = 2130772003;
+			
+			// aapt resource value: 0x7F010024
+			public const int slide_in_right = 2130772004;
+			
+			// aapt resource value: 0x7F010025
+			public const int slide_out_right = 2130772005;
+			
+			// aapt resource value: 0x7F010026
+			public const int slide_up_top = 2130772006;
 			
 			static Animation()
 			{
@@ -5083,665 +5104,671 @@ namespace Mapbox.Navigation.UI.Android.TestApp
 			// aapt resource value: 0x7F090097
 			public const int forever = 2131296407;
 			
+			// aapt resource value: 0x7F090098
+			public const int fragment_container_view_tag = 2131296408;
+			
 			// aapt resource value: 0x7F090002
 			public const int FUNCTION = 2131296258;
 			
-			// aapt resource value: 0x7F090098
-			public const int ghost_view = 2131296408;
-			
 			// aapt resource value: 0x7F090099
-			public const int ghost_view_holder = 2131296409;
+			public const int ghost_view = 2131296409;
 			
 			// aapt resource value: 0x7F09009A
-			public const int gone = 2131296410;
-			
-			// aapt resource value: 0x7F09009C
-			public const int groups = 2131296412;
+			public const int ghost_view_holder = 2131296410;
 			
 			// aapt resource value: 0x7F09009B
-			public const int group_divider = 2131296411;
+			public const int gone = 2131296411;
 			
 			// aapt resource value: 0x7F09009D
-			public const int guideline = 2131296413;
+			public const int groups = 2131296413;
+			
+			// aapt resource value: 0x7F09009C
+			public const int group_divider = 2131296412;
 			
 			// aapt resource value: 0x7F09009E
-			public const int home = 2131296414;
+			public const int guideline = 2131296414;
 			
 			// aapt resource value: 0x7F09009F
-			public const int homeAsUp = 2131296415;
+			public const int home = 2131296415;
 			
 			// aapt resource value: 0x7F0900A0
-			public const int icon = 2131296416;
+			public const int homeAsUp = 2131296416;
 			
 			// aapt resource value: 0x7F0900A1
-			public const int icon_group = 2131296417;
+			public const int icon = 2131296417;
 			
 			// aapt resource value: 0x7F0900A2
-			public const int ifRoom = 2131296418;
+			public const int icon_group = 2131296418;
 			
 			// aapt resource value: 0x7F0900A3
-			public const int image = 2131296419;
+			public const int ifRoom = 2131296419;
 			
 			// aapt resource value: 0x7F0900A4
-			public const int imagenotileft = 2131296420;
+			public const int image = 2131296420;
 			
 			// aapt resource value: 0x7F0900A5
-			public const int info = 2131296421;
+			public const int imagenotileft = 2131296421;
 			
 			// aapt resource value: 0x7F0900A6
-			public const int infowindow_description = 2131296422;
+			public const int info = 2131296422;
 			
 			// aapt resource value: 0x7F0900A7
-			public const int infowindow_title = 2131296423;
+			public const int infowindow_description = 2131296423;
 			
 			// aapt resource value: 0x7F0900A8
-			public const int instructionLayout = 2131296424;
+			public const int infowindow_title = 2131296424;
 			
 			// aapt resource value: 0x7F0900A9
-			public const int instructionLayoutText = 2131296425;
+			public const int instructionLayout = 2131296425;
 			
 			// aapt resource value: 0x7F0900AA
-			public const int instructionListLayout = 2131296426;
+			public const int instructionLayoutText = 2131296426;
 			
 			// aapt resource value: 0x7F0900AB
-			public const int instructionManeuverLayout = 2131296427;
+			public const int instructionListLayout = 2131296427;
 			
 			// aapt resource value: 0x7F0900AC
-			public const int instructionView = 2131296428;
+			public const int instructionManeuverLayout = 2131296428;
 			
 			// aapt resource value: 0x7F0900AD
-			public const int instructionViewLayout = 2131296429;
+			public const int instructionView = 2131296429;
 			
 			// aapt resource value: 0x7F0900AE
-			public const int invisible = 2131296430;
+			public const int instructionViewLayout = 2131296430;
 			
 			// aapt resource value: 0x7F0900AF
-			public const int italic = 2131296431;
+			public const int invisible = 2131296431;
 			
 			// aapt resource value: 0x7F0900B0
-			public const int item_touch_helper_previous_elevation = 2131296432;
+			public const int italic = 2131296432;
 			
 			// aapt resource value: 0x7F0900B1
-			public const int labeled = 2131296433;
+			public const int item_touch_helper_previous_elevation = 2131296433;
 			
 			// aapt resource value: 0x7F0900B2
-			public const int largeLabel = 2131296434;
+			public const int labeled = 2131296434;
 			
 			// aapt resource value: 0x7F0900B3
-			public const int launchNavigation = 2131296435;
+			public const int largeLabel = 2131296435;
 			
 			// aapt resource value: 0x7F0900B4
-			public const int launch_btn_frame = 2131296436;
+			public const int launchNavigation = 2131296436;
 			
 			// aapt resource value: 0x7F0900B5
-			public const int launch_route_btn = 2131296437;
+			public const int launch_btn_frame = 2131296437;
 			
 			// aapt resource value: 0x7F0900B6
-			public const int left = 2131296438;
+			public const int launch_route_btn = 2131296438;
 			
 			// aapt resource value: 0x7F0900B7
-			public const int line1 = 2131296439;
+			public const int left = 2131296439;
 			
 			// aapt resource value: 0x7F0900B8
-			public const int line3 = 2131296440;
+			public const int line1 = 2131296440;
 			
 			// aapt resource value: 0x7F0900B9
-			public const int listItemAddress = 2131296441;
+			public const int line3 = 2131296441;
 			
 			// aapt resource value: 0x7F0900BA
-			public const int listItemText = 2131296442;
+			public const int listItemAddress = 2131296442;
 			
 			// aapt resource value: 0x7F0900BB
-			public const int listMode = 2131296443;
+			public const int listItemText = 2131296443;
 			
 			// aapt resource value: 0x7F0900BC
-			public const int list_item = 2131296444;
+			public const int listMode = 2131296444;
 			
 			// aapt resource value: 0x7F0900BD
-			public const int loading = 2131296445;
+			public const int list_item = 2131296445;
 			
 			// aapt resource value: 0x7F0900BE
-			public const int locationFab = 2131296446;
+			public const int loading = 2131296446;
 			
 			// aapt resource value: 0x7F0900BF
-			public const int logo = 2131296447;
+			public const int locationFab = 2131296447;
 			
 			// aapt resource value: 0x7F0900C0
-			public const int logoView = 2131296448;
+			public const int logo = 2131296448;
 			
 			// aapt resource value: 0x7F0900C1
-			public const int mainLayout = 2131296449;
+			public const int logoView = 2131296449;
 			
 			// aapt resource value: 0x7F0900C2
-			public const int maneuverImage = 2131296450;
+			public const int mainLayout = 2131296450;
 			
 			// aapt resource value: 0x7F0900C3
-			public const int maneuverView = 2131296451;
+			public const int maneuverImage = 2131296451;
 			
 			// aapt resource value: 0x7F0900C4
-			public const int mapView = 2131296452;
+			public const int maneuverView = 2131296452;
 			
 			// aapt resource value: 0x7F0900C5
-			public const int masked = 2131296453;
+			public const int mapView = 2131296453;
 			
 			// aapt resource value: 0x7F0900C6
-			public const int message = 2131296454;
+			public const int masked = 2131296454;
+			
+			// aapt resource value: 0x7F0900C7
+			public const int message = 2131296455;
 			
 			// aapt resource value: 0x7F090003
 			public const int META = 2131296259;
 			
-			// aapt resource value: 0x7F0900C7
-			public const int middle = 2131296455;
-			
 			// aapt resource value: 0x7F0900C8
-			public const int mini = 2131296456;
+			public const int middle = 2131296456;
 			
 			// aapt resource value: 0x7F0900C9
-			public const int mtrl_child_content_container = 2131296457;
+			public const int mini = 2131296457;
 			
 			// aapt resource value: 0x7F0900CA
-			public const int mtrl_internal_children_alpha_tag = 2131296458;
+			public const int mtrl_child_content_container = 2131296458;
 			
 			// aapt resource value: 0x7F0900CB
-			public const int multiply = 2131296459;
+			public const int mtrl_internal_children_alpha_tag = 2131296459;
 			
 			// aapt resource value: 0x7F0900CC
-			public const int nameView = 2131296460;
+			public const int multiply = 2131296460;
 			
 			// aapt resource value: 0x7F0900CD
-			public const int navigationCollapsedNotificationLayout = 2131296461;
+			public const int nameView = 2131296461;
 			
 			// aapt resource value: 0x7F0900CE
-			public const int navigationExpandedNotificationLayout = 2131296462;
+			public const int navigationCollapsedNotificationLayout = 2131296462;
 			
 			// aapt resource value: 0x7F0900CF
-			public const int navigationFab = 2131296463;
+			public const int navigationExpandedNotificationLayout = 2131296463;
 			
 			// aapt resource value: 0x7F0900D0
-			public const int navigationLayout = 2131296464;
+			public const int navigationFab = 2131296464;
 			
 			// aapt resource value: 0x7F0900D1
-			public const int navigationMapView = 2131296465;
+			public const int navigationLayout = 2131296465;
 			
 			// aapt resource value: 0x7F0900D2
-			public const int navigationView = 2131296466;
+			public const int navigationMapView = 2131296466;
 			
 			// aapt resource value: 0x7F0900D3
-			public const int navigation_fragment_frame = 2131296467;
+			public const int navigationView = 2131296467;
 			
 			// aapt resource value: 0x7F0900D4
-			public const int navigation_header_container = 2131296468;
+			public const int navigation_fragment_frame = 2131296468;
 			
 			// aapt resource value: 0x7F0900D5
-			public const int navigation_view_fragment = 2131296469;
+			public const int navigation_header_container = 2131296469;
 			
 			// aapt resource value: 0x7F0900D6
-			public const int never = 2131296470;
+			public const int navigation_view_fragment = 2131296470;
 			
 			// aapt resource value: 0x7F0900D7
-			public const int newLocationFab = 2131296471;
+			public const int never = 2131296471;
 			
 			// aapt resource value: 0x7F0900D8
-			public const int none = 2131296472;
+			public const int newLocationFab = 2131296472;
 			
 			// aapt resource value: 0x7F0900D9
-			public const int normal = 2131296473;
+			public const int none = 2131296473;
 			
 			// aapt resource value: 0x7F0900DA
-			public const int notificationArrivalText = 2131296474;
+			public const int normal = 2131296474;
 			
 			// aapt resource value: 0x7F0900DB
-			public const int notificationDistanceText = 2131296475;
+			public const int notificationArrivalText = 2131296475;
 			
 			// aapt resource value: 0x7F0900DC
-			public const int notificationInstructionText = 2131296476;
+			public const int notificationDistanceText = 2131296476;
 			
 			// aapt resource value: 0x7F0900DD
-			public const int notificationStreetNameTextView = 2131296477;
+			public const int notificationInstructionText = 2131296477;
 			
 			// aapt resource value: 0x7F0900DE
-			public const int notification_background = 2131296478;
+			public const int notificationStreetNameTextView = 2131296478;
 			
 			// aapt resource value: 0x7F0900DF
-			public const int notification_main_column = 2131296479;
+			public const int notification_background = 2131296479;
 			
 			// aapt resource value: 0x7F0900E0
-			public const int notification_main_column_container = 2131296480;
+			public const int notification_main_column = 2131296480;
 			
 			// aapt resource value: 0x7F0900E1
-			public const int off = 2131296481;
+			public const int notification_main_column_container = 2131296481;
 			
 			// aapt resource value: 0x7F0900E2
-			public const int offlineSwitch = 2131296482;
+			public const int off = 2131296482;
 			
 			// aapt resource value: 0x7F0900E3
-			public const int on = 2131296483;
+			public const int offlineSwitch = 2131296483;
 			
 			// aapt resource value: 0x7F0900E4
-			public const int outline = 2131296484;
+			public const int on = 2131296484;
 			
 			// aapt resource value: 0x7F0900E5
-			public const int packed = 2131296485;
+			public const int outline = 2131296485;
 			
 			// aapt resource value: 0x7F0900E6
-			public const int parallax = 2131296486;
+			public const int packed = 2131296486;
 			
 			// aapt resource value: 0x7F0900E7
-			public const int parent = 2131296487;
+			public const int parallax = 2131296487;
 			
 			// aapt resource value: 0x7F0900E8
-			public const int parentPanel = 2131296488;
+			public const int parent = 2131296488;
 			
 			// aapt resource value: 0x7F0900E9
-			public const int parent_matrix = 2131296489;
+			public const int parentPanel = 2131296489;
 			
 			// aapt resource value: 0x7F0900EA
-			public const int percent = 2131296490;
+			public const int parent_matrix = 2131296490;
 			
 			// aapt resource value: 0x7F0900EB
-			public const int pin = 2131296491;
+			public const int percent = 2131296491;
 			
 			// aapt resource value: 0x7F0900EC
-			public const int progress_circular = 2131296492;
+			public const int pin = 2131296492;
 			
 			// aapt resource value: 0x7F0900ED
-			public const int progress_horizontal = 2131296493;
+			public const int progress_circular = 2131296493;
 			
 			// aapt resource value: 0x7F0900EE
-			public const int query_feature_count_map_container = 2131296494;
+			public const int progress_horizontal = 2131296494;
 			
 			// aapt resource value: 0x7F0900EF
-			public const int radio = 2131296495;
+			public const int query_feature_count_map_container = 2131296495;
 			
 			// aapt resource value: 0x7F0900F0
-			public const int recenterBtn = 2131296496;
+			public const int radio = 2131296496;
 			
 			// aapt resource value: 0x7F0900F1
-			public const int recycler_view = 2131296497;
+			public const int recenterBtn = 2131296497;
 			
 			// aapt resource value: 0x7F0900F2
-			public const int removeButton = 2131296498;
+			public const int recycler_view = 2131296498;
 			
 			// aapt resource value: 0x7F0900F3
-			public const int reportFeedback = 2131296499;
+			public const int removeButton = 2131296499;
 			
 			// aapt resource value: 0x7F0900F4
-			public const int rerouteLayout = 2131296500;
+			public const int reportFeedback = 2131296500;
 			
 			// aapt resource value: 0x7F0900F5
-			public const int rerouteProgressBar = 2131296501;
+			public const int rerouteLayout = 2131296501;
 			
 			// aapt resource value: 0x7F0900F6
-			public const int restartVersionFetchButton = 2131296502;
+			public const int rerouteProgressBar = 2131296502;
 			
 			// aapt resource value: 0x7F0900F7
-			public const int restart_navigation_fab = 2131296503;
+			public const int restartVersionFetchButton = 2131296503;
 			
 			// aapt resource value: 0x7F0900F8
-			public const int right = 2131296504;
+			public const int restart_navigation_fab = 2131296504;
 			
 			// aapt resource value: 0x7F0900F9
-			public const int right_icon = 2131296505;
+			public const int right = 2131296505;
 			
 			// aapt resource value: 0x7F0900FA
-			public const int right_side = 2131296506;
+			public const int right_icon = 2131296506;
 			
 			// aapt resource value: 0x7F0900FB
-			public const int routeInfoBottomSheetView = 2131296507;
+			public const int right_side = 2131296507;
 			
 			// aapt resource value: 0x7F0900FC
-			public const int routeLoadingProgressBar = 2131296508;
+			public const int routeInfoBottomSheetView = 2131296508;
 			
 			// aapt resource value: 0x7F0900FD
-			public const int routeOverviewBtn = 2131296509;
+			public const int routeLoadingProgressBar = 2131296509;
 			
 			// aapt resource value: 0x7F0900FE
-			public const int rvInstructions = 2131296510;
+			public const int routeOverviewBtn = 2131296510;
 			
 			// aapt resource value: 0x7F0900FF
-			public const int rvTurnLanes = 2131296511;
+			public const int rvInstructions = 2131296511;
 			
 			// aapt resource value: 0x7F090100
-			public const int save_non_transition_alpha = 2131296512;
+			public const int rvTurnLanes = 2131296512;
 			
 			// aapt resource value: 0x7F090101
-			public const int save_overlay_view = 2131296513;
+			public const int save_non_transition_alpha = 2131296513;
 			
 			// aapt resource value: 0x7F090102
-			public const int screen = 2131296514;
+			public const int save_overlay_view = 2131296514;
 			
 			// aapt resource value: 0x7F090103
-			public const int screenshotView = 2131296515;
+			public const int screen = 2131296515;
 			
 			// aapt resource value: 0x7F090104
-			public const int scroll = 2131296516;
-			
-			// aapt resource value: 0x7F090108
-			public const int scrollable = 2131296520;
+			public const int screenshotView = 2131296516;
 			
 			// aapt resource value: 0x7F090105
-			public const int scrollIndicatorDown = 2131296517;
-			
-			// aapt resource value: 0x7F090106
-			public const int scrollIndicatorUp = 2131296518;
-			
-			// aapt resource value: 0x7F090107
-			public const int scrollView = 2131296519;
+			public const int scroll = 2131296517;
 			
 			// aapt resource value: 0x7F090109
-			public const int search_badge = 2131296521;
+			public const int scrollable = 2131296521;
+			
+			// aapt resource value: 0x7F090106
+			public const int scrollIndicatorDown = 2131296518;
+			
+			// aapt resource value: 0x7F090107
+			public const int scrollIndicatorUp = 2131296519;
+			
+			// aapt resource value: 0x7F090108
+			public const int scrollView = 2131296520;
 			
 			// aapt resource value: 0x7F09010A
-			public const int search_bar = 2131296522;
+			public const int search_badge = 2131296522;
 			
 			// aapt resource value: 0x7F09010B
-			public const int search_button = 2131296523;
+			public const int search_bar = 2131296523;
 			
 			// aapt resource value: 0x7F09010C
-			public const int search_close_btn = 2131296524;
+			public const int search_button = 2131296524;
 			
 			// aapt resource value: 0x7F09010D
-			public const int search_edit_frame = 2131296525;
+			public const int search_close_btn = 2131296525;
 			
 			// aapt resource value: 0x7F09010E
-			public const int search_go_btn = 2131296526;
+			public const int search_edit_frame = 2131296526;
 			
 			// aapt resource value: 0x7F09010F
-			public const int search_mag_icon = 2131296527;
+			public const int search_go_btn = 2131296527;
 			
 			// aapt resource value: 0x7F090110
-			public const int search_plate = 2131296528;
+			public const int search_mag_icon = 2131296528;
 			
 			// aapt resource value: 0x7F090111
-			public const int search_src_text = 2131296529;
+			public const int search_plate = 2131296529;
 			
 			// aapt resource value: 0x7F090112
-			public const int search_voice_btn = 2131296530;
-			
-			// aapt resource value: 0x7F090114
-			public const int selected = 2131296532;
-			
-			// aapt resource value: 0x7F090115
-			public const int selectionBox = 2131296533;
+			public const int search_src_text = 2131296530;
 			
 			// aapt resource value: 0x7F090113
-			public const int select_dialog_listview = 2131296531;
+			public const int search_voice_btn = 2131296531;
+			
+			// aapt resource value: 0x7F090115
+			public const int selected = 2131296533;
 			
 			// aapt resource value: 0x7F090116
-			public const int sendAnomalyFab = 2131296534;
+			public const int selectionBox = 2131296534;
+			
+			// aapt resource value: 0x7F090114
+			public const int select_dialog_listview = 2131296532;
 			
 			// aapt resource value: 0x7F090117
-			public const int settings = 2131296535;
+			public const int sendAnomalyFab = 2131296535;
 			
 			// aapt resource value: 0x7F090118
-			public const int settingsFab = 2131296536;
+			public const int settings = 2131296536;
 			
 			// aapt resource value: 0x7F090119
-			public const int sheetShadow = 2131296537;
+			public const int settingsFab = 2131296537;
+			
+			// aapt resource value: 0x7F09011A
+			public const int sheetShadow = 2131296538;
 			
 			// aapt resource value: 0x7F090004
 			public const int SHIFT = 2131296260;
 			
-			// aapt resource value: 0x7F09011A
-			public const int shortcut = 2131296538;
-			
 			// aapt resource value: 0x7F09011B
-			public const int showCustom = 2131296539;
+			public const int shortcut = 2131296539;
 			
 			// aapt resource value: 0x7F09011C
-			public const int showHome = 2131296540;
+			public const int showCustom = 2131296540;
 			
 			// aapt resource value: 0x7F09011D
-			public const int showTitle = 2131296541;
+			public const int showHome = 2131296541;
 			
 			// aapt resource value: 0x7F09011E
-			public const int smallLabel = 2131296542;
+			public const int showTitle = 2131296542;
 			
 			// aapt resource value: 0x7F09011F
-			public const int snackbar_action = 2131296543;
+			public const int smallLabel = 2131296543;
 			
 			// aapt resource value: 0x7F090120
-			public const int snackbar_text = 2131296544;
+			public const int snackbar_action = 2131296544;
 			
 			// aapt resource value: 0x7F090121
-			public const int snap = 2131296545;
+			public const int snackbar_text = 2131296545;
 			
 			// aapt resource value: 0x7F090122
-			public const int snapMargins = 2131296546;
+			public const int snap = 2131296546;
 			
 			// aapt resource value: 0x7F090123
-			public const int soundFab = 2131296547;
+			public const int snapMargins = 2131296547;
 			
 			// aapt resource value: 0x7F090124
-			public const int soundLayout = 2131296548;
+			public const int soundFab = 2131296548;
 			
 			// aapt resource value: 0x7F090125
-			public const int soundText = 2131296549;
+			public const int soundLayout = 2131296549;
 			
 			// aapt resource value: 0x7F090126
-			public const int spacer = 2131296550;
+			public const int soundText = 2131296550;
 			
 			// aapt resource value: 0x7F090127
-			public const int speed_limit = 2131296551;
+			public const int spacer = 2131296551;
 			
 			// aapt resource value: 0x7F090128
-			public const int split_action_bar = 2131296552;
+			public const int speed_limit = 2131296552;
 			
 			// aapt resource value: 0x7F090129
-			public const int spread = 2131296553;
+			public const int split_action_bar = 2131296553;
 			
 			// aapt resource value: 0x7F09012A
-			public const int spread_inside = 2131296554;
+			public const int spread = 2131296554;
 			
 			// aapt resource value: 0x7F09012B
-			public const int src_atop = 2131296555;
+			public const int spread_inside = 2131296555;
 			
 			// aapt resource value: 0x7F09012C
-			public const int src_in = 2131296556;
+			public const int src_atop = 2131296556;
 			
 			// aapt resource value: 0x7F09012D
-			public const int src_over = 2131296557;
+			public const int src_in = 2131296557;
 			
 			// aapt resource value: 0x7F09012E
-			public const int standard = 2131296558;
+			public const int src_over = 2131296558;
 			
 			// aapt resource value: 0x7F09012F
-			public const int start = 2131296559;
+			public const int standard = 2131296559;
 			
 			// aapt resource value: 0x7F090130
-			public const int startNavigationFab = 2131296560;
+			public const int start = 2131296560;
 			
 			// aapt resource value: 0x7F090131
-			public const int startRouteButton = 2131296561;
+			public const int startNavigationFab = 2131296561;
 			
 			// aapt resource value: 0x7F090132
-			public const int stepDistanceText = 2131296562;
+			public const int startRouteButton = 2131296562;
 			
 			// aapt resource value: 0x7F090133
-			public const int stepPrimaryText = 2131296563;
+			public const int stepDistanceText = 2131296563;
 			
 			// aapt resource value: 0x7F090134
-			public const int stepSecondaryText = 2131296564;
+			public const int stepPrimaryText = 2131296564;
 			
 			// aapt resource value: 0x7F090135
-			public const int stretch = 2131296565;
+			public const int stepSecondaryText = 2131296565;
 			
 			// aapt resource value: 0x7F090136
-			public const int subManeuverView = 2131296566;
-			
-			// aapt resource value: 0x7F090139
-			public const int submenuarrow = 2131296569;
-			
-			// aapt resource value: 0x7F09013A
-			public const int submit_area = 2131296570;
+			public const int stretch = 2131296566;
 			
 			// aapt resource value: 0x7F090137
-			public const int subStepLayout = 2131296567;
+			public const int subManeuverView = 2131296567;
 			
-			// aapt resource value: 0x7F090138
-			public const int subStepText = 2131296568;
+			// aapt resource value: 0x7F09013A
+			public const int submenuarrow = 2131296570;
 			
 			// aapt resource value: 0x7F09013B
-			public const int summaryBottomSheet = 2131296571;
+			public const int submit_area = 2131296571;
+			
+			// aapt resource value: 0x7F090138
+			public const int subStepLayout = 2131296568;
+			
+			// aapt resource value: 0x7F090139
+			public const int subStepText = 2131296569;
 			
 			// aapt resource value: 0x7F09013C
-			public const int summaryContentLayout = 2131296572;
+			public const int summaryBottomSheet = 2131296572;
 			
 			// aapt resource value: 0x7F09013D
-			public const int summaryPeekContent = 2131296573;
+			public const int summaryContentLayout = 2131296573;
 			
 			// aapt resource value: 0x7F09013E
-			public const int summaryPeekLayout = 2131296574;
+			public const int summaryPeekContent = 2131296574;
+			
+			// aapt resource value: 0x7F09013F
+			public const int summaryPeekLayout = 2131296575;
 			
 			// aapt resource value: 0x7F090005
 			public const int SYM = 2131296261;
 			
-			// aapt resource value: 0x7F09013F
-			public const int tabMode = 2131296575;
-			
 			// aapt resource value: 0x7F090140
-			public const int tag_accessibility_actions = 2131296576;
+			public const int tabMode = 2131296576;
 			
 			// aapt resource value: 0x7F090141
-			public const int tag_accessibility_clickable_spans = 2131296577;
+			public const int tag_accessibility_actions = 2131296577;
 			
 			// aapt resource value: 0x7F090142
-			public const int tag_accessibility_heading = 2131296578;
+			public const int tag_accessibility_clickable_spans = 2131296578;
 			
 			// aapt resource value: 0x7F090143
-			public const int tag_accessibility_pane_title = 2131296579;
+			public const int tag_accessibility_heading = 2131296579;
 			
 			// aapt resource value: 0x7F090144
-			public const int tag_screen_reader_focusable = 2131296580;
+			public const int tag_accessibility_pane_title = 2131296580;
 			
 			// aapt resource value: 0x7F090145
-			public const int tag_transition_group = 2131296581;
+			public const int tag_screen_reader_focusable = 2131296581;
 			
 			// aapt resource value: 0x7F090146
-			public const int tag_unhandled_key_event_manager = 2131296582;
+			public const int tag_transition_group = 2131296582;
 			
 			// aapt resource value: 0x7F090147
-			public const int tag_unhandled_key_listeners = 2131296583;
+			public const int tag_unhandled_key_event_manager = 2131296583;
 			
 			// aapt resource value: 0x7F090148
-			public const int text = 2131296584;
+			public const int tag_unhandled_key_listeners = 2131296584;
 			
 			// aapt resource value: 0x7F090149
-			public const int text2 = 2131296585;
-			
-			// aapt resource value: 0x7F09014E
-			public const int textinput_counter = 2131296590;
-			
-			// aapt resource value: 0x7F09014F
-			public const int textinput_error = 2131296591;
-			
-			// aapt resource value: 0x7F090150
-			public const int textinput_helper_text = 2131296592;
+			public const int text = 2131296585;
 			
 			// aapt resource value: 0x7F09014A
-			public const int textSpacerNoButtons = 2131296586;
+			public const int text2 = 2131296586;
 			
-			// aapt resource value: 0x7F09014B
-			public const int textSpacerNoTitle = 2131296587;
+			// aapt resource value: 0x7F09014F
+			public const int textinput_counter = 2131296591;
 			
-			// aapt resource value: 0x7F09014C
-			public const int textStart = 2131296588;
-			
-			// aapt resource value: 0x7F09014D
-			public const int text_input_password_toggle = 2131296589;
+			// aapt resource value: 0x7F090150
+			public const int textinput_error = 2131296592;
 			
 			// aapt resource value: 0x7F090151
-			public const int time = 2131296593;
+			public const int textinput_helper_text = 2131296593;
+			
+			// aapt resource value: 0x7F09014B
+			public const int textSpacerNoButtons = 2131296587;
+			
+			// aapt resource value: 0x7F09014C
+			public const int textSpacerNoTitle = 2131296588;
+			
+			// aapt resource value: 0x7F09014D
+			public const int textStart = 2131296589;
+			
+			// aapt resource value: 0x7F09014E
+			public const int text_input_password_toggle = 2131296590;
 			
 			// aapt resource value: 0x7F090152
-			public const int timeRemainingText = 2131296594;
+			public const int time = 2131296594;
 			
 			// aapt resource value: 0x7F090153
-			public const int title = 2131296595;
+			public const int timeRemainingText = 2131296595;
 			
 			// aapt resource value: 0x7F090154
-			public const int titleDividerNoCustom = 2131296596;
+			public const int title = 2131296596;
 			
 			// aapt resource value: 0x7F090155
-			public const int title_template = 2131296597;
+			public const int titleDividerNoCustom = 2131296597;
 			
 			// aapt resource value: 0x7F090156
-			public const int top = 2131296598;
+			public const int title_template = 2131296598;
 			
 			// aapt resource value: 0x7F090157
-			public const int topPanel = 2131296599;
+			public const int top = 2131296599;
 			
 			// aapt resource value: 0x7F090158
-			public const int touch_outside = 2131296600;
+			public const int topPanel = 2131296600;
 			
 			// aapt resource value: 0x7F090159
-			public const int transition_current_scene = 2131296601;
+			public const int touch_outside = 2131296601;
 			
 			// aapt resource value: 0x7F09015A
-			public const int transition_layout_save = 2131296602;
+			public const int transition_current_scene = 2131296602;
 			
 			// aapt resource value: 0x7F09015B
-			public const int transition_position = 2131296603;
+			public const int transition_layout_save = 2131296603;
 			
 			// aapt resource value: 0x7F09015C
-			public const int transition_scene_layoutid_cache = 2131296604;
+			public const int transition_position = 2131296604;
 			
 			// aapt resource value: 0x7F09015D
-			public const int transition_transform = 2131296605;
+			public const int transition_scene_layoutid_cache = 2131296605;
 			
 			// aapt resource value: 0x7F09015E
-			public const int turnLaneLayout = 2131296606;
+			public const int transition_transform = 2131296606;
 			
 			// aapt resource value: 0x7F09015F
-			public const int turnLaneView = 2131296607;
+			public const int turnLaneLayout = 2131296607;
 			
 			// aapt resource value: 0x7F090160
-			public const int @unchecked = 2131296608;
+			public const int turnLaneView = 2131296608;
 			
 			// aapt resource value: 0x7F090161
-			public const int uniform = 2131296609;
+			public const int @unchecked = 2131296609;
 			
 			// aapt resource value: 0x7F090162
-			public const int unlabeled = 2131296610;
+			public const int uniform = 2131296610;
 			
 			// aapt resource value: 0x7F090163
-			public const int up = 2131296611;
+			public const int unlabeled = 2131296611;
 			
 			// aapt resource value: 0x7F090164
-			public const int useLogo = 2131296612;
+			public const int up = 2131296612;
 			
 			// aapt resource value: 0x7F090165
-			public const int versionSpinner = 2131296613;
+			public const int useLogo = 2131296613;
 			
 			// aapt resource value: 0x7F090166
-			public const int versionSpinnerContainer = 2131296614;
+			public const int versionSpinner = 2131296614;
 			
 			// aapt resource value: 0x7F090167
-			public const int versionText = 2131296615;
+			public const int versionSpinnerContainer = 2131296615;
 			
 			// aapt resource value: 0x7F090168
-			public const int view = 2131296616;
+			public const int versionText = 2131296616;
 			
 			// aapt resource value: 0x7F090169
-			public const int view_offset_helper = 2131296617;
+			public const int view = 2131296617;
 			
 			// aapt resource value: 0x7F09016A
-			public const int visible = 2131296618;
-			
-			// aapt resource value: 0x7F09016C
-			public const int waynameText = 2131296620;
+			public const int view_offset_helper = 2131296618;
 			
 			// aapt resource value: 0x7F09016B
-			public const int wayNameView = 2131296619;
+			public const int visible = 2131296619;
 			
-			// aapt resource value: 0x7F09016D
-			public const int withText = 2131296621;
+			// aapt resource value: 0x7F09016C
+			public const int visible_removing_fragment_view_tag = 2131296620;
 			
 			// aapt resource value: 0x7F09016E
-			public const int wrap = 2131296622;
+			public const int waynameText = 2131296622;
+			
+			// aapt resource value: 0x7F09016D
+			public const int wayNameView = 2131296621;
 			
 			// aapt resource value: 0x7F09016F
-			public const int wrap_content = 2131296623;
+			public const int withText = 2131296623;
+			
+			// aapt resource value: 0x7F090170
+			public const int wrap = 2131296624;
+			
+			// aapt resource value: 0x7F090171
+			public const int wrap_content = 2131296625;
 			
 			static Id()
 			{
@@ -10533,6 +10560,32 @@ namespace Mapbox.Navigation.UI.Android.TestApp
 			
 			// aapt resource value: 2
 			public const int ForegroundLinearLayout_foregroundInsidePadding = 2;
+			
+			// aapt resource value: { 0x1010003,0x10100D0,0x10100D1 }
+			public static int[] Fragment = new int[] {
+					16842755,
+					16842960,
+					16842961};
+			
+			// aapt resource value: { 0x1010003,0x10100D1 }
+			public static int[] FragmentContainerView = new int[] {
+					16842755,
+					16842961};
+			
+			// aapt resource value: 0
+			public const int FragmentContainerView_android_name = 0;
+			
+			// aapt resource value: 1
+			public const int FragmentContainerView_android_tag = 1;
+			
+			// aapt resource value: 1
+			public const int Fragment_android_id = 1;
+			
+			// aapt resource value: 0
+			public const int Fragment_android_name = 0;
+			
+			// aapt resource value: 2
+			public const int Fragment_android_tag = 2;
 			
 			// aapt resource value: { 0x101019D,0x101019E,0x10101A1,0x10101A2,0x10101A3,0x10101A4,0x1010201,0x101020B,0x1010510,0x1010511,0x1010512,0x1010513 }
 			public static int[] GradientColor = new int[] {

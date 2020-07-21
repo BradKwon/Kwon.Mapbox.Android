@@ -33,7 +33,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Android.Plugin.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Android.Navigation.UI", "Kwon.Mapbox.Android.Navigation.UI\Kwon.Mapbox.Android.Navigation.UI.csproj", "{92B60ACA-0D70-4A83-8C0F-D0FA11938D67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapbox.Navigation.UI.Android.TestApp", "Mapbox.Navigation.UI.Android.TestApp\Mapbox.Navigation.UI.Android.TestApp.csproj", "{B256DAB0-15BB-42B4-942E-60B40D64CE3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapboxNavigation.UI.Droid.TestApp", "Mapbox.Navigation.UI.Android.TestApp\MapboxNavigation.UI.Droid.TestApp.csproj", "{B256DAB0-15BB-42B4-942E-60B40D64CE3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

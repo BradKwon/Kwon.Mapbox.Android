@@ -10,7 +10,7 @@
     <TemplateGuid>{84dd83c5-0fe3-4294-9419-09e7c8ba324f}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Mapbox.Navigation.UI.Android.TestApp</RootNamespace>
+    <RootNamespace>MapboxNavigation.UI.Droid.TestApp</RootNamespace>
     <AssemblyName>Mapbox.Navigation.UI.Android.TestApp</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
@@ -63,6 +63,8 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SampleItem.cs" />
+    <Compile Include="Activity\NavigationUI\NavigationLauncherActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -390,6 +392,8 @@
     <Folder Include="Resources\values-ar\" />
     <Folder Include="Resources\values-bg\" />
     <Folder Include="Resources\values-bn\" />
+    <Folder Include="Activity\" />
+    <Folder Include="Activity\NavigationUI\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
@@ -413,6 +417,24 @@
   </PackageReference>
   <PackageReference Include="Xamarin.AndroidX.ExifInterface">
     <Version>1.1.0.1</Version>
+  </PackageReference>
+  <PackageReference Include="Xamarin.AndroidX.AppCompat">
+    <Version>1.1.0.1</Version>
+  </PackageReference>
+  <PackageReference Include="Xamarin.AndroidX.Activity">
+    <Version>1.1.0.1</Version>
+  </PackageReference>
+  <PackageReference Include="Xamarin.AndroidX.Fragment">
+    <Version>1.2.4.1</Version>
+  </PackageReference>
+  <PackageReference Include="Xamarin.AndroidX.CoordinatorLayout">
+    <Version>1.1.0.1</Version>
+  </PackageReference>
+  <PackageReference Include="Xamarin.Android.Support.v7.AppCompat">
+    <Version>28.0.0.3</Version>
+  </PackageReference>
+  <PackageReference Include="Xamarin.AndroidX.ConstraintLayout">
+    <Version>1.1.3.1</Version>
   </PackageReference>
 </ItemGroup>
   <ItemGroup>
