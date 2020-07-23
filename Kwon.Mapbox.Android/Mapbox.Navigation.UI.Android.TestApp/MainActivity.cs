@@ -226,7 +226,7 @@ namespace MapboxNavigation.UI.Droid.TestApp
                 {
                     int position = recyclerView.GetChildLayoutPosition(v);
                     var intent = new Intent(v.Context, samples[position].Activity);
-                    ContextCompat.StartActivity(Application.Context, intent, null);
+                    recyclerView.Context.StartActivity(intent);
                 }
             }
         }
