@@ -22,6 +22,7 @@ using Mapbox.Mapboxsdk.Location.Modes;
 using Mapbox.Mapboxsdk.Maps;
 using Mapbox.Services.Android.Navigation.UI.V5.Map;
 using Mapbox.Services.Android.Navigation.UI.V5.Route;
+using Mapbox.Services.Android.Navigation.V5.Navigation;
 using TimberLog;
 
 namespace MapboxNavigation.UI.Droid.TestApp.Activity.NavigationUI
@@ -220,7 +221,24 @@ namespace MapboxNavigation.UI.Droid.TestApp.Activity.NavigationUI
 
         private void InitializeLocationEngine()
         {
+            locationEngine = LocationEngineProvider.GetBestLocationEngine(ApplicationContext);
+            LocationEngineRequest request = BuildEngineRequest();
+            locationEngine.RequestLocationUpdates(request, callback, null);
+            locationEngine.GetLastLocation(callback);
+        }
 
+        private void FetchRoute()
+        {
+            NavigationRoute.Builder builder = NavigationRoute.InvokeBuilder(this)
+                .AccessToken(Mapbox.Mapboxsdk.Mapbox.AccessToken)
+                .Origin(currentLocation)
+                .Profile(GetRouteProfileFromSharedPreferences())
+                .Alternatives((Java.Lang.Boolean)true);
+
+            foreach (Point wayPoint in wayPoints)
+            {
+                builder.AddWaypoint(wayPoint);
+            }
         }
 
         private class MyOnStyleLoaded : Java.Lang.Object, Style.IOnStyleLoaded
