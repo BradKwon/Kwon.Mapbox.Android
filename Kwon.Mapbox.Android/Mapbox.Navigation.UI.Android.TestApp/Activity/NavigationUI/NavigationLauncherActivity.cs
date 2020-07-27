@@ -8,21 +8,32 @@ using Android.App;
 using Android.Content;
 using Android.Locations;
 using Android.OS;
+using Android.Preferences;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using AndroidX.AppCompat.App;
 using CheeseBind;
 using Google.Android.Material.Snackbar;
+using Java.Lang;
+using Java.Util;
 using Mapbox.Android.Core.Location;
+using Mapbox.Api.Directions.V5;
 using Mapbox.Api.Directions.V5.Models;
+using Mapbox.Core.Utils;
 using Mapbox.Geojson;
+using Mapbox.Mapboxsdk.Camera;
+using Mapbox.Mapboxsdk.Exceptions;
 using Mapbox.Mapboxsdk.Geometry;
 using Mapbox.Mapboxsdk.Location.Modes;
 using Mapbox.Mapboxsdk.Maps;
+using Mapbox.Services.Android.Navigation.UI.V5;
+using Mapbox.Services.Android.Navigation.UI.V5.Camera;
 using Mapbox.Services.Android.Navigation.UI.V5.Map;
 using Mapbox.Services.Android.Navigation.UI.V5.Route;
 using Mapbox.Services.Android.Navigation.V5.Navigation;
+using Mapbox.Services.Android.Navigation.V5.Utils;
+using Square.Retrofit2;
 using TimberLog;
 
 namespace MapboxNavigation.UI.Droid.TestApp.Activity.NavigationUI
@@ -38,6 +49,7 @@ namespace MapboxNavigation.UI.Droid.TestApp.Activity.NavigationUI
         private static long FASTEST_UPDATE_INTERVAL_IN_MILLISECONDS = 500;
 
         private readonly NavigationLauncherLocationCallback callback;
+        private readonly LocaleUtils localeUtils = new LocaleUtils();
         private readonly List<Point> wayPoints = new List<Point>();
         private ILocationEngine locationEngine;
         private NavigationMapboxMap map;
@@ -238,6 +250,212 @@ namespace MapboxNavigation.UI.Droid.TestApp.Activity.NavigationUI
             foreach (Point wayPoint in wayPoints)
             {
                 builder.AddWaypoint(wayPoint);
+            }
+
+            SetFieldsFromSharedPreferences(builder);
+            builder.Build().GetRoute(new MyGetRouteCallback((routes) =>
+            {
+                HideLoading();
+                var route = routes[0];
+                if (Convert.ToInt32(route.Distance()) > 25)
+                {
+                    launchRouteBtn.Enabled = true;
+                    map.DrawRoutes(routes);
+                    BoundCameraToRoute();
+                }
+                else
+                {
+                    Snackbar.Make(mapView, Resource.String.error_select_longer_route, Snackbar.LengthShort).Show();
+                }
+            }));
+            loading.Visibility = ViewStates.Visible;
+        }
+
+        private void SetFieldsFromSharedPreferences(NavigationRoute.Builder builder)
+        {
+            builder.Language(GetLanguageFromSharedPreferences())
+                .VoiceUnits(GetUnitTypeFromSharedPreferences());
+        }
+
+        private string GetUnitTypeFromSharedPreferences()
+        {
+            var sharedPreferences = PreferenceManager.GetDefaultSharedPreferences(this);
+            string defaultUnitType = GetString(Resource.String.default_unit_type);
+            string unitType = sharedPreferences.GetString(GetString(Resource.String.unit_type_key), defaultUnitType);
+            if (unitType.Equals(defaultUnitType))
+            {
+                unitType = localeUtils.GetUnitTypeForDeviceLocale(this);
+            }
+
+            return unitType;
+        }
+
+        private Locale GetLanguageFromSharedPreferences()
+        {
+            var sharedPreferences = PreferenceManager.GetDefaultSharedPreferences(this);
+            string defaultLanguage = GetString(Resource.String.default_locale);
+            string language = sharedPreferences.GetString(GetString(Resource.String.language_key), defaultLanguage);
+            if (language.Equals(defaultLanguage))
+            {
+                return localeUtils.InferDeviceLocale(this);
+            }
+            else
+            {
+                return new Locale(language);
+            }
+        }
+
+        private bool GetShouldSimulateRouteFromSharedPreferences()
+        {
+            var sharedPreferences = PreferenceManager.GetDefaultSharedPreferences(this);
+            return sharedPreferences.GetBoolean(GetString(Resource.String.simulate_route_key), false);
+        }
+
+        private string GetRouteProfileFromSharedPreferences()
+        {
+            var sharedPreferences = PreferenceManager.GetDefaultSharedPreferences(this);
+            return sharedPreferences.GetString(GetString(Resource.String.route_profile_key), DirectionsCriteria.ProfileDrivingTraffic);
+        }
+
+        private string ObtainOfflinePath()
+        {
+            var offline = Android.OS.Environment.GetExternalStoragePublicDirectory("Offline");
+            return offline.AbsolutePath;
+        }
+
+        private string RetrieveOfflineVersionFromPreferences()
+        {
+            var sharedPreferences = PreferenceManager.GetDefaultSharedPreferences(this);
+            return sharedPreferences.GetString(GetString(Resource.String.offline_version_key), "");
+        }
+
+        private void LaunchNavigationWithRoute()
+        {
+            if (route == null)
+            {
+                Snackbar.Make(mapView, Resource.String.error_route_not_available, Snackbar.LengthShort).Show();
+                return;
+            }
+
+            NavigationLauncherOptions.Builder optionsBuilder = NavigationLauncherOptions.InvokeBuilder()
+                .ShouldSimulateRoute(GetShouldSimulateRouteFromSharedPreferences());
+            CameraPosition initialPosition = new CameraPosition.Builder()
+                .Target(new LatLng(currentLocation.Latitude(), currentLocation.Longitude()))
+                .Zoom(INITIAL_ZOOM)
+                .Build();
+            optionsBuilder.InitialMapCameraPosition(initialPosition);
+            optionsBuilder.DirectionsRoute(route);
+            string offlinePath = ObtainOfflinePath();
+            if (!TextUtils.IsEmpty(offlinePath))
+            {
+                optionsBuilder.OfflineRoutingTilesPath(offlinePath);
+            }
+
+            string offlineVersion = RetrieveOfflineVersionFromPreferences();
+            if (!string.IsNullOrWhiteSpace(offlineVersion))
+            {
+                optionsBuilder.OfflineRoutingTilesVersion(offlineVersion);
+            }
+
+            NavigationLauncher.StartNavigation(this, optionsBuilder.Build());
+        }
+
+        private void HideLoading()
+        {
+            if (loading.Visibility == ViewStates.Visible)
+            {
+                loading.Visibility = ViewStates.Invisible;
+            }
+        }
+
+        public void BoundCameraToRoute()
+        {
+            if (route != null)
+            {
+                var routeCoords = LineString.FromPolyline(route.Geometry(), Mapbox.Core.Constants.Constants.Precision6).Coordinates();
+                List<LatLng> bboxPoints = new List<LatLng>();
+
+                foreach (var point in routeCoords)
+                {
+                    bboxPoints.Add(new LatLng(point.Latitude(), point.Longitude()));
+                }
+
+                if (bboxPoints.Count > 1)
+                {
+                    try
+                    {
+                        var bounds = new LatLngBounds.Builder().Includes(bboxPoints).Build();
+                        // left, top, right, bottom
+                        int topPadding = launchBtnFrame.Height * 2;
+                        AnimateCameraBbox(bounds, CAMERA_ANIMATION_DURATION, new int[] { 50, topPadding, 50, 100 });
+                    }
+                    catch (InvalidLatLngBoundsException ex)
+                    {
+                        Toast.MakeText(this, Resource.String.error_valid_route_not_found, ToastLength.Short).Show();
+                    }
+                }
+            }
+        }
+
+        private void AnimateCameraBbox(LatLngBounds bounds, int animationTime, int[] padding)
+        {
+            var position = map.RetrieveMap().GetCameraForLatLngBounds(bounds, padding);
+            var cameraUpdate = CameraUpdateFactory.NewCameraPosition(position);
+            var navigationCameraUpdate = new NavigationCameraUpdate(cameraUpdate);
+            navigationCameraUpdate.SetMode(CameraUpdateMode.Override);
+            map.RetrieveCamera().Update(navigationCameraUpdate, animationTime);
+        }
+
+        private void AnimateCamera(LatLng point)
+        {
+            var cameraUpdate = CameraUpdateFactory.NewLatLngZoom(point, DEFAULT_CAMERA_ZOOM);
+            var navigationCameraUpdate = new NavigationCameraUpdate(cameraUpdate);
+            navigationCameraUpdate.SetMode(CameraUpdateMode.Override);
+            map.RetrieveCamera().Update(navigationCameraUpdate, CAMERA_ANIMATION_DURATION);
+        }
+
+        private void SetCurrentMarkerPosition(LatLng position)
+        {
+            if (position != null)
+            {
+                map.AddDestinationMarker(Point.FromLngLat(position.Longitude, position.Latitude));
+            }
+        }
+
+        private LocationEngineRequest BuildEngineRequest()
+        {
+            return new LocationEngineRequest.Builder(UPDATE_INTERVAL_IN_MILLISECONDS)
+                .SetPriority(LocationEngineRequest.PriorityHighAccuracy)
+                .SetFastestInterval(FASTEST_UPDATE_INTERVAL_IN_MILLISECONDS)
+                .Build();
+        }
+
+        private class MyGetRouteCallback : Java.Lang.Object, ICallback
+        {
+            Action<IList<DirectionsRoute>> action;
+
+            public MyGetRouteCallback(Action<IList<DirectionsRoute>> action)
+            {
+                this.action = action;
+            }
+
+            public void OnFailure(ICall p0, Throwable p1)
+            {
+            }
+
+            public void OnResponse(ICall p0, Response p1)
+            {
+                if (ValidRouteResponse(p1))
+                {
+                    var response = p1.Body() as DirectionsResponse;
+                    action(response.Routes());
+                }
+            }
+
+            private bool ValidRouteResponse(Response p1)
+            {
+                var response = p1.Body() as DirectionsResponse;
+                return response != null && response.Routes().Any();
             }
         }
 
