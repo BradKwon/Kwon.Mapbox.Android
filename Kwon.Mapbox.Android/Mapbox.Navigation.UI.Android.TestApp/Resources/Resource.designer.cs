@@ -4515,137 +4515,146 @@ namespace MapboxNavigation.UI.Droid.TestApp
 			// aapt resource value: 0x7F0800CD
 			public const int instruction_background = 2131230925;
 			
-			// aapt resource value: 0x7F0800D0
-			public const int mapbox_compass_icon = 2131230928;
-			
-			// aapt resource value: 0x7F0800D1
-			public const int mapbox_info_bg_selector = 2131230929;
-			
-			// aapt resource value: 0x7F0800D2
-			public const int mapbox_info_icon_default = 2131230930;
-			
-			// aapt resource value: 0x7F0800D3
-			public const int mapbox_info_icon_selected = 2131230931;
-			
-			// aapt resource value: 0x7F0800D4
-			public const int mapbox_logo_helmet = 2131230932;
-			
-			// aapt resource value: 0x7F0800D5
-			public const int mapbox_logo_icon = 2131230933;
-			
-			// aapt resource value: 0x7F0800D7
-			public const int mapbox_markerview_icon_default = 2131230935;
-			
-			// aapt resource value: 0x7F0800D6
-			public const int mapbox_marker_icon_default = 2131230934;
-			
-			// aapt resource value: 0x7F0800D8
-			public const int mapbox_mylocation_bg_shape = 2131230936;
-			
-			// aapt resource value: 0x7F0800D9
-			public const int mapbox_mylocation_icon_bearing = 2131230937;
-			
-			// aapt resource value: 0x7F0800DA
-			public const int mapbox_mylocation_icon_default = 2131230938;
-			
-			// aapt resource value: 0x7F0800DB
-			public const int mapbox_popup_window_transparent = 2131230939;
-			
-			// aapt resource value: 0x7F0800DC
-			public const int mapbox_rounded_corner = 2131230940;
-			
-			// aapt resource value: 0x7F0800DD
-			public const int mapbox_user_bearing_icon = 2131230941;
-			
-			// aapt resource value: 0x7F0800DE
-			public const int mapbox_user_icon = 2131230942;
-			
-			// aapt resource value: 0x7F0800DF
-			public const int mapbox_user_icon_shadow = 2131230943;
-			
-			// aapt resource value: 0x7F0800E0
-			public const int mapbox_user_icon_stale = 2131230944;
-			
-			// aapt resource value: 0x7F0800E1
-			public const int mapbox_user_puck_icon = 2131230945;
-			
-			// aapt resource value: 0x7F0800E2
-			public const int mapbox_user_stroke_icon = 2131230946;
-			
 			// aapt resource value: 0x7F0800CE
-			public const int map_marker_dark = 2131230926;
+			public const int leak_canary_icon = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int map_marker_light = 2131230927;
+			public const int leak_canary_notification = 2131230927;
+			
+			// aapt resource value: 0x7F0800D0
+			public const int leak_canary_toast_background = 2131230928;
+			
+			// aapt resource value: 0x7F0800D3
+			public const int mapbox_compass_icon = 2131230931;
+			
+			// aapt resource value: 0x7F0800D4
+			public const int mapbox_info_bg_selector = 2131230932;
+			
+			// aapt resource value: 0x7F0800D5
+			public const int mapbox_info_icon_default = 2131230933;
+			
+			// aapt resource value: 0x7F0800D6
+			public const int mapbox_info_icon_selected = 2131230934;
+			
+			// aapt resource value: 0x7F0800D7
+			public const int mapbox_logo_helmet = 2131230935;
+			
+			// aapt resource value: 0x7F0800D8
+			public const int mapbox_logo_icon = 2131230936;
+			
+			// aapt resource value: 0x7F0800DA
+			public const int mapbox_markerview_icon_default = 2131230938;
+			
+			// aapt resource value: 0x7F0800D9
+			public const int mapbox_marker_icon_default = 2131230937;
+			
+			// aapt resource value: 0x7F0800DB
+			public const int mapbox_mylocation_bg_shape = 2131230939;
+			
+			// aapt resource value: 0x7F0800DC
+			public const int mapbox_mylocation_icon_bearing = 2131230940;
+			
+			// aapt resource value: 0x7F0800DD
+			public const int mapbox_mylocation_icon_default = 2131230941;
+			
+			// aapt resource value: 0x7F0800DE
+			public const int mapbox_popup_window_transparent = 2131230942;
+			
+			// aapt resource value: 0x7F0800DF
+			public const int mapbox_rounded_corner = 2131230943;
+			
+			// aapt resource value: 0x7F0800E0
+			public const int mapbox_user_bearing_icon = 2131230944;
+			
+			// aapt resource value: 0x7F0800E1
+			public const int mapbox_user_icon = 2131230945;
+			
+			// aapt resource value: 0x7F0800E2
+			public const int mapbox_user_icon_shadow = 2131230946;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int mtrl_snackbar_background = 2131230947;
+			public const int mapbox_user_icon_stale = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int mtrl_tabs_default_indicator = 2131230948;
+			public const int mapbox_user_puck_icon = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int navigation_empty_icon = 2131230949;
+			public const int mapbox_user_stroke_icon = 2131230949;
+			
+			// aapt resource value: 0x7F0800D1
+			public const int map_marker_dark = 2131230929;
+			
+			// aapt resource value: 0x7F0800D2
+			public const int map_marker_light = 2131230930;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int notification_action_background = 2131230950;
+			public const int mtrl_snackbar_background = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int notification_bg = 2131230951;
+			public const int mtrl_tabs_default_indicator = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int notification_bg_low = 2131230952;
+			public const int navigation_empty_icon = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int notification_bg_low_normal = 2131230953;
+			public const int notification_action_background = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int notification_bg_low_pressed = 2131230954;
+			public const int notification_bg = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int notification_bg_normal = 2131230955;
+			public const int notification_bg_low = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int notification_bg_normal_pressed = 2131230956;
+			public const int notification_bg_low_normal = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int notification_icon_background = 2131230957;
+			public const int notification_bg_low_pressed = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int notification_template_icon_bg = 2131230958;
+			public const int notification_bg_normal = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int notification_template_icon_low_bg = 2131230959;
+			public const int notification_bg_normal_pressed = 2131230959;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int notification_tile_bg = 2131230960;
+			public const int notification_icon_background = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int notify_panel_notification_icon_bg = 2131230961;
+			public const int notification_template_icon_bg = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int paella_icon = 2131230962;
+			public const int notification_template_icon_low_bg = 2131230962;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int rounded_corners = 2131230963;
+			public const int notification_tile_bg = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int sound_chip_background = 2131230964;
+			public const int notify_panel_notification_icon_bg = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int sub_banner_background = 2131230965;
+			public const int paella_icon = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int tooltip_frame_dark = 2131230966;
+			public const int rounded_corners = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int tooltip_frame_light = 2131230967;
+			public const int sound_chip_background = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int turn_lane_background = 2131230968;
+			public const int sub_banner_background = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int wayname_text_background = 2131230969;
+			public const int tooltip_frame_dark = 2131230969;
+			
+			// aapt resource value: 0x7F0800FA
+			public const int tooltip_frame_light = 2131230970;
+			
+			// aapt resource value: 0x7F0800FB
+			public const int turn_lane_background = 2131230971;
+			
+			// aapt resource value: 0x7F0800FC
+			public const int wayname_text_background = 2131230972;
 			
 			static Drawable()
 			{
@@ -5201,574 +5210,595 @@ namespace MapboxNavigation.UI.Droid.TestApp
 			public const int launch_route_btn = 2131296438;
 			
 			// aapt resource value: 0x7F0900B7
-			public const int left = 2131296439;
+			public const int leak_canary_action = 2131296439;
 			
 			// aapt resource value: 0x7F0900B8
-			public const int line1 = 2131296440;
+			public const int leak_canary_display_leak_failure = 2131296440;
 			
 			// aapt resource value: 0x7F0900B9
-			public const int line3 = 2131296441;
+			public const int leak_canary_display_leak_list = 2131296441;
 			
 			// aapt resource value: 0x7F0900BA
-			public const int listItemAddress = 2131296442;
+			public const int leak_canary_row_connector = 2131296442;
 			
 			// aapt resource value: 0x7F0900BB
-			public const int listItemText = 2131296443;
+			public const int leak_canary_row_more = 2131296443;
 			
 			// aapt resource value: 0x7F0900BC
-			public const int listMode = 2131296444;
+			public const int leak_canary_row_text = 2131296444;
 			
 			// aapt resource value: 0x7F0900BD
-			public const int list_item = 2131296445;
+			public const int leak_canary_row_time = 2131296445;
 			
 			// aapt resource value: 0x7F0900BE
-			public const int loading = 2131296446;
+			public const int left = 2131296446;
 			
 			// aapt resource value: 0x7F0900BF
-			public const int locationFab = 2131296447;
+			public const int line1 = 2131296447;
 			
 			// aapt resource value: 0x7F0900C0
-			public const int logo = 2131296448;
+			public const int line3 = 2131296448;
 			
 			// aapt resource value: 0x7F0900C1
-			public const int logoView = 2131296449;
+			public const int listItemAddress = 2131296449;
 			
 			// aapt resource value: 0x7F0900C2
-			public const int mainLayout = 2131296450;
+			public const int listItemText = 2131296450;
 			
 			// aapt resource value: 0x7F0900C3
-			public const int maneuverImage = 2131296451;
+			public const int listMode = 2131296451;
 			
 			// aapt resource value: 0x7F0900C4
-			public const int maneuverView = 2131296452;
+			public const int list_item = 2131296452;
 			
 			// aapt resource value: 0x7F0900C5
-			public const int mapView = 2131296453;
+			public const int loading = 2131296453;
 			
 			// aapt resource value: 0x7F0900C6
-			public const int masked = 2131296454;
+			public const int locationFab = 2131296454;
 			
 			// aapt resource value: 0x7F0900C7
-			public const int message = 2131296455;
+			public const int logo = 2131296455;
+			
+			// aapt resource value: 0x7F0900C8
+			public const int logoView = 2131296456;
+			
+			// aapt resource value: 0x7F0900C9
+			public const int mainLayout = 2131296457;
+			
+			// aapt resource value: 0x7F0900CA
+			public const int maneuverImage = 2131296458;
+			
+			// aapt resource value: 0x7F0900CB
+			public const int maneuverView = 2131296459;
+			
+			// aapt resource value: 0x7F0900CC
+			public const int mapView = 2131296460;
+			
+			// aapt resource value: 0x7F0900CD
+			public const int masked = 2131296461;
+			
+			// aapt resource value: 0x7F0900CE
+			public const int message = 2131296462;
 			
 			// aapt resource value: 0x7F090003
 			public const int META = 2131296259;
 			
-			// aapt resource value: 0x7F0900C8
-			public const int middle = 2131296456;
-			
-			// aapt resource value: 0x7F0900C9
-			public const int mini = 2131296457;
-			
-			// aapt resource value: 0x7F0900CA
-			public const int mtrl_child_content_container = 2131296458;
-			
-			// aapt resource value: 0x7F0900CB
-			public const int mtrl_internal_children_alpha_tag = 2131296459;
-			
-			// aapt resource value: 0x7F0900CC
-			public const int multiply = 2131296460;
-			
-			// aapt resource value: 0x7F0900CD
-			public const int nameView = 2131296461;
-			
-			// aapt resource value: 0x7F0900CE
-			public const int navigationCollapsedNotificationLayout = 2131296462;
-			
 			// aapt resource value: 0x7F0900CF
-			public const int navigationExpandedNotificationLayout = 2131296463;
+			public const int middle = 2131296463;
 			
 			// aapt resource value: 0x7F0900D0
-			public const int navigationFab = 2131296464;
+			public const int mini = 2131296464;
 			
 			// aapt resource value: 0x7F0900D1
-			public const int navigationLayout = 2131296465;
+			public const int mtrl_child_content_container = 2131296465;
 			
 			// aapt resource value: 0x7F0900D2
-			public const int navigationMapView = 2131296466;
+			public const int mtrl_internal_children_alpha_tag = 2131296466;
 			
 			// aapt resource value: 0x7F0900D3
-			public const int navigationView = 2131296467;
+			public const int multiply = 2131296467;
 			
 			// aapt resource value: 0x7F0900D4
-			public const int navigation_fragment_frame = 2131296468;
+			public const int nameView = 2131296468;
 			
 			// aapt resource value: 0x7F0900D5
-			public const int navigation_header_container = 2131296469;
+			public const int navigationCollapsedNotificationLayout = 2131296469;
 			
 			// aapt resource value: 0x7F0900D6
-			public const int navigation_view_fragment = 2131296470;
+			public const int navigationExpandedNotificationLayout = 2131296470;
 			
 			// aapt resource value: 0x7F0900D7
-			public const int never = 2131296471;
+			public const int navigationFab = 2131296471;
 			
 			// aapt resource value: 0x7F0900D8
-			public const int newLocationFab = 2131296472;
+			public const int navigationLayout = 2131296472;
 			
 			// aapt resource value: 0x7F0900D9
-			public const int none = 2131296473;
+			public const int navigationMapView = 2131296473;
 			
 			// aapt resource value: 0x7F0900DA
-			public const int normal = 2131296474;
+			public const int navigationView = 2131296474;
 			
 			// aapt resource value: 0x7F0900DB
-			public const int notificationArrivalText = 2131296475;
+			public const int navigation_fragment_frame = 2131296475;
 			
 			// aapt resource value: 0x7F0900DC
-			public const int notificationDistanceText = 2131296476;
+			public const int navigation_header_container = 2131296476;
 			
 			// aapt resource value: 0x7F0900DD
-			public const int notificationInstructionText = 2131296477;
+			public const int navigation_view_fragment = 2131296477;
 			
 			// aapt resource value: 0x7F0900DE
-			public const int notificationStreetNameTextView = 2131296478;
+			public const int never = 2131296478;
 			
 			// aapt resource value: 0x7F0900DF
-			public const int notification_background = 2131296479;
+			public const int newLocationFab = 2131296479;
 			
 			// aapt resource value: 0x7F0900E0
-			public const int notification_main_column = 2131296480;
+			public const int none = 2131296480;
 			
 			// aapt resource value: 0x7F0900E1
-			public const int notification_main_column_container = 2131296481;
+			public const int normal = 2131296481;
 			
 			// aapt resource value: 0x7F0900E2
-			public const int off = 2131296482;
+			public const int notificationArrivalText = 2131296482;
 			
 			// aapt resource value: 0x7F0900E3
-			public const int offlineSwitch = 2131296483;
+			public const int notificationDistanceText = 2131296483;
 			
 			// aapt resource value: 0x7F0900E4
-			public const int on = 2131296484;
+			public const int notificationInstructionText = 2131296484;
 			
 			// aapt resource value: 0x7F0900E5
-			public const int outline = 2131296485;
+			public const int notificationStreetNameTextView = 2131296485;
 			
 			// aapt resource value: 0x7F0900E6
-			public const int packed = 2131296486;
+			public const int notification_background = 2131296486;
 			
 			// aapt resource value: 0x7F0900E7
-			public const int parallax = 2131296487;
+			public const int notification_main_column = 2131296487;
 			
 			// aapt resource value: 0x7F0900E8
-			public const int parent = 2131296488;
+			public const int notification_main_column_container = 2131296488;
 			
 			// aapt resource value: 0x7F0900E9
-			public const int parentPanel = 2131296489;
+			public const int off = 2131296489;
 			
 			// aapt resource value: 0x7F0900EA
-			public const int parent_matrix = 2131296490;
+			public const int offlineSwitch = 2131296490;
 			
 			// aapt resource value: 0x7F0900EB
-			public const int percent = 2131296491;
+			public const int on = 2131296491;
 			
 			// aapt resource value: 0x7F0900EC
-			public const int pin = 2131296492;
+			public const int outline = 2131296492;
 			
 			// aapt resource value: 0x7F0900ED
-			public const int progress_circular = 2131296493;
+			public const int packed = 2131296493;
 			
 			// aapt resource value: 0x7F0900EE
-			public const int progress_horizontal = 2131296494;
+			public const int parallax = 2131296494;
 			
 			// aapt resource value: 0x7F0900EF
-			public const int query_feature_count_map_container = 2131296495;
+			public const int parent = 2131296495;
 			
 			// aapt resource value: 0x7F0900F0
-			public const int radio = 2131296496;
+			public const int parentPanel = 2131296496;
 			
 			// aapt resource value: 0x7F0900F1
-			public const int recenterBtn = 2131296497;
+			public const int parent_matrix = 2131296497;
 			
 			// aapt resource value: 0x7F0900F2
-			public const int recycler_view = 2131296498;
+			public const int percent = 2131296498;
 			
 			// aapt resource value: 0x7F0900F3
-			public const int removeButton = 2131296499;
+			public const int pin = 2131296499;
 			
 			// aapt resource value: 0x7F0900F4
-			public const int reportFeedback = 2131296500;
+			public const int progress_circular = 2131296500;
 			
 			// aapt resource value: 0x7F0900F5
-			public const int rerouteLayout = 2131296501;
+			public const int progress_horizontal = 2131296501;
 			
 			// aapt resource value: 0x7F0900F6
-			public const int rerouteProgressBar = 2131296502;
+			public const int query_feature_count_map_container = 2131296502;
 			
 			// aapt resource value: 0x7F0900F7
-			public const int restartVersionFetchButton = 2131296503;
+			public const int radio = 2131296503;
 			
 			// aapt resource value: 0x7F0900F8
-			public const int restart_navigation_fab = 2131296504;
+			public const int recenterBtn = 2131296504;
 			
 			// aapt resource value: 0x7F0900F9
-			public const int right = 2131296505;
+			public const int recycler_view = 2131296505;
 			
 			// aapt resource value: 0x7F0900FA
-			public const int right_icon = 2131296506;
+			public const int removeButton = 2131296506;
 			
 			// aapt resource value: 0x7F0900FB
-			public const int right_side = 2131296507;
+			public const int reportFeedback = 2131296507;
 			
 			// aapt resource value: 0x7F0900FC
-			public const int routeInfoBottomSheetView = 2131296508;
+			public const int rerouteLayout = 2131296508;
 			
 			// aapt resource value: 0x7F0900FD
-			public const int routeLoadingProgressBar = 2131296509;
+			public const int rerouteProgressBar = 2131296509;
 			
 			// aapt resource value: 0x7F0900FE
-			public const int routeOverviewBtn = 2131296510;
+			public const int restartVersionFetchButton = 2131296510;
 			
 			// aapt resource value: 0x7F0900FF
-			public const int rvInstructions = 2131296511;
+			public const int restart_navigation_fab = 2131296511;
 			
 			// aapt resource value: 0x7F090100
-			public const int rvTurnLanes = 2131296512;
+			public const int right = 2131296512;
 			
 			// aapt resource value: 0x7F090101
-			public const int save_non_transition_alpha = 2131296513;
+			public const int right_icon = 2131296513;
 			
 			// aapt resource value: 0x7F090102
-			public const int save_overlay_view = 2131296514;
+			public const int right_side = 2131296514;
 			
 			// aapt resource value: 0x7F090103
-			public const int screen = 2131296515;
+			public const int routeInfoBottomSheetView = 2131296515;
 			
 			// aapt resource value: 0x7F090104
-			public const int screenshotView = 2131296516;
+			public const int routeLoadingProgressBar = 2131296516;
 			
 			// aapt resource value: 0x7F090105
-			public const int scroll = 2131296517;
-			
-			// aapt resource value: 0x7F090109
-			public const int scrollable = 2131296521;
+			public const int routeOverviewBtn = 2131296517;
 			
 			// aapt resource value: 0x7F090106
-			public const int scrollIndicatorDown = 2131296518;
+			public const int rvInstructions = 2131296518;
 			
 			// aapt resource value: 0x7F090107
-			public const int scrollIndicatorUp = 2131296519;
+			public const int rvTurnLanes = 2131296519;
 			
 			// aapt resource value: 0x7F090108
-			public const int scrollView = 2131296520;
+			public const int save_non_transition_alpha = 2131296520;
+			
+			// aapt resource value: 0x7F090109
+			public const int save_overlay_view = 2131296521;
 			
 			// aapt resource value: 0x7F09010A
-			public const int search_badge = 2131296522;
+			public const int screen = 2131296522;
 			
 			// aapt resource value: 0x7F09010B
-			public const int search_bar = 2131296523;
+			public const int screenshotView = 2131296523;
 			
 			// aapt resource value: 0x7F09010C
-			public const int search_button = 2131296524;
-			
-			// aapt resource value: 0x7F09010D
-			public const int search_close_btn = 2131296525;
-			
-			// aapt resource value: 0x7F09010E
-			public const int search_edit_frame = 2131296526;
-			
-			// aapt resource value: 0x7F09010F
-			public const int search_go_btn = 2131296527;
+			public const int scroll = 2131296524;
 			
 			// aapt resource value: 0x7F090110
-			public const int search_mag_icon = 2131296528;
+			public const int scrollable = 2131296528;
+			
+			// aapt resource value: 0x7F09010D
+			public const int scrollIndicatorDown = 2131296525;
+			
+			// aapt resource value: 0x7F09010E
+			public const int scrollIndicatorUp = 2131296526;
+			
+			// aapt resource value: 0x7F09010F
+			public const int scrollView = 2131296527;
 			
 			// aapt resource value: 0x7F090111
-			public const int search_plate = 2131296529;
+			public const int search_badge = 2131296529;
 			
 			// aapt resource value: 0x7F090112
-			public const int search_src_text = 2131296530;
+			public const int search_bar = 2131296530;
 			
 			// aapt resource value: 0x7F090113
-			public const int search_voice_btn = 2131296531;
-			
-			// aapt resource value: 0x7F090115
-			public const int selected = 2131296533;
-			
-			// aapt resource value: 0x7F090116
-			public const int selectionBox = 2131296534;
+			public const int search_button = 2131296531;
 			
 			// aapt resource value: 0x7F090114
-			public const int select_dialog_listview = 2131296532;
+			public const int search_close_btn = 2131296532;
+			
+			// aapt resource value: 0x7F090115
+			public const int search_edit_frame = 2131296533;
+			
+			// aapt resource value: 0x7F090116
+			public const int search_go_btn = 2131296534;
 			
 			// aapt resource value: 0x7F090117
-			public const int sendAnomalyFab = 2131296535;
+			public const int search_mag_icon = 2131296535;
 			
 			// aapt resource value: 0x7F090118
-			public const int settings = 2131296536;
+			public const int search_plate = 2131296536;
 			
 			// aapt resource value: 0x7F090119
-			public const int settingsFab = 2131296537;
+			public const int search_src_text = 2131296537;
 			
 			// aapt resource value: 0x7F09011A
-			public const int sheetShadow = 2131296538;
+			public const int search_voice_btn = 2131296538;
+			
+			// aapt resource value: 0x7F09011C
+			public const int selected = 2131296540;
+			
+			// aapt resource value: 0x7F09011D
+			public const int selectionBox = 2131296541;
+			
+			// aapt resource value: 0x7F09011B
+			public const int select_dialog_listview = 2131296539;
+			
+			// aapt resource value: 0x7F09011E
+			public const int sendAnomalyFab = 2131296542;
+			
+			// aapt resource value: 0x7F09011F
+			public const int settings = 2131296543;
+			
+			// aapt resource value: 0x7F090120
+			public const int settingsFab = 2131296544;
+			
+			// aapt resource value: 0x7F090121
+			public const int sheetShadow = 2131296545;
 			
 			// aapt resource value: 0x7F090004
 			public const int SHIFT = 2131296260;
 			
-			// aapt resource value: 0x7F09011B
-			public const int shortcut = 2131296539;
-			
-			// aapt resource value: 0x7F09011C
-			public const int showCustom = 2131296540;
-			
-			// aapt resource value: 0x7F09011D
-			public const int showHome = 2131296541;
-			
-			// aapt resource value: 0x7F09011E
-			public const int showTitle = 2131296542;
-			
-			// aapt resource value: 0x7F09011F
-			public const int smallLabel = 2131296543;
-			
-			// aapt resource value: 0x7F090120
-			public const int snackbar_action = 2131296544;
-			
-			// aapt resource value: 0x7F090121
-			public const int snackbar_text = 2131296545;
-			
 			// aapt resource value: 0x7F090122
-			public const int snap = 2131296546;
+			public const int shortcut = 2131296546;
 			
 			// aapt resource value: 0x7F090123
-			public const int snapMargins = 2131296547;
+			public const int showCustom = 2131296547;
 			
 			// aapt resource value: 0x7F090124
-			public const int soundFab = 2131296548;
+			public const int showHome = 2131296548;
 			
 			// aapt resource value: 0x7F090125
-			public const int soundLayout = 2131296549;
+			public const int showTitle = 2131296549;
 			
 			// aapt resource value: 0x7F090126
-			public const int soundText = 2131296550;
+			public const int smallLabel = 2131296550;
 			
 			// aapt resource value: 0x7F090127
-			public const int spacer = 2131296551;
+			public const int snackbar_action = 2131296551;
 			
 			// aapt resource value: 0x7F090128
-			public const int speed_limit = 2131296552;
+			public const int snackbar_text = 2131296552;
 			
 			// aapt resource value: 0x7F090129
-			public const int split_action_bar = 2131296553;
+			public const int snap = 2131296553;
 			
 			// aapt resource value: 0x7F09012A
-			public const int spread = 2131296554;
+			public const int snapMargins = 2131296554;
 			
 			// aapt resource value: 0x7F09012B
-			public const int spread_inside = 2131296555;
+			public const int soundFab = 2131296555;
 			
 			// aapt resource value: 0x7F09012C
-			public const int src_atop = 2131296556;
+			public const int soundLayout = 2131296556;
 			
 			// aapt resource value: 0x7F09012D
-			public const int src_in = 2131296557;
+			public const int soundText = 2131296557;
 			
 			// aapt resource value: 0x7F09012E
-			public const int src_over = 2131296558;
+			public const int spacer = 2131296558;
 			
 			// aapt resource value: 0x7F09012F
-			public const int standard = 2131296559;
+			public const int speed_limit = 2131296559;
 			
 			// aapt resource value: 0x7F090130
-			public const int start = 2131296560;
+			public const int split_action_bar = 2131296560;
 			
 			// aapt resource value: 0x7F090131
-			public const int startNavigationFab = 2131296561;
+			public const int spread = 2131296561;
 			
 			// aapt resource value: 0x7F090132
-			public const int startRouteButton = 2131296562;
+			public const int spread_inside = 2131296562;
 			
 			// aapt resource value: 0x7F090133
-			public const int stepDistanceText = 2131296563;
+			public const int src_atop = 2131296563;
 			
 			// aapt resource value: 0x7F090134
-			public const int stepPrimaryText = 2131296564;
+			public const int src_in = 2131296564;
 			
 			// aapt resource value: 0x7F090135
-			public const int stepSecondaryText = 2131296565;
+			public const int src_over = 2131296565;
 			
 			// aapt resource value: 0x7F090136
-			public const int stretch = 2131296566;
+			public const int standard = 2131296566;
 			
 			// aapt resource value: 0x7F090137
-			public const int subManeuverView = 2131296567;
-			
-			// aapt resource value: 0x7F09013A
-			public const int submenuarrow = 2131296570;
-			
-			// aapt resource value: 0x7F09013B
-			public const int submit_area = 2131296571;
+			public const int start = 2131296567;
 			
 			// aapt resource value: 0x7F090138
-			public const int subStepLayout = 2131296568;
+			public const int startNavigationFab = 2131296568;
 			
 			// aapt resource value: 0x7F090139
-			public const int subStepText = 2131296569;
+			public const int startRouteButton = 2131296569;
+			
+			// aapt resource value: 0x7F09013A
+			public const int stepDistanceText = 2131296570;
+			
+			// aapt resource value: 0x7F09013B
+			public const int stepPrimaryText = 2131296571;
 			
 			// aapt resource value: 0x7F09013C
-			public const int summaryBottomSheet = 2131296572;
+			public const int stepSecondaryText = 2131296572;
 			
 			// aapt resource value: 0x7F09013D
-			public const int summaryContentLayout = 2131296573;
+			public const int stretch = 2131296573;
 			
 			// aapt resource value: 0x7F09013E
-			public const int summaryPeekContent = 2131296574;
+			public const int subManeuverView = 2131296574;
+			
+			// aapt resource value: 0x7F090141
+			public const int submenuarrow = 2131296577;
+			
+			// aapt resource value: 0x7F090142
+			public const int submit_area = 2131296578;
 			
 			// aapt resource value: 0x7F09013F
-			public const int summaryPeekLayout = 2131296575;
+			public const int subStepLayout = 2131296575;
+			
+			// aapt resource value: 0x7F090140
+			public const int subStepText = 2131296576;
+			
+			// aapt resource value: 0x7F090143
+			public const int summaryBottomSheet = 2131296579;
+			
+			// aapt resource value: 0x7F090144
+			public const int summaryContentLayout = 2131296580;
+			
+			// aapt resource value: 0x7F090145
+			public const int summaryPeekContent = 2131296581;
+			
+			// aapt resource value: 0x7F090146
+			public const int summaryPeekLayout = 2131296582;
 			
 			// aapt resource value: 0x7F090005
 			public const int SYM = 2131296261;
 			
-			// aapt resource value: 0x7F090140
-			public const int tabMode = 2131296576;
-			
-			// aapt resource value: 0x7F090141
-			public const int tag_accessibility_actions = 2131296577;
-			
-			// aapt resource value: 0x7F090142
-			public const int tag_accessibility_clickable_spans = 2131296578;
-			
-			// aapt resource value: 0x7F090143
-			public const int tag_accessibility_heading = 2131296579;
-			
-			// aapt resource value: 0x7F090144
-			public const int tag_accessibility_pane_title = 2131296580;
-			
-			// aapt resource value: 0x7F090145
-			public const int tag_screen_reader_focusable = 2131296581;
-			
-			// aapt resource value: 0x7F090146
-			public const int tag_transition_group = 2131296582;
-			
 			// aapt resource value: 0x7F090147
-			public const int tag_unhandled_key_event_manager = 2131296583;
+			public const int tabMode = 2131296583;
 			
 			// aapt resource value: 0x7F090148
-			public const int tag_unhandled_key_listeners = 2131296584;
+			public const int tag_accessibility_actions = 2131296584;
 			
 			// aapt resource value: 0x7F090149
-			public const int text = 2131296585;
+			public const int tag_accessibility_clickable_spans = 2131296585;
 			
 			// aapt resource value: 0x7F09014A
-			public const int text2 = 2131296586;
-			
-			// aapt resource value: 0x7F09014F
-			public const int textinput_counter = 2131296591;
-			
-			// aapt resource value: 0x7F090150
-			public const int textinput_error = 2131296592;
-			
-			// aapt resource value: 0x7F090151
-			public const int textinput_helper_text = 2131296593;
+			public const int tag_accessibility_heading = 2131296586;
 			
 			// aapt resource value: 0x7F09014B
-			public const int textSpacerNoButtons = 2131296587;
+			public const int tag_accessibility_pane_title = 2131296587;
 			
 			// aapt resource value: 0x7F09014C
-			public const int textSpacerNoTitle = 2131296588;
+			public const int tag_screen_reader_focusable = 2131296588;
 			
 			// aapt resource value: 0x7F09014D
-			public const int textStart = 2131296589;
+			public const int tag_transition_group = 2131296589;
 			
 			// aapt resource value: 0x7F09014E
-			public const int text_input_password_toggle = 2131296590;
+			public const int tag_unhandled_key_event_manager = 2131296590;
 			
-			// aapt resource value: 0x7F090152
-			public const int time = 2131296594;
+			// aapt resource value: 0x7F09014F
+			public const int tag_unhandled_key_listeners = 2131296591;
 			
-			// aapt resource value: 0x7F090153
-			public const int timeRemainingText = 2131296595;
+			// aapt resource value: 0x7F090150
+			public const int text = 2131296592;
 			
-			// aapt resource value: 0x7F090154
-			public const int title = 2131296596;
-			
-			// aapt resource value: 0x7F090155
-			public const int titleDividerNoCustom = 2131296597;
+			// aapt resource value: 0x7F090151
+			public const int text2 = 2131296593;
 			
 			// aapt resource value: 0x7F090156
-			public const int title_template = 2131296598;
+			public const int textinput_counter = 2131296598;
 			
 			// aapt resource value: 0x7F090157
-			public const int top = 2131296599;
+			public const int textinput_error = 2131296599;
 			
 			// aapt resource value: 0x7F090158
-			public const int topPanel = 2131296600;
+			public const int textinput_helper_text = 2131296600;
+			
+			// aapt resource value: 0x7F090152
+			public const int textSpacerNoButtons = 2131296594;
+			
+			// aapt resource value: 0x7F090153
+			public const int textSpacerNoTitle = 2131296595;
+			
+			// aapt resource value: 0x7F090154
+			public const int textStart = 2131296596;
+			
+			// aapt resource value: 0x7F090155
+			public const int text_input_password_toggle = 2131296597;
 			
 			// aapt resource value: 0x7F090159
-			public const int touch_outside = 2131296601;
+			public const int time = 2131296601;
 			
 			// aapt resource value: 0x7F09015A
-			public const int transition_current_scene = 2131296602;
+			public const int timeRemainingText = 2131296602;
 			
 			// aapt resource value: 0x7F09015B
-			public const int transition_layout_save = 2131296603;
+			public const int title = 2131296603;
 			
 			// aapt resource value: 0x7F09015C
-			public const int transition_position = 2131296604;
+			public const int titleDividerNoCustom = 2131296604;
 			
 			// aapt resource value: 0x7F09015D
-			public const int transition_scene_layoutid_cache = 2131296605;
+			public const int title_template = 2131296605;
 			
 			// aapt resource value: 0x7F09015E
-			public const int transition_transform = 2131296606;
+			public const int top = 2131296606;
 			
 			// aapt resource value: 0x7F09015F
-			public const int turnLaneLayout = 2131296607;
+			public const int topPanel = 2131296607;
 			
 			// aapt resource value: 0x7F090160
-			public const int turnLaneView = 2131296608;
+			public const int touch_outside = 2131296608;
 			
 			// aapt resource value: 0x7F090161
-			public const int @unchecked = 2131296609;
+			public const int transition_current_scene = 2131296609;
 			
 			// aapt resource value: 0x7F090162
-			public const int uniform = 2131296610;
+			public const int transition_layout_save = 2131296610;
 			
 			// aapt resource value: 0x7F090163
-			public const int unlabeled = 2131296611;
+			public const int transition_position = 2131296611;
 			
 			// aapt resource value: 0x7F090164
-			public const int up = 2131296612;
+			public const int transition_scene_layoutid_cache = 2131296612;
 			
 			// aapt resource value: 0x7F090165
-			public const int useLogo = 2131296613;
+			public const int transition_transform = 2131296613;
 			
 			// aapt resource value: 0x7F090166
-			public const int versionSpinner = 2131296614;
+			public const int turnLaneLayout = 2131296614;
 			
 			// aapt resource value: 0x7F090167
-			public const int versionSpinnerContainer = 2131296615;
+			public const int turnLaneView = 2131296615;
 			
 			// aapt resource value: 0x7F090168
-			public const int versionText = 2131296616;
+			public const int @unchecked = 2131296616;
 			
 			// aapt resource value: 0x7F090169
-			public const int view = 2131296617;
+			public const int uniform = 2131296617;
 			
 			// aapt resource value: 0x7F09016A
-			public const int view_offset_helper = 2131296618;
+			public const int unlabeled = 2131296618;
 			
 			// aapt resource value: 0x7F09016B
-			public const int visible = 2131296619;
+			public const int up = 2131296619;
 			
 			// aapt resource value: 0x7F09016C
-			public const int visible_removing_fragment_view_tag = 2131296620;
-			
-			// aapt resource value: 0x7F09016E
-			public const int waynameText = 2131296622;
+			public const int useLogo = 2131296620;
 			
 			// aapt resource value: 0x7F09016D
-			public const int wayNameView = 2131296621;
+			public const int versionSpinner = 2131296621;
+			
+			// aapt resource value: 0x7F09016E
+			public const int versionSpinnerContainer = 2131296622;
 			
 			// aapt resource value: 0x7F09016F
-			public const int withText = 2131296623;
+			public const int versionText = 2131296623;
 			
 			// aapt resource value: 0x7F090170
-			public const int wrap = 2131296624;
+			public const int view = 2131296624;
 			
 			// aapt resource value: 0x7F090171
-			public const int wrap_content = 2131296625;
+			public const int view_offset_helper = 2131296625;
+			
+			// aapt resource value: 0x7F090172
+			public const int visible = 2131296626;
+			
+			// aapt resource value: 0x7F090173
+			public const int visible_removing_fragment_view_tag = 2131296627;
+			
+			// aapt resource value: 0x7F090175
+			public const int waynameText = 2131296629;
+			
+			// aapt resource value: 0x7F090174
+			public const int wayNameView = 2131296628;
+			
+			// aapt resource value: 0x7F090176
+			public const int withText = 2131296630;
+			
+			// aapt resource value: 0x7F090177
+			public const int wrap = 2131296631;
+			
+			// aapt resource value: 0x7F090178
+			public const int wrap_content = 2131296632;
 			
 			static Id()
 			{
@@ -6125,94 +6155,109 @@ namespace MapboxNavigation.UI.Droid.TestApp
 			public const int layout_notification_custom = 2131492942;
 			
 			// aapt resource value: 0x7F0C004F
-			public const int mapbox_attribution_list_item = 2131492943;
+			public const int leak_canary_display_leak = 2131492943;
 			
 			// aapt resource value: 0x7F0C0050
-			public const int mapbox_infowindow_content = 2131492944;
+			public const int leak_canary_heap_dump_toast = 2131492944;
 			
 			// aapt resource value: 0x7F0C0051
-			public const int mapbox_mapview_internal = 2131492945;
+			public const int leak_canary_leak_row = 2131492945;
 			
 			// aapt resource value: 0x7F0C0052
-			public const int mapbox_view_image_marker = 2131492946;
+			public const int leak_canary_ref_row = 2131492946;
 			
 			// aapt resource value: 0x7F0C0053
-			public const int mtrl_layout_snackbar = 2131492947;
+			public const int leak_canary_ref_top_row = 2131492947;
 			
 			// aapt resource value: 0x7F0C0054
-			public const int mtrl_layout_snackbar_include = 2131492948;
+			public const int mapbox_attribution_list_item = 2131492948;
 			
 			// aapt resource value: 0x7F0C0055
-			public const int navigation_view_fragment_layout = 2131492949;
+			public const int mapbox_infowindow_content = 2131492949;
 			
 			// aapt resource value: 0x7F0C0056
-			public const int navigation_view_layout = 2131492950;
+			public const int mapbox_mapview_internal = 2131492950;
 			
 			// aapt resource value: 0x7F0C0057
-			public const int notification_action = 2131492951;
+			public const int mapbox_view_image_marker = 2131492951;
 			
 			// aapt resource value: 0x7F0C0058
-			public const int notification_action_tombstone = 2131492952;
+			public const int mtrl_layout_snackbar = 2131492952;
 			
 			// aapt resource value: 0x7F0C0059
-			public const int notification_template_custom_big = 2131492953;
+			public const int mtrl_layout_snackbar_include = 2131492953;
 			
 			// aapt resource value: 0x7F0C005A
-			public const int notification_template_icon_group = 2131492954;
+			public const int navigation_view_fragment_layout = 2131492954;
 			
 			// aapt resource value: 0x7F0C005B
-			public const int notification_template_part_chronometer = 2131492955;
+			public const int navigation_view_layout = 2131492955;
 			
 			// aapt resource value: 0x7F0C005C
-			public const int notification_template_part_time = 2131492956;
+			public const int notification_action = 2131492956;
 			
 			// aapt resource value: 0x7F0C005D
-			public const int offline_dialog_layout = 2131492957;
+			public const int notification_action_tombstone = 2131492957;
 			
 			// aapt resource value: 0x7F0C005E
-			public const int placeholder_fragment_layout = 2131492958;
+			public const int notification_template_custom_big = 2131492958;
 			
 			// aapt resource value: 0x7F0C005F
-			public const int recenter_btn_layout = 2131492959;
+			public const int notification_template_icon_group = 2131492959;
 			
 			// aapt resource value: 0x7F0C0060
-			public const int select_dialog_item_material = 2131492960;
+			public const int notification_template_part_chronometer = 2131492960;
 			
 			// aapt resource value: 0x7F0C0061
-			public const int select_dialog_multichoice_material = 2131492961;
+			public const int notification_template_part_time = 2131492961;
 			
 			// aapt resource value: 0x7F0C0062
-			public const int select_dialog_singlechoice_material = 2131492962;
+			public const int offline_dialog_layout = 2131492962;
 			
 			// aapt resource value: 0x7F0C0063
-			public const int sound_layout = 2131492963;
+			public const int placeholder_fragment_layout = 2131492963;
 			
 			// aapt resource value: 0x7F0C0064
-			public const int sub_instruction_layout = 2131492964;
+			public const int recenter_btn_layout = 2131492964;
 			
 			// aapt resource value: 0x7F0C0065
-			public const int summary_bottomsheet_layout = 2131492965;
+			public const int select_dialog_item_material = 2131492965;
 			
 			// aapt resource value: 0x7F0C0066
-			public const int summary_content_layout = 2131492966;
+			public const int select_dialog_multichoice_material = 2131492966;
 			
 			// aapt resource value: 0x7F0C0067
-			public const int summary_peek_content_layout = 2131492967;
+			public const int select_dialog_singlechoice_material = 2131492967;
 			
 			// aapt resource value: 0x7F0C0068
-			public const int summary_peek_layout = 2131492968;
+			public const int sound_layout = 2131492968;
 			
 			// aapt resource value: 0x7F0C0069
-			public const int support_simple_spinner_dropdown_item = 2131492969;
+			public const int sub_instruction_layout = 2131492969;
 			
 			// aapt resource value: 0x7F0C006A
-			public const int turn_lane_layout = 2131492970;
+			public const int summary_bottomsheet_layout = 2131492970;
 			
 			// aapt resource value: 0x7F0C006B
-			public const int turn_lane_listitem_layout = 2131492971;
+			public const int summary_content_layout = 2131492971;
 			
 			// aapt resource value: 0x7F0C006C
-			public const int wayname_view_layout = 2131492972;
+			public const int summary_peek_content_layout = 2131492972;
+			
+			// aapt resource value: 0x7F0C006D
+			public const int summary_peek_layout = 2131492973;
+			
+			// aapt resource value: 0x7F0C006E
+			public const int support_simple_spinner_dropdown_item = 2131492974;
+			
+			// aapt resource value: 0x7F0C006F
+			public const int turn_lane_layout = 2131492975;
+			
+			// aapt resource value: 0x7F0C0070
+			public const int turn_lane_listitem_layout = 2131492976;
+			
+			// aapt resource value: 0x7F0C0071
+			public const int wayname_view_layout = 2131492977;
 			
 			static Layout()
 			{
@@ -6537,235 +6582,307 @@ namespace MapboxNavigation.UI.Droid.TestApp
 			public const int language_key = 2131755091;
 			
 			// aapt resource value: 0x7F100054
-			public const int mapbox_attributionErrorNoBrowser = 2131755092;
-			
-			// aapt resource value: 0x7F10005A
-			public const int mapbox_attributionsDialogTitle = 2131755098;
-			
-			// aapt resource value: 0x7F10005B
-			public const int mapbox_attributionsIconContentDescription = 2131755099;
+			public const int leak_canary_analysis_failed = 2131755092;
 			
 			// aapt resource value: 0x7F100055
-			public const int mapbox_attributionTelemetryMessage = 2131755093;
+			public const int leak_canary_class_has_leaked = 2131755093;
 			
 			// aapt resource value: 0x7F100056
-			public const int mapbox_attributionTelemetryNegative = 2131755094;
+			public const int leak_canary_could_not_save_text = 2131755094;
 			
 			// aapt resource value: 0x7F100057
-			public const int mapbox_attributionTelemetryNeutral = 2131755095;
+			public const int leak_canary_could_not_save_title = 2131755095;
 			
 			// aapt resource value: 0x7F100058
-			public const int mapbox_attributionTelemetryPositive = 2131755096;
+			public const int leak_canary_delete = 2131755096;
 			
 			// aapt resource value: 0x7F100059
-			public const int mapbox_attributionTelemetryTitle = 2131755097;
+			public const int leak_canary_delete_all = 2131755097;
+			
+			// aapt resource value: 0x7F10005A
+			public const int leak_canary_delete_all_leaks_title = 2131755098;
+			
+			// aapt resource value: 0x7F10005B
+			public const int leak_canary_display_activity_label = 2131755099;
 			
 			// aapt resource value: 0x7F10005C
-			public const int mapbox_compassContentDescription = 2131755100;
+			public const int leak_canary_excluded_row = 2131755100;
 			
 			// aapt resource value: 0x7F10005D
-			public const int mapbox_mapActionDescription = 2131755101;
+			public const int leak_canary_failure_report = 2131755101;
 			
 			// aapt resource value: 0x7F10005E
-			public const int mapbox_myLocationViewContentDescription = 2131755102;
+			public const int leak_canary_leak_excluded = 2131755102;
 			
 			// aapt resource value: 0x7F10005F
-			public const int mapbox_offline_error_region_definition_invalid = 2131755103;
-			
-			// aapt resource value: 0x7F100060
-			public const int mapbox_style_dark = 2131755104;
-			
-			// aapt resource value: 0x7F100061
-			public const int mapbox_style_light = 2131755105;
+			public const int leak_canary_leak_list_title = 2131755103;
 			
 			// aapt resource value: 0x7F100062
-			public const int mapbox_style_mapbox_streets = 2131755106;
+			public const int leak_canary_notification_message = 2131755106;
 			
-			// aapt resource value: 0x7F100063
-			public const int mapbox_style_outdoors = 2131755107;
+			// aapt resource value: 0x7F100060
+			public const int leak_canary_no_leak_text = 2131755104;
+			
+			// aapt resource value: 0x7F100061
+			public const int leak_canary_no_leak_title = 2131755105;
 			
 			// aapt resource value: 0x7F100064
-			public const int mapbox_style_satellite = 2131755108;
+			public const int leak_canary_permission_notification_text = 2131755108;
 			
 			// aapt resource value: 0x7F100065
-			public const int mapbox_style_satellite_streets = 2131755109;
+			public const int leak_canary_permission_notification_title = 2131755109;
+			
+			// aapt resource value: 0x7F100063
+			public const int leak_canary_permission_not_granted = 2131755107;
 			
 			// aapt resource value: 0x7F100066
-			public const int mapbox_style_traffic_day = 2131755110;
+			public const int leak_canary_share_heap_dump = 2131755110;
 			
 			// aapt resource value: 0x7F100067
-			public const int mapbox_style_traffic_night = 2131755111;
+			public const int leak_canary_share_leak = 2131755111;
 			
 			// aapt resource value: 0x7F100068
-			public const int mapbox_telemetryImproveMap = 2131755112;
+			public const int leak_canary_share_with = 2131755112;
 			
 			// aapt resource value: 0x7F100069
-			public const int mapbox_telemetryLink = 2131755113;
+			public const int leak_canary_storage_permission_activity_label = 2131755113;
 			
 			// aapt resource value: 0x7F10006A
-			public const int mapbox_telemetrySettings = 2131755114;
+			public const int leak_canary_toast_heap_dump = 2131755114;
 			
 			// aapt resource value: 0x7F10006B
-			public const int meters = 2131755115;
+			public const int mapbox_access_token = 2131755115;
 			
 			// aapt resource value: 0x7F10006C
-			public const int miles = 2131755116;
-			
-			// aapt resource value: 0x7F10006D
-			public const int min = 2131755117;
-			
-			// aapt resource value: 0x7F10006E
-			public const int mtrl_chip_close_icon_content_description = 2131755118;
-			
-			// aapt resource value: 0x7F10006F
-			public const int muted = 2131755119;
-			
-			// aapt resource value: 0x7F100070
-			public const int navigation_guidance_day = 2131755120;
-			
-			// aapt resource value: 0x7F100071
-			public const int navigation_guidance_night = 2131755121;
+			public const int mapbox_attributionErrorNoBrowser = 2131755116;
 			
 			// aapt resource value: 0x7F100072
-			public const int navigation_running = 2131755122;
+			public const int mapbox_attributionsDialogTitle = 2131755122;
 			
 			// aapt resource value: 0x7F100073
-			public const int navigation_view_instance_state = 2131755123;
+			public const int mapbox_attributionsIconContentDescription = 2131755123;
+			
+			// aapt resource value: 0x7F10006D
+			public const int mapbox_attributionTelemetryMessage = 2131755117;
+			
+			// aapt resource value: 0x7F10006E
+			public const int mapbox_attributionTelemetryNegative = 2131755118;
+			
+			// aapt resource value: 0x7F10006F
+			public const int mapbox_attributionTelemetryNeutral = 2131755119;
+			
+			// aapt resource value: 0x7F100070
+			public const int mapbox_attributionTelemetryPositive = 2131755120;
+			
+			// aapt resource value: 0x7F100071
+			public const int mapbox_attributionTelemetryTitle = 2131755121;
 			
 			// aapt resource value: 0x7F100074
-			public const int notification_arrival_time_format = 2131755124;
+			public const int mapbox_compassContentDescription = 2131755124;
 			
 			// aapt resource value: 0x7F100075
-			public const int offline_category_title = 2131755125;
+			public const int mapbox_mapActionDescription = 2131755125;
 			
 			// aapt resource value: 0x7F100076
-			public const int offline_disabled = 2131755126;
+			public const int mapbox_myLocationViewContentDescription = 2131755126;
 			
 			// aapt resource value: 0x7F100077
-			public const int offline_enabled = 2131755127;
+			public const int mapbox_offline_error_region_definition_invalid = 2131755127;
 			
 			// aapt resource value: 0x7F100078
-			public const int offline_enabled_title = 2131755128;
+			public const int mapbox_style_dark = 2131755128;
 			
 			// aapt resource value: 0x7F100079
-			public const int offline_region_download = 2131755129;
+			public const int mapbox_style_light = 2131755129;
 			
 			// aapt resource value: 0x7F10007A
-			public const int offline_region_download_title = 2131755130;
+			public const int mapbox_style_mapbox_streets = 2131755130;
 			
 			// aapt resource value: 0x7F10007B
-			public const int offline_routing = 2131755131;
+			public const int mapbox_style_outdoors = 2131755131;
 			
 			// aapt resource value: 0x7F10007C
-			public const int offline_version_key = 2131755132;
+			public const int mapbox_style_satellite = 2131755132;
 			
 			// aapt resource value: 0x7F10007D
-			public const int offline_version_title = 2131755133;
+			public const int mapbox_style_satellite_streets = 2131755133;
 			
 			// aapt resource value: 0x7F10007E
-			public const int password_toggle_content_description = 2131755134;
+			public const int mapbox_style_traffic_day = 2131755134;
 			
 			// aapt resource value: 0x7F10007F
-			public const int path_password_eye = 2131755135;
+			public const int mapbox_style_traffic_night = 2131755135;
 			
 			// aapt resource value: 0x7F100080
-			public const int path_password_eye_mask_strike_through = 2131755136;
+			public const int mapbox_telemetryImproveMap = 2131755136;
 			
 			// aapt resource value: 0x7F100081
-			public const int path_password_eye_mask_visible = 2131755137;
+			public const int mapbox_telemetryLink = 2131755137;
 			
 			// aapt resource value: 0x7F100082
-			public const int path_password_strike_through = 2131755138;
-			
-			// aapt resource value: 0x7F100084
-			public const int report_feedback = 2131755140;
-			
-			// aapt resource value: 0x7F100085
-			public const int report_problem = 2131755141;
-			
-			// aapt resource value: 0x7F100086
-			public const int rerouting = 2131755142;
+			public const int mapbox_telemetrySettings = 2131755138;
 			
 			// aapt resource value: 0x7F100083
-			public const int re_center = 2131755139;
+			public const int meters = 2131755139;
+			
+			// aapt resource value: 0x7F100084
+			public const int miles = 2131755140;
+			
+			// aapt resource value: 0x7F100085
+			public const int min = 2131755141;
+			
+			// aapt resource value: 0x7F100086
+			public const int mtrl_chip_close_icon_content_description = 2131755142;
 			
 			// aapt resource value: 0x7F100087
-			public const int route_profile = 2131755143;
+			public const int muted = 2131755143;
 			
 			// aapt resource value: 0x7F100088
-			public const int route_profile_key = 2131755144;
+			public const int navigation_guidance_day = 2131755144;
 			
 			// aapt resource value: 0x7F100089
-			public const int search_menu_title = 2131755145;
+			public const int navigation_guidance_night = 2131755145;
 			
 			// aapt resource value: 0x7F10008A
-			public const int settings = 2131755146;
+			public const int navigation_running = 2131755146;
 			
 			// aapt resource value: 0x7F10008B
-			public const int simulate_route = 2131755147;
+			public const int navigation_view_instance_state = 2131755147;
 			
 			// aapt resource value: 0x7F10008C
-			public const int simulate_route_key = 2131755148;
+			public const int notification_arrival_time_format = 2131755148;
 			
 			// aapt resource value: 0x7F10008D
-			public const int status_bar_notification_info_overflow = 2131755149;
+			public const int offline_category_title = 2131755149;
 			
 			// aapt resource value: 0x7F10008E
-			public const int title_component_navigation = 2131755150;
+			public const int offline_disabled = 2131755150;
 			
 			// aapt resource value: 0x7F10008F
-			public const int title_dual_navigation_map = 2131755151;
+			public const int offline_enabled = 2131755151;
 			
 			// aapt resource value: 0x7F100090
-			public const int title_embedded_navigation = 2131755152;
+			public const int offline_enabled_title = 2131755152;
 			
 			// aapt resource value: 0x7F100091
-			public const int title_end_navigation = 2131755153;
+			public const int offline_region_download = 2131755153;
 			
 			// aapt resource value: 0x7F100092
-			public const int title_fragment_navigation = 2131755154;
+			public const int offline_region_download_title = 2131755154;
 			
 			// aapt resource value: 0x7F100093
-			public const int title_mock_navigation = 2131755155;
+			public const int offline_routing = 2131755155;
 			
 			// aapt resource value: 0x7F100094
-			public const int title_navigation_launcher = 2131755156;
+			public const int offline_version_key = 2131755156;
 			
 			// aapt resource value: 0x7F100095
-			public const int title_navigation_route_ui = 2131755157;
-			
-			// aapt resource value: 0x7F100097
-			public const int title_offline_region_download = 2131755159;
-			
-			// aapt resource value: 0x7F100098
-			public const int title_offline_reroute = 2131755160;
+			public const int offline_version_title = 2131755157;
 			
 			// aapt resource value: 0x7F100096
-			public const int title_off_route_detection = 2131755158;
+			public const int password_toggle_content_description = 2131755158;
+			
+			// aapt resource value: 0x7F100097
+			public const int path_password_eye = 2131755159;
+			
+			// aapt resource value: 0x7F100098
+			public const int path_password_eye_mask_strike_through = 2131755160;
 			
 			// aapt resource value: 0x7F100099
-			public const int title_reroute = 2131755161;
+			public const int path_password_eye_mask_visible = 2131755161;
 			
 			// aapt resource value: 0x7F10009A
-			public const int title_waypoint_navigation = 2131755162;
-			
-			// aapt resource value: 0x7F10009B
-			public const int unit_type = 2131755163;
+			public const int path_password_strike_through = 2131755162;
 			
 			// aapt resource value: 0x7F10009C
-			public const int unit_type_key = 2131755164;
+			public const int report_feedback = 2131755164;
 			
 			// aapt resource value: 0x7F10009D
-			public const int unmuted = 2131755165;
+			public const int report_problem = 2131755165;
 			
 			// aapt resource value: 0x7F10009E
-			public const int view_examples_key = 2131755166;
+			public const int rerouting = 2131755166;
+			
+			// aapt resource value: 0x7F10009B
+			public const int re_center = 2131755163;
 			
 			// aapt resource value: 0x7F10009F
-			public const int was_in_tunnel = 2131755167;
+			public const int route_profile = 2131755167;
 			
 			// aapt resource value: 0x7F1000A0
-			public const int was_navigation_stopped = 2131755168;
+			public const int route_profile_key = 2131755168;
+			
+			// aapt resource value: 0x7F1000A1
+			public const int search_menu_title = 2131755169;
+			
+			// aapt resource value: 0x7F1000A2
+			public const int settings = 2131755170;
+			
+			// aapt resource value: 0x7F1000A3
+			public const int simulate_route = 2131755171;
+			
+			// aapt resource value: 0x7F1000A4
+			public const int simulate_route_key = 2131755172;
+			
+			// aapt resource value: 0x7F1000A5
+			public const int status_bar_notification_info_overflow = 2131755173;
+			
+			// aapt resource value: 0x7F1000A6
+			public const int title_component_navigation = 2131755174;
+			
+			// aapt resource value: 0x7F1000A7
+			public const int title_dual_navigation_map = 2131755175;
+			
+			// aapt resource value: 0x7F1000A8
+			public const int title_embedded_navigation = 2131755176;
+			
+			// aapt resource value: 0x7F1000A9
+			public const int title_end_navigation = 2131755177;
+			
+			// aapt resource value: 0x7F1000AA
+			public const int title_fragment_navigation = 2131755178;
+			
+			// aapt resource value: 0x7F1000AB
+			public const int title_mock_navigation = 2131755179;
+			
+			// aapt resource value: 0x7F1000AC
+			public const int title_navigation_launcher = 2131755180;
+			
+			// aapt resource value: 0x7F1000AD
+			public const int title_navigation_route_ui = 2131755181;
+			
+			// aapt resource value: 0x7F1000AF
+			public const int title_offline_region_download = 2131755183;
+			
+			// aapt resource value: 0x7F1000B0
+			public const int title_offline_reroute = 2131755184;
+			
+			// aapt resource value: 0x7F1000AE
+			public const int title_off_route_detection = 2131755182;
+			
+			// aapt resource value: 0x7F1000B1
+			public const int title_reroute = 2131755185;
+			
+			// aapt resource value: 0x7F1000B2
+			public const int title_waypoint_navigation = 2131755186;
+			
+			// aapt resource value: 0x7F1000B3
+			public const int unit_type = 2131755187;
+			
+			// aapt resource value: 0x7F1000B4
+			public const int unit_type_key = 2131755188;
+			
+			// aapt resource value: 0x7F1000B5
+			public const int unmuted = 2131755189;
+			
+			// aapt resource value: 0x7F1000B6
+			public const int view_examples_key = 2131755190;
+			
+			// aapt resource value: 0x7F1000B7
+			public const int was_in_tunnel = 2131755191;
+			
+			// aapt resource value: 0x7F1000B8
+			public const int was_navigation_stopped = 2131755192;
 			
 			static String()
 			{
@@ -7387,7 +7504,13 @@ namespace MapboxNavigation.UI.Droid.TestApp
 			public const int CustomNavigationView = 2131820745;
 			
 			// aapt resource value: 0x7F1101FE
-			public const int mapbox_LocationComponent = 2131821054;
+			public const int leak_canary_LeakCanary_Base = 2131821054;
+			
+			// aapt resource value: 0x7F1101FF
+			public const int leak_canary_Theme_Transparent = 2131821055;
+			
+			// aapt resource value: 0x7F110200
+			public const int mapbox_LocationComponent = 2131821056;
 			
 			// aapt resource value: 0x7F1100CA
 			public const int NavigationLocationLayerStyle = 2131820746;

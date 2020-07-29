@@ -24,7 +24,6 @@ namespace MapboxNavigation.UI.Droid.TestApp
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            //Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
 
             List<SampleItem> sampleItems = new List<SampleItem>

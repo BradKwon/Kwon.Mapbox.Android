@@ -38,7 +38,7 @@ using TimberLog;
 
 namespace MapboxNavigation.UI.Droid.TestApp.Activity.NavigationUI
 {
-    [Activity(Label = "NavigationLauncherActivity")]
+    [Activity(Label = "NavigationLauncherActivity", ParentActivity = typeof(MainActivity))]
     public class NavigationLauncherActivity : AppCompatActivity, IOnMapReadyCallback, MapboxMap.IOnMapLongClickListener, IOnRouteSelectionChangeListener
     {
         private static int CAMERA_ANIMATION_DURATION = 1000;
@@ -66,7 +66,7 @@ namespace MapboxNavigation.UI.Droid.TestApp.Activity.NavigationUI
         [BindView(Resource.Id.launch_btn_frame)]
         FrameLayout launchBtnFrame;
 
-        NavigationLauncherActivity()
+        public NavigationLauncherActivity()
         {
             callback = new NavigationLauncherLocationCallback(this);
         }
@@ -80,36 +80,36 @@ namespace MapboxNavigation.UI.Droid.TestApp.Activity.NavigationUI
             mapView.GetMapAsync(this);
         }
 
-        public override bool OnCreateOptionsMenu(IMenu menu)
-        {
-            MenuInflater.Inflate(Resource.Menu.navigation_view_activity_menu, menu);
-            return true;
-        }
+        //public override bool OnCreateOptionsMenu(IMenu menu)
+        //{
+        //    MenuInflater.Inflate(Resource.Menu.navigation_view_activity_menu, menu);
+        //    return true;
+        //}
 
-        public override bool OnOptionsItemSelected(IMenuItem item)
-        {
-            switch (item.ItemId)
-            {
-                case Resource.Id.settings:
-                    ShowSettings();
-                    return true;
-                default:
-                    return base.OnOptionsItemSelected(item);
-            }
-        }
+        //public override bool OnOptionsItemSelected(IMenuItem item)
+        //{
+        //    switch (item.ItemId)
+        //    {
+        //        case Resource.Id.settings:
+        //            ShowSettings();
+        //            return true;
+        //        default:
+        //            return base.OnOptionsItemSelected(item);
+        //    }
+        //}
 
         protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
         {
             base.OnActivityResult(requestCode, resultCode, data);
-            if (requestCode == CHANGE_SETTING_REQUEST_CODE && resultCode == Result.Ok)
-            {
-                bool shouldRefresh = data.GetBooleanExtra(NavigationSettingsActivity.UNIT_TYPE_CHANGED, false) ||
-                    data.GetBooleanExtra(NavigationSettingsActivity.LANGUAGE_CHANGED, false);
-                if (wayPoints.Any() && shouldRefresh)
-                {
-                    FetchRoute();
-                }
-            }
+            //if (requestCode == CHANGE_SETTING_REQUEST_CODE && resultCode == Result.Ok)
+            //{
+            //    bool shouldRefresh = data.GetBooleanExtra(NavigationSettingsActivity.UNIT_TYPE_CHANGED, false) ||
+            //        data.GetBooleanExtra(NavigationSettingsActivity.LANGUAGE_CHANGED, false);
+            //    if (wayPoints.Any() && shouldRefresh)
+            //    {
+            //        FetchRoute();
+            //    }
+            //}
         }
 
         protected override void OnStart()
@@ -163,7 +163,7 @@ namespace MapboxNavigation.UI.Droid.TestApp.Activity.NavigationUI
         }
 
         [OnClick(Resource.Id.launch_route_btn)]
-        public void OnRouteLaunchClick()
+        public void OnRouteLaunchClick(object sender, EventArgs args)
         {
             LaunchNavigationWithRoute();
         }
@@ -226,10 +226,10 @@ namespace MapboxNavigation.UI.Droid.TestApp.Activity.NavigationUI
             }
         }
 
-        private void ShowSettings()
-        {
-            StartActivityForResult(new Intent(this, typeof(NavigationSettingsActivity)), CHANGE_SETTING_REQUEST_CODE);
-        }
+        //private void ShowSettings()
+        //{
+        //    StartActivityForResult(new Intent(this, typeof(NavigationSettingsActivity)), CHANGE_SETTING_REQUEST_CODE);
+        //}
 
         private void InitializeLocationEngine()
         {
@@ -256,7 +256,7 @@ namespace MapboxNavigation.UI.Droid.TestApp.Activity.NavigationUI
             builder.Build().GetRoute(new MyGetRouteCallback((routes) =>
             {
                 HideLoading();
-                var route = routes[0];
+                route = routes[0];
                 if (Convert.ToInt32(route.Distance()) > 25)
                 {
                     launchRouteBtn.Enabled = true;
@@ -356,7 +356,6 @@ namespace MapboxNavigation.UI.Droid.TestApp.Activity.NavigationUI
             {
                 optionsBuilder.OfflineRoutingTilesVersion(offlineVersion);
             }
-
             NavigationLauncher.StartNavigation(this, optionsBuilder.Build());
         }
 
