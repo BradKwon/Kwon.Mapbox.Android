@@ -33,11 +33,11 @@ namespace MapboxNavigation.UI.Droid.TestApp
                     GetString(Resource.String.description_navigation_launcher),
                     typeof(NavigationLauncherActivity)
                 ),
-                //new SampleItem(
-                //    GetString(Resource.String.title_end_navigation),
-                //    GetString(Resource.String.description_end_navigation),
-                //    typeof(EndNavigationActivity)
-                //),
+                new SampleItem(
+                    GetString(Resource.String.title_end_navigation),
+                    GetString(Resource.String.description_end_navigation),
+                    typeof(EndNavigationActivity)
+                ),
                 //new SampleItem(
                 //    GetString(Resource.String.title_dual_navigation_map),
                 //    GetString(Resource.String.description_dual_navigation_map),

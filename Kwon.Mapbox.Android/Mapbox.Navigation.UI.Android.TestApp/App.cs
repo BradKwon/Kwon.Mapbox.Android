@@ -17,7 +17,7 @@ namespace MapboxNavigation.UI.Droid.TestApp
         {
             base.OnCreate();
             SetupTimber();
-            SetupStrictMode();
+            //SetupStrictMode();
             SetupCanary();
             SetupMapbox();
         }
