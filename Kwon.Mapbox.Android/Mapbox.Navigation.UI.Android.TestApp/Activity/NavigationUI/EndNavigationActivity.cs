@@ -12,6 +12,7 @@ using Android.Widget;
 using AndroidX.AppCompat.App;
 using AndroidX.ConstraintLayout.Widget;
 using Java.Lang;
+using Mapbox.Api.Directions.V5;
 using Mapbox.Api.Directions.V5.Models;
 using Mapbox.Geojson;
 using Mapbox.Mapboxsdk.Annotations;
@@ -86,10 +87,11 @@ namespace MapboxNavigation.UI.Droid.TestApp.Activity.NavigationUI
             NavigationRoute builder = NavigationRoute.InvokeBuilder(this)
               .AccessToken(Mapbox.Mapboxsdk.Mapbox.AccessToken)
               .Origin(origin)
+              .Profile(DirectionsCriteria.ProfileDriving)
               .AddWaypoint(pickup)
               .AddWaypoint(middlePickup)
               .Destination(destination)
-              .AddWaypointIndices(new Integer(0), new Integer(2), new Integer(3))
+              //.AddWaypointIndices(new Integer(0), new Integer(2), new Integer(3))
               .Alternatives((Java.Lang.Boolean)true)
               .Build();
             builder.GetRoute(this);
