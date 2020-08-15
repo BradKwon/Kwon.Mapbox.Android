@@ -91,7 +91,7 @@ namespace MapboxNavigation.UI.Droid.TestApp.Activity.NavigationUI
               .AddWaypoint(pickup)
               .AddWaypoint(middlePickup)
               .Destination(destination)
-              //.AddWaypointIndices(new Integer(0), new Integer(2), new Integer(3))
+              .AddWaypointIndices(new Integer(0), new Integer(2), new Integer(3))
               .Alternatives((Java.Lang.Boolean)true)
               .Build();
             builder.GetRoute(this);
