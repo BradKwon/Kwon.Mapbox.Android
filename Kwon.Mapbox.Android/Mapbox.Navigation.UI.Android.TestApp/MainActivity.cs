@@ -11,6 +11,7 @@ using AndroidX.Core.App;
 using AndroidX.Core.Content;
 using AndroidX.RecyclerView.Widget;
 using Mapbox.Android.Core.Permissions;
+using MapboxNavigation.UI.Droid.TestApp.Activity;
 using MapboxNavigation.UI.Droid.TestApp.Activity.NavigationUI;
 
 namespace MapboxNavigation.UI.Droid.TestApp
@@ -38,16 +39,16 @@ namespace MapboxNavigation.UI.Droid.TestApp
                     GetString(Resource.String.description_end_navigation),
                     typeof(EndNavigationActivity)
                 ),
-                //new SampleItem(
-                //    GetString(Resource.String.title_dual_navigation_map),
-                //    GetString(Resource.String.description_dual_navigation_map),
-                //    typeof(DualNavigationMapActivity)
-                //),
-                //new SampleItem(
-                //    GetString(Resource.String.title_mock_navigation),
-                //    GetString(Resource.String.description_mock_navigation),
-                //    typeof(MockNavigationActivity)
-                //),
+                new SampleItem(
+                    GetString(Resource.String.title_dual_navigation_map),
+                    GetString(Resource.String.description_dual_navigation_map),
+                    typeof(DualNavigationMapActivity)
+                ),
+                new SampleItem(
+                    GetString(Resource.String.title_mock_navigation),
+                    GetString(Resource.String.description_mock_navigation),
+                    typeof(MockNavigationActivity)
+                ),
                 //new SampleItem(
                 //    GetString(Resource.String.title_reroute),
                 //    GetString(Resource.String.description_reroute),
