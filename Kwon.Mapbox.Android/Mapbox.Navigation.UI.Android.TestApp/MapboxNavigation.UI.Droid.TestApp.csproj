@@ -76,6 +76,9 @@
     <Compile Include="Activity\HistoryActivity.cs" />
     <Compile Include="Activity\StoreHistoryTask.cs" />
     <Compile Include="Activity\NavigationUI\NavigationMapRouteActivity.cs" />
+    <Compile Include="Activity\NavigationUI\WaypointNavigationActivity.cs" />
+    <Compile Include="Activity\NavigationUI\SimplifiedCallback.cs" />
+    <Compile Include="Activity\NavigationUI\EmbeddedNavigationActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
