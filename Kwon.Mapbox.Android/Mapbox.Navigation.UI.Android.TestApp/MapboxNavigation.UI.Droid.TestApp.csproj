@@ -72,6 +72,10 @@
     <Compile Include="Activity\NavigationUI\DualNavigationMapActivity.cs" />
     <Compile Include="Activity\MockNavigationActivity.cs" />
     <Compile Include="Activity\Notification\CustomNavigationNotification.cs" />
+    <Compile Include="Activity\RerouteActivity.cs" />
+    <Compile Include="Activity\HistoryActivity.cs" />
+    <Compile Include="Activity\StoreHistoryTask.cs" />
+    <Compile Include="Activity\NavigationUI\NavigationMapRouteActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

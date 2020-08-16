@@ -49,16 +49,16 @@ namespace MapboxNavigation.UI.Droid.TestApp
                     GetString(Resource.String.description_mock_navigation),
                     typeof(MockNavigationActivity)
                 ),
-                //new SampleItem(
-                //    GetString(Resource.String.title_reroute),
-                //    GetString(Resource.String.description_reroute),
-                //    typeof(RerouteActivity)
-                //),
-                //new SampleItem(
-                //    GetString(Resource.String.title_navigation_route_ui),
-                //    GetString(Resource.String.description_navigation_route_ui),
-                //    typeof(NavigationMapRouteActivity)
-                //),
+                new SampleItem(
+                    GetString(Resource.String.title_reroute),
+                    GetString(Resource.String.description_reroute),
+                    typeof(RerouteActivity)
+                ),
+                new SampleItem(
+                    GetString(Resource.String.title_navigation_route_ui),
+                    GetString(Resource.String.description_navigation_route_ui),
+                    typeof(NavigationMapRouteActivity)
+                ),
                 //new SampleItem(
                 //    GetString(Resource.String.title_waypoint_navigation),
                 //    GetString(Resource.String.description_waypoint_navigation),
