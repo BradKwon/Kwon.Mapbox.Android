@@ -79,6 +79,10 @@
     <Compile Include="Activity\NavigationUI\WaypointNavigationActivity.cs" />
     <Compile Include="Activity\NavigationUI\SimplifiedCallback.cs" />
     <Compile Include="Activity\NavigationUI\EmbeddedNavigationActivity.cs" />
+    <Compile Include="Activity\NavigationUI\Fragment\FragmentNavigationActivity.cs" />
+    <Compile Include="Activity\NavigationUI\Fragment\PlaceholderFragment.cs" />
+    <Compile Include="Activity\NavigationUI\Fragment\NavigationFragment.cs" />
+    <Compile Include="Activity\NavigationUI\ComponentNavigationActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -413,6 +417,7 @@
     <Folder Include="Activity\" />
     <Folder Include="Activity\NavigationUI\" />
     <Folder Include="Activity\Notification\" />
+    <Folder Include="Activity\NavigationUI\Fragment\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />

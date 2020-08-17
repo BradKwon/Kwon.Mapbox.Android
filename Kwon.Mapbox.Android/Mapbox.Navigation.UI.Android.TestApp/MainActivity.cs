@@ -13,6 +13,7 @@ using AndroidX.RecyclerView.Widget;
 using Mapbox.Android.Core.Permissions;
 using MapboxNavigation.UI.Droid.TestApp.Activity;
 using MapboxNavigation.UI.Droid.TestApp.Activity.NavigationUI;
+using MapboxNavigation.UI.Droid.TestApp.Activity.NavigationUI.Fragment;
 
 namespace MapboxNavigation.UI.Droid.TestApp
 {
@@ -69,16 +70,16 @@ namespace MapboxNavigation.UI.Droid.TestApp
                     GetString(Resource.String.description_embedded_navigation),
                     typeof(EmbeddedNavigationActivity)
                 ),
-                //new SampleItem(
-                //    GetString(Resource.String.title_fragment_navigation),
-                //    GetString(Resource.String.description_fragment_navigation),
-                //    typeof(FragmentNavigationActivity)
-                //),
-                //new SampleItem(
-                //    GetString(Resource.String.title_component_navigation),
-                //    GetString(Resource.String.description_component_navigation),
-                //    typeof(ComponentNavigationActivity)
-                //),
+                new SampleItem(
+                    GetString(Resource.String.title_fragment_navigation),
+                    GetString(Resource.String.description_fragment_navigation),
+                    typeof(FragmentNavigationActivity)
+                ),
+                new SampleItem(
+                    GetString(Resource.String.title_component_navigation),
+                    GetString(Resource.String.description_component_navigation),
+                    typeof(ComponentNavigationActivity)
+                ),
             };
 
             // RecyclerView
