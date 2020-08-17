@@ -1,3 +1,3 @@
 ﻿<resources>
-    <string name="mapbox_access_token">pk.eyJ1IjoiYnJhZGt3b24iLCJhIjoiY2pnZjcxdm8zMGZ4ZDJ3bW9vcXRmdnhxaiJ9.L7ZKGkn7TzDDRA_qqOnIjg</string>
+    <string name="mapbox_access_token">YOUR_MAPBOX_ACCESS_TOKEN</string>
 </resources>
