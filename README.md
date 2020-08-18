@@ -24,3 +24,18 @@ Please see **[Mapbox docs](https://www.mapbox.com/android-docs/navigation/overvi
 
 ## Contribution
 Any contribution is welcome and if you would like to maintain this together, please ask me. Any messages are welcome :)
+
+#
+# Xamarin 안드로이드용 Mapbox 네비게이션 UI 바인딩
+
+## 설치 방법
+Nuget 패키지 검색창에서 아래 패키지 아이디를 검색하면 됩니다.
+> Kwon.Mapbox.Android.Navigation.UI
+
+바인딩 라이브러리와 함께 있는 TestApp 샘플 안드로이드 앱을 실행하기 위해서는 Mapbox 계정을 만들어야 하고 아래 경로에 있는 dev.xml 파일에서 access token 을 자기 계정의 access token 으로 바꿔주시면 됩니다.
+> access_token string value in Resources/values/dev.xml
+
+자세한 문서는 **[Mapbox docs](https://www.mapbox.com/android-docs/navigation/overview/)** 와 **`sample source code`** 를 참고하세요.
+
+## 참여하기
+이 바인딩을 같이 업데이트해 나가고 싶으신 분은 언제든 저한테 연락을 주세요. 그런 분이 있으시다면 언제나 환영입니다.
