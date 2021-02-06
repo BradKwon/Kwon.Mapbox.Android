@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!-- namespace -->
+    <attr path="/api/package[@name='com.mapbox.base.common.logger']" name="managedName">Mapbox.Base.Common.Logger</attr>
+    <attr path="/api/package[@name='com.mapbox.base.common.logger.model']" name="managedName">Mapbox.Base.Common.Logger.Model</attr>
+    <attr path="/api/package[@name='com.mapbox.common']" name="managedName">Mapbox.Common</attr>
+    <attr path="/api/package[@name='com.mapbox.common.module']" name="managedName">Mapbox.Common.Module</attr>
+    <attr path="/api/package[@name='com.mapbox.common.module.provider']" name="managedName">Mapbox.Common.Module.Provider</attr>
+</metadata>

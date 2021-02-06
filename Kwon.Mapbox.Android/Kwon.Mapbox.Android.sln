@@ -37,6 +37,24 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapboxNavigation.UI.Droid.T
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "legacy", "legacy", "{1673C43A-2E6E-4547-9F3B-28F253AB710A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Android.Base.Annotations", "Kwon.Mapbox.Android.Base.Annotations\Kwon.Mapbox.Android.Base.Annotations.csproj", "{BD7F7CEA-F605-4FC5-9124-79DE1D39AD4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Android.Base.Common", "Kwon.Mapbox.Android.Base.Common\Kwon.Mapbox.Android.Base.Common.csproj", "{B5559CEC-61AB-4647-AADE-263F1812B254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.MapboxSdk.Mapbox.Android.Core", "Kwon.Mapbox.MapboxSdk.Mapbox.Android.Core\Kwon.Mapbox.MapboxSdk.Mapbox.Android.Core.csproj", "{CAF87F08-89AF-449E-8C6C-B865BD0C7A1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.MapboxSdk.Mapbox.Sdk.Geojson", "Kwon.Mapbox.MapboxSdk.Mapbox.Sdk.Geojson\Kwon.Mapbox.MapboxSdk.Mapbox.Sdk.Geojson.csproj", "{61798F6F-B036-460D-BDC9-F2EC9DDAF7DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.MapboxSdk.Mapbox.Sdk.Directions.Models", "Kwon.Mapbox.MapboxSdk.Mapbox.Sdk.Directions.Models\Kwon.Mapbox.MapboxSdk.Mapbox.Sdk.Directions.Models.csproj", "{C9DFC389-12A4-4AB7-8BDA-C6EB9BE0BC8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Android.Navigation.Base", "Kwon.Mapbox.Android.Navigation.Base\Kwon.Mapbox.Android.Navigation.Base.csproj", "{8713303E-7500-498E-A060-CC9A6033A08F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Android.Bindgen.Support", "Kwon.Mapbox.Android.Bindgen.Support\Kwon.Mapbox.Android.Bindgen.Support.csproj", "{F7AB91A5-42FE-412A-BED1-7E16E3CC8488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Android.Common.Common", "Kwon.Mapbox.Android.Common.Common\Kwon.Mapbox.Android.Common.Common.csproj", "{3A330483-CC25-4392-AD2E-8D6EA52CACA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Android.Navigator.Mapbox.Navigation.Native", "Kwon.Mapbox.Android.Navigator.Mapbox.Navigation.Native\Kwon.Mapbox.Android.Navigator.Mapbox.Navigation.Native.csproj", "{7D40A622-BFD3-4F19-B6AC-9E8D2B815151}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +129,42 @@ Global
 		{B256DAB0-15BB-42B4-942E-60B40D64CE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B256DAB0-15BB-42B4-942E-60B40D64CE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B256DAB0-15BB-42B4-942E-60B40D64CE3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD7F7CEA-F605-4FC5-9124-79DE1D39AD4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD7F7CEA-F605-4FC5-9124-79DE1D39AD4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD7F7CEA-F605-4FC5-9124-79DE1D39AD4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD7F7CEA-F605-4FC5-9124-79DE1D39AD4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5559CEC-61AB-4647-AADE-263F1812B254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5559CEC-61AB-4647-AADE-263F1812B254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5559CEC-61AB-4647-AADE-263F1812B254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5559CEC-61AB-4647-AADE-263F1812B254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF87F08-89AF-449E-8C6C-B865BD0C7A1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF87F08-89AF-449E-8C6C-B865BD0C7A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF87F08-89AF-449E-8C6C-B865BD0C7A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF87F08-89AF-449E-8C6C-B865BD0C7A1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61798F6F-B036-460D-BDC9-F2EC9DDAF7DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61798F6F-B036-460D-BDC9-F2EC9DDAF7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61798F6F-B036-460D-BDC9-F2EC9DDAF7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61798F6F-B036-460D-BDC9-F2EC9DDAF7DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9DFC389-12A4-4AB7-8BDA-C6EB9BE0BC8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9DFC389-12A4-4AB7-8BDA-C6EB9BE0BC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9DFC389-12A4-4AB7-8BDA-C6EB9BE0BC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9DFC389-12A4-4AB7-8BDA-C6EB9BE0BC8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8713303E-7500-498E-A060-CC9A6033A08F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8713303E-7500-498E-A060-CC9A6033A08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8713303E-7500-498E-A060-CC9A6033A08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8713303E-7500-498E-A060-CC9A6033A08F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7AB91A5-42FE-412A-BED1-7E16E3CC8488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7AB91A5-42FE-412A-BED1-7E16E3CC8488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7AB91A5-42FE-412A-BED1-7E16E3CC8488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7AB91A5-42FE-412A-BED1-7E16E3CC8488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A330483-CC25-4392-AD2E-8D6EA52CACA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A330483-CC25-4392-AD2E-8D6EA52CACA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A330483-CC25-4392-AD2E-8D6EA52CACA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A330483-CC25-4392-AD2E-8D6EA52CACA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D40A622-BFD3-4F19-B6AC-9E8D2B815151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D40A622-BFD3-4F19-B6AC-9E8D2B815151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D40A622-BFD3-4F19-B6AC-9E8D2B815151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D40A622-BFD3-4F19-B6AC-9E8D2B815151}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C9CD7B9B-6974-4E30-94B1-046E211F0717} = {1673C43A-2E6E-4547-9F3B-28F253AB710A}
@@ -129,6 +183,5 @@ Global
 		{28864801-B2A7-4E69-920A-C78C0AA3F1AC} = {1673C43A-2E6E-4547-9F3B-28F253AB710A}
 		{802852E2-FAD8-4DCC-A9E8-8C7CA895A617} = {1673C43A-2E6E-4547-9F3B-28F253AB710A}
 		{A1300564-8927-4D97-BF05-91FECE646509} = {1673C43A-2E6E-4547-9F3B-28F253AB710A}
-		{B256DAB0-15BB-42B4-942E-60B40D64CE3B} = {1673C43A-2E6E-4547-9F3B-28F253AB710A}
 	EndGlobalSection
 EndGlobal

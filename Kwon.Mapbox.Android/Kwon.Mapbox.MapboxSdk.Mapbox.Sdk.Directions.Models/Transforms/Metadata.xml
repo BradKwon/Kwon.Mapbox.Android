@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!-- namespace -->
+    <attr path="/api/package[@name='com.mapbox.api.directions.v5']" name="managedName">Mapbox.Api.Directions.V5</attr>
+    <attr path="/api/package[@name='com.mapbox.api.directions.v5.models']" name="managedName">Mapbox.Api.Directions.V5.Models</attr>
+    <attr path="/api/package[@name='com.mapbox.api.directions.v5.utils']" name="managedName">Mapbox.Api.Directions.V5.Utils</attr>
+</metadata>
