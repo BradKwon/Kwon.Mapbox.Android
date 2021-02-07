@@ -13,4 +13,6 @@
     <attr path="/api/package[@name='com.mapbox.navigation.base.trip.model']" name="managedName">Mapbox.Navigation.Base.Trip.Model</attr>
     <attr path="/api/package[@name='com.mapbox.navigation.base.trip.notification']" name="managedName">Mapbox.Navigation.Base.Trip.Notification</attr>
     <attr path="/api/package[@name='com.mapbox.navigation.base.utils']" name="managedName">Mapbox.Navigation.Base.Utils</attr>
+    <!-- corrections -->
+    <!--<attr path="/api/package[@name='com.mapbox.navigation.base.trip.notification']/interface[@name='TripNotification']/method[@name='getNotification' and count(parameter)=0]" name="visibility">public</attr>-->
 </metadata>

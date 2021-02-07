@@ -19,16 +19,14 @@
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <PackageId>Kwon.Mapbox.Android.Base.Annotations</PackageId>
-    <PackageVersion>0.1.2</PackageVersion>
+    <PackageVersion>0.1.2.1</PackageVersion>
     <Authors>Brad Kwon</Authors>
     <PackageIconUrl>https://bradkwon.github.io/favicon.ico</PackageIconUrl>
     <PackageLicenseUrl>https://github.com/BradKwon/Kwon.Mapbox.Android/blob/master/LICENSE</PackageLicenseUrl>
     <Owners>Brad Kwon</Owners>
     <PackageProjectUrl>https://github.com/BradKwon/Kwon.Mapbox.Android</PackageProjectUrl>
-    <PackageReleaseNotes>com.mapbox.base.annotations v0.1.2 Xamarin.Android binding</PackageReleaseNotes>
-    <Summary>com.mapbox.base.annotations Xamarin.Android binding</Summary>
     <Title>Kwon.Mapbox.Android.Base.Annotations</Title>
-    <Description>com.mapbox.base.annotations Xamarin.Android binding</Description>
+    <Description>Mapbox Base Annotations binding for Xamarin.Android</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

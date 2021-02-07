@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!-- namespace -->
+    <attr path="/api/package[@name='com.mapbox.api.directionsrefresh.v1.models']" name="managedName">Mapbox.Api.Directionsrefresh.V1.Models</attr>
+</metadata>

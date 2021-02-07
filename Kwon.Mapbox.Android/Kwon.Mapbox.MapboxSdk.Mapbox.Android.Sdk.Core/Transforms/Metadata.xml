@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!-- namespace -->
+    <attr path="/api/package[@name='com.mapbox.core']" name="managedName">Mapbox.Core</attr>
+    <attr path="/api/package[@name='com.mapbox.core.constants']" name="managedName">Mapbox.Core.Constants</attr>
+    <attr path="/api/package[@name='com.mapbox.core.exceptions']" name="managedName">Mapbox.Core.Exceptions</attr>
+    <attr path="/api/package[@name='com.mapbox.core.internal']" name="managedName">Mapbox.Core.Internal</attr>
+    <attr path="/api/package[@name='com.mapbox.core.utils']" name="managedName">Mapbox.Core.Utils</attr>
+</metadata>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!-- namespace -->
+    <attr path="/api/package[@name='com.mapbox.navigation.navigator']" name="managedName">Mapbox.Navigation.Navigator</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.navigator.internal']" name="managedName">Mapbox.Navigation.Navigator.Internal</attr>
+</metadata>

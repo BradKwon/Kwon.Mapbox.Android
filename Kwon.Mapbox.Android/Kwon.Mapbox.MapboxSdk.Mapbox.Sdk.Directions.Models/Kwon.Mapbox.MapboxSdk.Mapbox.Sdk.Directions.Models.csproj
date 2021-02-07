@@ -19,16 +19,14 @@
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <PackageId>Kwon.Mapbox.MapboxSdk.Mapbox.Sdk.Directions.Models</PackageId>
-    <PackageVersion>5.4.1</PackageVersion>
+    <PackageVersion>5.4.1.1</PackageVersion>
     <Authors>Brad Kwon</Authors>
     <PackageIconUrl>https://bradkwon.github.io/favicon.ico</PackageIconUrl>
     <PackageLicenseUrl>https://github.com/BradKwon/Kwon.Mapbox.Android/blob/master/LICENSE</PackageLicenseUrl>
     <Owners>Brad Kwon</Owners>
     <PackageProjectUrl>https://github.com/BradKwon/Kwon.Mapbox.Android</PackageProjectUrl>
-    <PackageReleaseNotes>com.mapbox.mapboxsdk.mapbox-sdk-directions-models v5.4.1 Xamarin.Android binding</PackageReleaseNotes>
-    <Summary>com.mapbox.mapboxsdk.mapbox-sdk-directions-models v5.4.1 Xamarin.Android binding</Summary>
     <Title>Kwon.Mapbox.MapboxSdk.Mapbox.Sdk.Directions.Models</Title>
-    <Description>com.mapbox.mapboxsdk.mapbox-sdk-directions-models v5.4.1 Xamarin.Android binding</Description>
+    <Description>Mapbox Mapboxsdk mapbox-sdk-directions-models binding for Xamarin.Android</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -71,7 +69,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Kwon.Mapbox.MapboxSdk.Mapbox.Sdk.Geojson">
-      <Version>5.4.1</Version>
+      <Version>5.4.1.1</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.Annotation">
       <Version>1.0.2.1</Version>

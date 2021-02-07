@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!-- namespace -->
+    <attr path="/api/package[@name='com.mapbox.api.directions.v5']" name="managedName">Mapbox.Api.Directions.V5</attr>
+    <attr path="/api/package[@name='com.mapbox.api.directionsrefresh.v1']" name="managedName">Mapbox.Api.Directionsrefresh.V1</attr>
+    <attr path="/api/package[@name='com.mapbox.api.geocoding.v5.models']" name="managedName">Mapbox.Api.Geocoding.V5.Models</attr>
+    <attr path="/api/package[@name='com.mapbox.api.geocoding.v5']" name="managedName">Mapbox.Api.Geocoding.V5</attr>
+    <attr path="/api/package[@name='com.mapbox.api.isochrone']" name="managedName">Mapbox.Api.Isochrone</attr>
+    <attr path="/api/package[@name='com.mapbox.api.matching.v5']" name="managedName">Mapbox.Api.Matching.V5</attr>
+    <attr path="/api/package[@name='com.mapbox.api.matching.v5.models']" name="managedName">Mapbox.Api.Matching.V5.Models</attr>
+    <attr path="/api/package[@name='com.mapbox.api.matrix.v1']" name="managedName">Mapbox.Api.Matrix.V1</attr>
+    <attr path="/api/package[@name='com.mapbox.api.matrix.v1.models']" name="managedName">Mapbox.Api.Matrix.V1.Models</attr>
+    <attr path="/api/package[@name='com.mapbox.api.optimization.v1']" name="managedName">Mapbox.Api.Optimization.V1</attr>
+    <attr path="/api/package[@name='com.mapbox.api.optimization.v1.models']" name="managedName">Mapbox.Api.Optimization.V1.Models</attr>
+    <attr path="/api/package[@name='com.mapbox.api.routetiles.v1']" name="managedName">Mapbox.Api.Routetiles.V1</attr>
+    <attr path="/api/package[@name='com.mapbox.api.routetiles.v1.versions']" name="managedName">Mapbox.Api.Routetiles.V1.Versions</attr>
+    <attr path="/api/package[@name='com.mapbox.api.routetiles.v1.versions.models']" name="managedName">Mapbox.Api.Routetiles.V1.Versions.Models</attr>
+    <attr path="/api/package[@name='com.mapbox.api.speech.v1']" name="managedName">Mapbox.Api.Speech.V1</attr>
+    <attr path="/api/package[@name='com.mapbox.api.staticmap.v1']" name="managedName">Mapbox.Api.Staticmap.V1</attr>
+    <attr path="/api/package[@name='com.mapbox.api.staticmap.v1.models']" name="managedName">Mapbox.Api.Staticmap.V1.Models</attr>
+    <attr path="/api/package[@name='com.mapbox.api.tilequery']" name="managedName">Mapbox.Api.Tilequery</attr>
+    <!-- corrections -->
+    <attr path="/api/package[@name='com.mapbox.api.speech.v1']/class[@name='MapboxSpeech']/method[@name='getOkHttpClient' and count(parameter)=0]" name="visibility">protected</attr>
+    <remove-node path="/api/package[@name='com.mapbox.api.optimization.v1']/class[@name='MapboxOptimization']/method[@name='baseUrl' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='com.mapbox.api.directions.v5']/class[@name='MapboxDirections']/method[@name='baseUrl' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='com.mapbox.api.matching.v5']/class[@name='MapboxMapMatching']/method[@name='baseUrl' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='com.mapbox.api.speech.v1']/class[@name='MapboxSpeech']/method[@name='baseUrl' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='com.mapbox.api.geocoding.v5']/class[@name='MapboxGeocoding']/method[@name='baseUrl' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='com.mapbox.api.matrix.v1']/class[@name='MapboxMatrix']/method[@name='baseUrl' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='com.mapbox.api.routetiles.v1']/class[@name='MapboxRouteTiles']/method[@name='baseUrl' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='com.mapbox.api.directionsrefresh.v1']/class[@name='MapboxDirectionsRefresh']/method[@name='baseUrl' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='com.mapbox.api.routetiles.v1.versions']/class[@name='MapboxRouteTileVersions']/method[@name='baseUrl' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='com.mapbox.api.tilequery']/class[@name='MapboxTilequery']/method[@name='baseUrl' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='com.mapbox.api.isochrone']/class[@name='MapboxIsochrone']/method[@name='baseUrl' and count(parameter)=0]" />
+</metadata>
