@@ -1,4 +1,4 @@
-﻿namespace Com.Mapbox.Navigation.Trip.Notification.Internal
+﻿namespace Mapbox.Navigation.Trip.Notification.Internal
 {
     public sealed partial class MapboxTripNotification
     {

@@ -425,7 +425,7 @@
       <Version>1.2.0.1</Version>
     </PackageReference>
   <PackageReference Include="Kwon.Mapbox.Android.Navigation.UI">
-    <Version>0.42.6</Version>
+    <Version>1.0.1</Version>
   </PackageReference>
   <PackageReference Include="Xamarin.Google.Android.Material">
     <Version>1.0.0.1</Version>

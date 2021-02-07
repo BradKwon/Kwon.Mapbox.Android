@@ -18,6 +18,15 @@
     <AndroidClassParser>class-parse</AndroidClassParser>
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <PackageId>Kwon.Mapbox.Android.Navigation.Notification</PackageId>
+    <PackageVersion>1.0.1</PackageVersion>
+    <Authors>Brad Kwon</Authors>
+    <PackageIconUrl>https://bradkwon.github.io/favicon.ico</PackageIconUrl>
+    <PackageLicenseUrl>https://github.com/BradKwon/Kwon.Mapbox.Android/blob/master/LICENSE</PackageLicenseUrl>
+    <Owners>Brad Kwon</Owners>
+    <PackageProjectUrl>https://github.com/BradKwon/Kwon.Mapbox.Android</PackageProjectUrl>
+    <Title>Kwon.Mapbox.Android.Navigation.Notification</Title>
+    <Description>Mapbox Navigation Notification binding for Xamarin.Android</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

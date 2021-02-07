@@ -1,41 +1,47 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
     <!-- namespace -->
-    <attr path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.alert']" name="managedName">Mapbox.Services.Android.Navigation.UI.V5.Alert</attr>
-    <attr path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5']" name="managedName">Mapbox.Services.Android.Navigation.UI.V5</attr>
-    <attr path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.listeners']" name="managedName">Mapbox.Services.Android.Navigation.UI.V5.Listeners</attr>
-    <attr path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.camera']" name="managedName">Mapbox.Services.Android.Navigation.UI.V5.Camera</attr>
-    <attr path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.feedback']" name="managedName">Mapbox.Services.Android.Navigation.UI.V5.Feedback</attr>
-    <attr path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.instruction']" name="managedName">Mapbox.Services.Android.Navigation.UI.V5.Instruction</attr>
-    <attr path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.instruction.maneuver']" name="managedName">Mapbox.Services.Android.Navigation.UI.V5.Instruction.Maneuver</attr>
-    <attr path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.instruction.turnlane']" name="managedName">Mapbox.Services.Android.Navigation.UI.V5.Instruction.Turnlane</attr>
-    <attr path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.map']" name="managedName">Mapbox.Services.Android.Navigation.UI.V5.Map</attr>
-    <attr path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.route']" name="managedName">Mapbox.Services.Android.Navigation.UI.V5.Route</attr>
-    <attr path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.summary.list']" name="managedName">Mapbox.Services.Android.Navigation.UI.V5.Summary.List</attr>
-    <attr path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.summary']" name="managedName">Mapbox.Services.Android.Navigation.UI.V5.Summary</attr>
-    <attr path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.utils']" name="managedName">Mapbox.Services.Android.Navigation.UI.V5.Utils</attr>
-    <attr path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.voice']" name="managedName">Mapbox.Services.Android.Navigation.UI.V5.Voice</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.ui']" name="managedName">Mapbox.Navigation.Ui</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.ui.alert']" name="managedName">Mapbox.Navigation.Ui.Alert</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.ui.camera']" name="managedName">Mapbox.Navigation.Ui.Camera</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.ui.feedback']" name="managedName">Mapbox.Navigation.Ui.Feedback</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.ui.internal']" name="managedName">Mapbox.Navigation.Ui.Internal</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.ui.internal.instruction']" name="managedName">Mapbox.Navigation.Ui.Internal.Instruction</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.ui.internal.instruction.turnlane']" name="managedName">Mapbox.Navigation.Ui.Internal.Instruction.Turnlane</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.ui.instruction']" name="managedName">Mapbox.Navigation.Ui.Instruction</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.ui.instruction.maneuver']" name="managedName">Mapbox.Navigation.Ui.Instruction.Maneuver</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.ui.instruction.turnlane']" name="managedName">Mapbox.Navigation.Ui.Instruction.Turnlane</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.ui.internal.route']" name="managedName">Mapbox.Navigation.Ui.Internal.Route</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.ui.internal.summary']" name="managedName">Mapbox.Navigation.Ui.Internal.Summary</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.ui.internal.utils']" name="managedName">Mapbox.Navigation.Ui.Internal.Utils</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.ui.listeners']" name="managedName">Mapbox.Navigation.Ui.Listeners</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.ui.map.building']" name="managedName">Mapbox.Navigation.Ui.Map.Building</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.ui.map']" name="managedName">Mapbox.Navigation.Ui.Map</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.ui.puck']" name="managedName">Mapbox.Navigation.Ui.Puck</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.ui.route']" name="managedName">Mapbox.Navigation.Ui.Route</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.ui.summary']" name="managedName">Mapbox.Navigation.Ui.Summary</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.ui.voice']" name="managedName">Mapbox.Navigation.Ui.Voice</attr>
     
     <!-- corrections -->
-    <add-node path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.summary.list']/class[@name='InstructionListAdapter']">
+    <add-node path="/api/package[@name='com.mapbox.navigation.ui.internal.summary']/class[@name='InstructionListAdapter']">
         <method abstract="false" deprecated="not deprecated" final="false" name="onBindViewHolder" native="false" return="void" static="false" synchronized="false" visibility="public">
-            <parameter name="viewHolder" type="android.support.v7.widget.RecyclerView.ViewHolder">
+            <parameter name="viewHolder" type="androidx.recyclerview.widget.RecyclerView.ViewHolder">
             </parameter>
             <parameter name="position" type="int">
             </parameter>
         </method>
     </add-node>
-    <add-node path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.feedback']/class[@name='FeedbackAdapter']">
+    <add-node path="/api/package[@name='com.mapbox.navigation.ui.feedback']/class[@name='FeedbackAdapter']">
         <method abstract="false" deprecated="not deprecated" final="false" name="onBindViewHolder" native="false" return="void" static="false" synchronized="false" visibility="public">
-            <parameter name="viewHolder" type="android.support.v7.widget.RecyclerView.ViewHolder">
+            <parameter name="viewHolder" type="androidx.recyclerview.widget.RecyclerView.ViewHolder">
             </parameter>
             <parameter name="position" type="int">
             </parameter>
         </method>
     </add-node>
-    <add-node path="/api/package[@name='com.mapbox.services.android.navigation.ui.v5.instruction.turnlane']/class[@name='TurnLaneAdapter']">
+    <add-node path="/api/package[@name='com.mapbox.navigation.ui.internal.instruction.turnlane']/class[@name='TurnLaneAdapter']">
         <method abstract="false" deprecated="not deprecated" final="false" name="onBindViewHolder" native="false" return="void" static="false" synchronized="false" visibility="public">
-            <parameter name="viewHolder" type="android.support.v7.widget.RecyclerView.ViewHolder">
+            <parameter name="viewHolder" type="androidx.recyclerview.widget.RecyclerView.ViewHolder">
             </parameter>
             <parameter name="position" type="int">
             </parameter>

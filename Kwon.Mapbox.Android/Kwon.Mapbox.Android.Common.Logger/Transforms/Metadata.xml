@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!-- namespace -->
+    <attr path="/api/package[@name='com.mapbox.common.logger']" name="managedName">Mapbox.Common.Logger</attr>
+    <attr path="/api/package[@name='com.mapbox.module']" name="managedName">Mapbox.Module</attr>
+</metadata>

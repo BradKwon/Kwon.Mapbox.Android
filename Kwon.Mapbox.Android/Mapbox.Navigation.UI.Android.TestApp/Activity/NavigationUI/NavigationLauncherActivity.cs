@@ -27,12 +27,8 @@ using Mapbox.Mapboxsdk.Exceptions;
 using Mapbox.Mapboxsdk.Geometry;
 using Mapbox.Mapboxsdk.Location.Modes;
 using Mapbox.Mapboxsdk.Maps;
-using Mapbox.Services.Android.Navigation.UI.V5;
-using Mapbox.Services.Android.Navigation.UI.V5.Camera;
-using Mapbox.Services.Android.Navigation.UI.V5.Map;
-using Mapbox.Services.Android.Navigation.UI.V5.Route;
-using Mapbox.Services.Android.Navigation.V5.Navigation;
-using Mapbox.Services.Android.Navigation.V5.Utils;
+using Mapbox.Navigation.Ui.Map;
+using Mapbox.Navigation.Ui.Route;
 using Square.Retrofit2;
 using TimberLog;
 

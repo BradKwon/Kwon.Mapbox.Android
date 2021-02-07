@@ -1,4 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
     <!-- namespace -->
+    <attr path="/api/package[@name='com.mapbox.module']" name="managedName">Mapbox.Module</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.trip.notification']" name="managedName">Mapbox.Navigation.Trip.Notification</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.trip.notification.internal.maneuver']" name="managedName">Mapbox.Navigation.Trip.Notification.Internal.Maneuver</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.trip.notification.internal']" name="managedName">Mapbox.Navigation.Trip.Notification.Internal</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.trip.notification.time']" name="managedName">Mapbox.Navigation.Trip.Notification.Time</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.trip.notification.time.span']" name="managedName">Mapbox.Navigation.Trip.Notification.Time.Span</attr>
+    
+    <!-- correction -->
+    <attr path="/api/package[@name='com.mapbox.navigation.trip.notification.time.span']/interface[@name='SpanItem']" name="visibility">public</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.trip.notification.time']/interface[@name='TimeFormatResolver']" name="visibility">public</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.trip.notification.internal.maneuver']/class[@name='PaintCodeDashPathEffect']" name="visibility">public</attr>
 </metadata>

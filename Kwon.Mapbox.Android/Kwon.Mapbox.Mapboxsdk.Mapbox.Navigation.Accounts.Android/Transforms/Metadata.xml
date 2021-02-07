@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!-- namespace -->
+    <attr path="/api/package[@name='com.mapbox.android.accounts.navigation.sku.v1']" name="managedName">Mapbox.Android.Accounts.Navigation.Sku.V1</attr>
+</metadata>

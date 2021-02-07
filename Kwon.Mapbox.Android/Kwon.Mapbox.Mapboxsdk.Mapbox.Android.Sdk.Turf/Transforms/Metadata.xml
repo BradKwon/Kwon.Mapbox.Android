@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!-- namespace -->
+    <attr path="/api/package[@name='com.mapbox.turf']" name="managedName">Mapbox.Turf</attr>
+    <attr path="/api/package[@name='com.mapbox.turf.models']" name="managedName">Mapbox.Turf.Models</attr>
+</metadata>

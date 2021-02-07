@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!-- namespace -->
+    <attr path="/api/package[@name='com.mapbox.navigation.core.arrival']" name="managedName">Mapbox.Navigation.Core.Arrival</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.core']" name="managedName">Mapbox.Navigation.Core</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.core.directions.session']" name="managedName">Mapbox.Navigation.Core.Directions.Session</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.core.fasterroute']" name="managedName">Mapbox.Navigation.Core.Fasterroute</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.core.internal.accounts']" name="managedName">Mapbox.Navigation.Core.Internal.Accounts</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.core.internal.formatter']" name="managedName">Mapbox.Navigation.Core.Internal.Formatter</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.core.replay.history']" name="managedName">Mapbox.Navigation.Core.Replay.History</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.core.replay']" name="managedName">Mapbox.Navigation.Core.Replay</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.core.replay.route']" name="managedName">Mapbox.Navigation.Core.Replay.Route</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.core.reroute']" name="managedName">Mapbox.Navigation.Core.Reroute</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.core.routeoptions']" name="managedName">Mapbox.Navigation.Core.Routeoptions</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.core.sensors']" name="managedName">Mapbox.Navigation.Core.Sensors</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.core.telemetry.events']" name="managedName">Mapbox.Navigation.Core.Telemetry.Events</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.core.telemetry']" name="managedName">Mapbox.Navigation.Core.Telemetry</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.core.trip.session']" name="managedName">Mapbox.Navigation.Core.Trip.Session</attr>
+</metadata>

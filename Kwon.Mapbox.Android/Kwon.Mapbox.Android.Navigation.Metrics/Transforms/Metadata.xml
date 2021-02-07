@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!-- namespace -->
+    <attr path="/api/package[@name='com.mapbox.navigation.metrics']" name="managedName">Mapbox.Navigation.Metrics</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.metrics.extensions']" name="managedName">Mapbox.Navigation.Metrics.Extensions</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.metrics.internal.event']" name="managedName">Mapbox.Navigation.Metrics.Internal.Event</attr>
+</metadata>

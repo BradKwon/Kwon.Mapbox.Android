@@ -101,6 +101,7 @@
   </ItemGroup>
   <ItemGroup>
     <LibraryProjectZip Include="Jars\router-1.0.1.aar" />
+    <LibraryProjectZip Include="metrics-1.0.1.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

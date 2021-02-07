@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!-- namespace -->
+    <attr path="/api/package[@name='com.mapbox.android.accounts.v1']" name="managedName">Mapbox.Android.Accounts.V1</attr>
+</metadata>
