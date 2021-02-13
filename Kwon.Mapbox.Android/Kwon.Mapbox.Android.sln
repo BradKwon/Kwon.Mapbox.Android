@@ -33,8 +33,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Android.Plugin.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Android.Navigation.UI", "Kwon.Mapbox.Android.Navigation.UI\Kwon.Mapbox.Android.Navigation.UI.csproj", "{92B60ACA-0D70-4A83-8C0F-D0FA11938D67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapboxNavigation.UI.Droid.TestApp", "Mapbox.Navigation.UI.Android.TestApp\MapboxNavigation.UI.Droid.TestApp.csproj", "{B256DAB0-15BB-42B4-942E-60B40D64CE3B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "legacy", "legacy", "{1673C43A-2E6E-4547-9F3B-28F253AB710A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Android.Base.Annotations", "Kwon.Mapbox.Android.Base.Annotations\Kwon.Mapbox.Android.Base.Annotations.csproj", "{BD7F7CEA-F605-4FC5-9124-79DE1D39AD4F}"
@@ -90,6 +88,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Mapboxsdk.Mapbox.Android.Sdk", "Kwon.Mapbox.Mapboxsdk.Mapbox.Android.Sdk\Kwon.Mapbox.Mapboxsdk.Mapbox.Android.Sdk.csproj", "{77FFA051-15DF-4EB5-9624-B27E0AD34A0D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwon.Mapbox.Mapboxsdk.Mapbox.Android.Plugin.Annotation.V9", "Kwon.Mapbox.Mapboxsdk.Mapbox.Android.Plugin.Annotation.V9\Kwon.Mapbox.Mapboxsdk.Mapbox.Android.Plugin.Annotation.V9.csproj", "{DB0448E3-5396-42CE-B187-2205717BEF7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapboxNavigation.UI.Droid.TestApp.Legacy", "Mapbox.Navigation.UI.Android.TestApp.Legacy\MapboxNavigation.UI.Droid.TestApp.Legacy.csproj", "{FA6CCE51-8B16-42C1-A419-5A7838D39FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapboxNavigation.UI.Droid.TestApp", "Mapbox.Navigation.UI.Android.TestApp\MapboxNavigation.UI.Droid.TestApp.csproj", "{B256DAB0-15BB-42B4-942E-60B40D64CE3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -161,10 +163,6 @@ Global
 		{92B60ACA-0D70-4A83-8C0F-D0FA11938D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92B60ACA-0D70-4A83-8C0F-D0FA11938D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92B60ACA-0D70-4A83-8C0F-D0FA11938D67}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B256DAB0-15BB-42B4-942E-60B40D64CE3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B256DAB0-15BB-42B4-942E-60B40D64CE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B256DAB0-15BB-42B4-942E-60B40D64CE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B256DAB0-15BB-42B4-942E-60B40D64CE3B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BD7F7CEA-F605-4FC5-9124-79DE1D39AD4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BD7F7CEA-F605-4FC5-9124-79DE1D39AD4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD7F7CEA-F605-4FC5-9124-79DE1D39AD4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -273,6 +271,14 @@ Global
 		{DB0448E3-5396-42CE-B187-2205717BEF7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB0448E3-5396-42CE-B187-2205717BEF7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB0448E3-5396-42CE-B187-2205717BEF7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA6CCE51-8B16-42C1-A419-5A7838D39FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA6CCE51-8B16-42C1-A419-5A7838D39FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA6CCE51-8B16-42C1-A419-5A7838D39FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA6CCE51-8B16-42C1-A419-5A7838D39FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B256DAB0-15BB-42B4-942E-60B40D64CE3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B256DAB0-15BB-42B4-942E-60B40D64CE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B256DAB0-15BB-42B4-942E-60B40D64CE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B256DAB0-15BB-42B4-942E-60B40D64CE3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C9CD7B9B-6974-4E30-94B1-046E211F0717} = {1673C43A-2E6E-4547-9F3B-28F253AB710A}
@@ -290,5 +296,6 @@ Global
 		{28864801-B2A7-4E69-920A-C78C0AA3F1AC} = {1673C43A-2E6E-4547-9F3B-28F253AB710A}
 		{802852E2-FAD8-4DCC-A9E8-8C7CA895A617} = {1673C43A-2E6E-4547-9F3B-28F253AB710A}
 		{A1300564-8927-4D97-BF05-91FECE646509} = {1673C43A-2E6E-4547-9F3B-28F253AB710A}
+		{FA6CCE51-8B16-42C1-A419-5A7838D39FA5} = {1673C43A-2E6E-4547-9F3B-28F253AB710A}
 	EndGlobalSection
 EndGlobal
