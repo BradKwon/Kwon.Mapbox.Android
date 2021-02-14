@@ -19,7 +19,7 @@
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <PackageId>Kwon.Mapbox.Android.Navigation.Core</PackageId>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.1.1</PackageVersion>
     <Authors>Brad Kwon</Authors>
     <PackageIconUrl>https://bradkwon.github.io/favicon.ico</PackageIconUrl>
     <PackageLicenseUrl>https://github.com/BradKwon/Kwon.Mapbox.Android/blob/master/LICENSE</PackageLicenseUrl>
@@ -72,10 +72,10 @@
       <Version>1.0.1.1</Version>
     </PackageReference>
     <PackageReference Include="Kwon.Mapbox.Android.Navigation.Router">
-      <Version>1.0.1</Version>
+      <Version>1.0.1.1</Version>
     </PackageReference>
     <PackageReference Include="Kwon.Mapbox.Android.Navigation.Notification">
-      <Version>1.0.1</Version>
+      <Version>1.0.1.1</Version>
     </PackageReference>
     <PackageReference Include="Kwon.Mapbox.Android.Common.Logger">
       <Version>0.1.2</Version>
@@ -84,13 +84,13 @@
       <Version>0.1.2.1</Version>
     </PackageReference>
     <PackageReference Include="Kwon.Mapbox.Android.Navigation.Utils">
-      <Version>1.0.1.1</Version>
+      <Version>1.0.1.2</Version>
     </PackageReference>
     <PackageReference Include="Kwon.Mapbox.Android.Navigation.Navigator">
-      <Version>1.0.1.1</Version>
+      <Version>1.0.1.2</Version>
     </PackageReference>
     <PackageReference Include="Kwon.Mapbox.Android.Navigation.Metrics">
-      <Version>1.0.1</Version>
+      <Version>1.0.1.1</Version>
     </PackageReference>
     <PackageReference Include="Kwon.Mapbox.Mapboxsdk.Mapbox.Navigation.Accounts.Android">
       <Version>0.4.0</Version>
@@ -100,9 +100,6 @@
     </PackageReference>
     <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk8">
       <Version>1.4.20</Version>
-    </PackageReference>
-    <PackageReference Include="Karamunting.KotlinX.Coroutines.Android">
-      <Version>1.3.9</Version>
     </PackageReference>
     <PackageReference Include="NuGet.Build.Packaging">
       <Version>0.2.2</Version>

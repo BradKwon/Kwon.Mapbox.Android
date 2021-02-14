@@ -19,7 +19,7 @@
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <PackageId>Kwon.Mapbox.Android.Navigation.UI</PackageId>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.1.1</PackageVersion>
     <Authors>Brad Kwon</Authors>
     <PackageLicenseUrl>https://github.com/BradKwon/Kwon.Mapbox.Android/blob/master/LICENSE</PackageLicenseUrl>
     <Owners>Brad Kwon</Owners>
@@ -83,7 +83,7 @@
       <Version>4.7.1</Version>
     </PackageReference>
     <PackageReference Include="Kwon.Mapbox.Android.Navigation.Core">
-      <Version>1.0.1</Version>
+      <Version>1.0.1.1</Version>
     </PackageReference>
     <PackageReference Include="Kwon.Mapbox.Mapboxsdk.Mapbox.Android.Sdk">
       <Version>9.3.1</Version>
@@ -101,7 +101,7 @@
       <Version>1.0.1.1</Version>
     </PackageReference>
     <PackageReference Include="Kwon.Mapbox.Android.Navigation.Notification">
-      <Version>1.0.1</Version>
+      <Version>1.0.1.1</Version>
     </PackageReference>
     <PackageReference Include="Kwon.Mapbox.MapboxSdk.Mapbox.Android.Sdk.Services">
       <Version>5.4.1</Version>

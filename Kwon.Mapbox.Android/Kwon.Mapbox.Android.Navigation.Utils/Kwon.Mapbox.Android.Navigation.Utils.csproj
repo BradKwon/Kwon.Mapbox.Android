@@ -19,7 +19,7 @@
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <PackageId>Kwon.Mapbox.Android.Navigation.Utils</PackageId>
-    <PackageVersion>1.0.1.1</PackageVersion>
+    <PackageVersion>1.0.1.2</PackageVersion>
     <Authors>Brad Kwon</Authors>
     <PackageIconUrl>https://bradkwon.github.io/favicon.ico</PackageIconUrl>
     <PackageLicenseUrl>https://github.com/BradKwon/Kwon.Mapbox.Android/blob/master/LICENSE</PackageLicenseUrl>
@@ -70,9 +70,6 @@
     </PackageReference>
     <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk8">
       <Version>1.4.20</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.KotlinX.Coroutines.CoroutinesAndroid">
-      <Version>1.3.4</Version>
     </PackageReference>
     <PackageReference Include="NuGet.Build.Packaging">
       <Version>0.2.2</Version>

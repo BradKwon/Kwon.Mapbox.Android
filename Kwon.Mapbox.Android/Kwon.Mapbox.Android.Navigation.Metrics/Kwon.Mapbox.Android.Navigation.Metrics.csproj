@@ -19,7 +19,7 @@
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <PackageId>Kwon.Mapbox.Android.Navigation.Metrics</PackageId>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.1.1</PackageVersion>
     <Authors>Brad Kwon</Authors>
     <PackageIconUrl>https://bradkwon.github.io/favicon.ico</PackageIconUrl>
     <PackageLicenseUrl>https://github.com/BradKwon/Kwon.Mapbox.Android/blob/master/LICENSE</PackageLicenseUrl>
@@ -68,13 +68,10 @@
       <Version>1.0.1.1</Version>
     </PackageReference>
     <PackageReference Include="Kwon.Mapbox.Android.Navigation.Utils">
-      <Version>1.0.1.1</Version>
+      <Version>1.0.1.2</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk8">
       <Version>1.4.20</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.KotlinX.Coroutines.CoroutinesAndroid">
-      <Version>1.3.4</Version>
     </PackageReference>
     <PackageReference Include="Kwon.Mapbox.Mapboxsdk.Mapbox.Android.Telemetry">
       <Version>6.1.0</Version>

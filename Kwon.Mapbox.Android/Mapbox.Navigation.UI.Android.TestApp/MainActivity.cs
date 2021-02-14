@@ -46,8 +46,8 @@ namespace MapboxNavigation.UI.Droid.TestApp
             }
 
             settingsFab.Click += (s, e) => StartActivity(new Intent(this, typeof(NavigationSettingsActivity)));
-            cardCore.Click += (s, e) => StartActivity(new Intent(this, typeof(CoreActivity)));
-            cardUI.Click += (s, e) => StartActivity(new Intent(this, typeof(UIActivity)));
+            //cardCore.Click += (s, e) => StartActivity(new Intent(this, typeof(CoreActivity)));
+            //cardUI.Click += (s, e) => StartActivity(new Intent(this, typeof(UIActivity)));
         }
 
         public override void OnRequestPermissionsResult(int requestCode,

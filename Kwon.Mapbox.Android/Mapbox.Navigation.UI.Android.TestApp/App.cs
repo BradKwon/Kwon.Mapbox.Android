@@ -3,6 +3,7 @@ using Android.App;
 using Android.OS;
 using Android.Runtime;
 using Android.Text;
+using Mapbox.Common.Logger;
 
 namespace MapboxNavigation.UI.Droid.TestApp
 {
@@ -17,7 +18,7 @@ namespace MapboxNavigation.UI.Droid.TestApp
         {
             base.OnCreate();
             SetupTimber();
-            //SetupStrictMode();
+            SetupStrictMode();
             SetupCanary();
             SetupMapbox();
         }
