@@ -19,6 +19,7 @@ namespace MapboxNavigation.UI.Droid.TestApp
     public class MainActivity : AppCompatActivity, IPermissionsListener
     {
         private PermissionsManager permissionsManager;
+        const int CHANGE_SETTING_REQUEST_CODE = 1001;
 
         [BindView(Resource.Id.settingsFab)]
         FloatingActionButton settingsFab;
@@ -45,7 +46,7 @@ namespace MapboxNavigation.UI.Droid.TestApp
                 RequestPermissionsIfNotGranted(Android.Manifest.Permission.WriteExternalStorage);
             }
 
-            settingsFab.Click += (s, e) => StartActivity(new Intent(this, typeof(NavigationSettingsActivity)));
+            settingsFab.Click += (s, e) => StartActivityForResult(new Intent(this, typeof(NavigationSettingsActivity)), CHANGE_SETTING_REQUEST_CODE);
             //cardCore.Click += (s, e) => StartActivity(new Intent(this, typeof(CoreActivity)));
             //cardUI.Click += (s, e) => StartActivity(new Intent(this, typeof(UIActivity)));
         }

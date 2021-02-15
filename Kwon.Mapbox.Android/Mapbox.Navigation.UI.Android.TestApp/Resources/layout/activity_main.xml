@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     android:background="#F7F7F7"
-    tools:context="com.mapbox.navigation.examples.MainActivity">
+    tools:context="MapboxNavigation.UI.Droid.TestApp.MainActivity">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardCore"

@@ -4,6 +4,8 @@ using Android.OS;
 using Android.Runtime;
 using Android.Text;
 using AndroidX.AppCompat.App;
+using Mapbox.Common.Logger;
+using Mapbox.Navigation.Navigator.Internal;
 using TimberLog;
 
 namespace MapboxNavigation.UI.Droid.TestApp
@@ -62,7 +64,7 @@ namespace MapboxNavigation.UI.Droid.TestApp
             var mapboxAccessToken = Utils.GetMapboxAccessToken(ApplicationContext);
             if (TextUtils.IsEmpty(mapboxAccessToken))
             {
-                TimberLog.Timber.W("Mapbox access token isn't set!");
+                MapboxLogger.Instance.W(new Mapbox.Base.Common.Logger.Model.Message("Mapbox access token isn't set!"));
             }
             Mapbox.Mapboxsdk.Mapbox.GetInstance(ApplicationContext, mapboxAccessToken);
         }

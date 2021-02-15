@@ -19,7 +19,7 @@
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <PackageId>Kwon.Mapbox.Android.Navigator.Mapbox.Navigation.Native</PackageId>
-    <PackageVersion>18.0.3.1</PackageVersion>
+    <PackageVersion>18.0.3.2</PackageVersion>
     <Authors>Brad Kwon</Authors>
     <PackageIconUrl>https://bradkwon.github.io/favicon.ico</PackageIconUrl>
     <PackageLicenseUrl>https://github.com/BradKwon/Kwon.Mapbox.Android/blob/master/LICENSE</PackageLicenseUrl>
@@ -70,10 +70,10 @@
       <Version>1.1.0.8</Version>
     </PackageReference>
     <PackageReference Include="Kwon.Mapbox.Android.Bindgen.Support">
-      <Version>1.0.0</Version>
+      <Version>2.0.0.1</Version>
     </PackageReference>
     <PackageReference Include="Kwon.Mapbox.Android.Common.Common">
-      <Version>4.0.0.1</Version>
+      <Version>4.0.0.3</Version>
     </PackageReference>
     <PackageReference Include="NuGet.Build.Packaging">
       <Version>0.2.2</Version>

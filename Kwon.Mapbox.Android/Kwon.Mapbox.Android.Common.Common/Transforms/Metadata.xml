@@ -3,4 +3,5 @@
     <!-- namespace -->
     <attr path="/api/package[@name='com.mapbox.common.core']" name="managedName">Mapbox.Common.Core</attr>
     <attr path="/api/package[@name='com.mapbox.common']" name="managedName">Mapbox.Common</attr>
+    <attr path="/api/package[@name='com.mapbox.common']/class[@name='Logger']" name="managedName">CLogger</attr>
 </metadata>
