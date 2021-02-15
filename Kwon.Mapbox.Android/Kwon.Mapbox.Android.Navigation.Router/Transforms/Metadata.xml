@@ -6,4 +6,5 @@
     <attr path="/api/package[@name='com.mapbox.navigation.route.internal.hybrid']" name="managedName">Mapbox.Navigation.Route.Internal.Hybrid</attr>
     <attr path="/api/package[@name='com.mapbox.navigation.route.internal.offboard']" name="managedName">Mapbox.Navigation.Route.Internal.Offboard</attr>
     <attr path="/api/package[@name='com.mapbox.navigation.route.offboard.router']" name="managedName">Mapbox.Navigation.Route.Offboard.Router</attr>
+    <attr path="/api/package[@name='com.mapbox.navigation.route.internal.onboard']" name="managedName">Mapbox.Navigation.Route.Internal.Onboard</attr>
 </metadata>

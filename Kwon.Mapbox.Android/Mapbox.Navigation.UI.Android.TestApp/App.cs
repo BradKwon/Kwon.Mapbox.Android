@@ -3,7 +3,8 @@ using Android.App;
 using Android.OS;
 using Android.Runtime;
 using Android.Text;
-using Mapbox.Common.Logger;
+using AndroidX.AppCompat.App;
+using TimberLog;
 
 namespace MapboxNavigation.UI.Droid.TestApp
 {
@@ -17,6 +18,7 @@ namespace MapboxNavigation.UI.Droid.TestApp
         public override void OnCreate()
         {
             base.OnCreate();
+            AppCompatDelegate.CompatVectorFromResourcesEnabled = true;
             SetupTimber();
             SetupStrictMode();
             SetupCanary();
@@ -26,7 +28,7 @@ namespace MapboxNavigation.UI.Droid.TestApp
         private void SetupTimber()
         {
 #if DEBUG
-            TimberLog.Timber.Plant(new TimberLog.Timber.DebugTree());
+            Timber.Plant(new Timber.DebugTree());
 #endif
         }
 
