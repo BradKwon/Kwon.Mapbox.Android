@@ -9,7 +9,6 @@ using AndroidX.AppCompat.App;
 using AndroidX.CardView.Widget;
 using AndroidX.Core.App;
 using AndroidX.Core.Content;
-using CheeseBind;
 using Google.Android.Material.FloatingActionButton;
 using Mapbox.Android.Core.Permissions;
 
@@ -21,19 +20,18 @@ namespace MapboxNavigation.UI.Droid.TestApp
         private PermissionsManager permissionsManager;
         const int CHANGE_SETTING_REQUEST_CODE = 1001;
 
-        [BindView(Resource.Id.settingsFab)]
         FloatingActionButton settingsFab;
-
-        [BindView(Resource.Id.cardCore)]
         CardView cardCore;
-
-        [BindView(Resource.Id.cardUI)]
         CardView cardUI;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
+
+            settingsFab = FindViewById<FloatingActionButton>(Resource.Id.settingsFab);
+            cardCore = FindViewById<CardView>(Resource.Id.cardCore);
+            cardUI = FindViewById<CardView>(Resource.Id.cardUI);
 
             // Check for location permission
             permissionsManager = new PermissionsManager(this);
@@ -46,7 +44,12 @@ namespace MapboxNavigation.UI.Droid.TestApp
                 RequestPermissionsIfNotGranted(Android.Manifest.Permission.WriteExternalStorage);
             }
 
-            settingsFab.Click += (s, e) => StartActivityForResult(new Intent(this, typeof(NavigationSettingsActivity)), CHANGE_SETTING_REQUEST_CODE);
+            settingsFab.Click += (s, e) =>
+            {
+                StartActivityForResult(new Intent(this,
+                    typeof(NavigationSettingsActivity)),
+                    CHANGE_SETTING_REQUEST_CODE);
+            };
             //cardCore.Click += (s, e) => StartActivity(new Intent(this, typeof(CoreActivity)));
             //cardUI.Click += (s, e) => StartActivity(new Intent(this, typeof(UIActivity)));
         }
@@ -68,11 +71,14 @@ namespace MapboxNavigation.UI.Droid.TestApp
             }
             else
             {
-                bool granted = grantResults.Length > 0 && grantResults[0] == Permission.Granted;
+                bool granted = grantResults.Length > 0 &&
+                                grantResults[0] == Permission.Granted;
                 if (!granted)
                 {
                     cardCore.Clickable = false;
-                    Toast.MakeText(this, "You didn't grant storage permissions.", ToastLength.Long).Show();
+                    Toast.MakeText(this,
+                        "You didn't grant storage permissions.",
+                        ToastLength.Long).Show();
                 }
                 else
                 {
@@ -96,7 +102,9 @@ namespace MapboxNavigation.UI.Droid.TestApp
             }
             else
             {
-                Toast.MakeText(this, "You didn't grant location permissions.", ToastLength.Long).Show();
+                Toast.MakeText(this,
+                    "You didn't grant location permissions.",
+                    ToastLength.Long).Show();
             }
         }
 
