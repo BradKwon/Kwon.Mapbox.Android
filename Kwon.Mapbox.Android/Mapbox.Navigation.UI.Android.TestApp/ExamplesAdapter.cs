@@ -16,6 +16,7 @@ namespace MapboxNavigation.UI.Droid.TestApp
         public ExamplesAdapter(Context appContext, Action<int> itemClickAction)
         {
             inflater = LayoutInflater.From(appContext);
+            itemList = new List<SampleItem>();
             this.itemClickAction = itemClickAction;
         }
 
@@ -49,6 +50,7 @@ namespace MapboxNavigation.UI.Droid.TestApp
             public ExamplesViewHolder(View itemView, Action<int> itemClickAction) : base(itemView)
             {
                 this.itemClickAction = itemClickAction;
+                view = itemView;
                 nameView = itemView.FindViewById<TextView>(Resource.Id.nameView);
                 descriptionView = itemView.FindViewById<TextView>(Resource.Id.descriptionView);
             }

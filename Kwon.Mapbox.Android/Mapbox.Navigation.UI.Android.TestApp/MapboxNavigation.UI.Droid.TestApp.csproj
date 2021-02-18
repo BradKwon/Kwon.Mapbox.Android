@@ -68,6 +68,8 @@
     <Compile Include="Settings\NavigationSettingsActivity.cs" />
     <Compile Include="Core\SimpleMapboxNavigationKt.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="CoreActivity.cs" />
+    <Compile Include="ExamplesAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -89,8 +91,6 @@
     <None Include="Activity\NavigationUI\Fragment\FragmentNavigationActivity.cs" />
     <None Include="Activity\NavigationUI\Fragment\PlaceholderFragment.cs" />
     <None Include="Activity\NavigationUI\Fragment\NavigationFragment.cs" />
-    <None Include="CoreActivity.cs" />
-    <None Include="ExamplesAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\mipmap-hdpi\ic_launcher.png" />
@@ -303,6 +303,14 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\activity_core.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\item_examples_adapter.xml">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
@@ -372,6 +380,9 @@
   </PackageReference>
   <PackageReference Include="Xamarin.AndroidX.Lifecycle.Extensions">
     <Version>2.2.0.1</Version>
+  </PackageReference>
+  <PackageReference Include="Karamunting.KotlinX.Coroutines.Android">
+    <Version>1.4.2</Version>
   </PackageReference>
 </ItemGroup>
   <ItemGroup>

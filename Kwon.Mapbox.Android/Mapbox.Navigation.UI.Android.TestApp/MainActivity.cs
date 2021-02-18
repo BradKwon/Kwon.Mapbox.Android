@@ -50,7 +50,7 @@ namespace MapboxNavigation.UI.Droid.TestApp
                     typeof(NavigationSettingsActivity)),
                     CHANGE_SETTING_REQUEST_CODE);
             };
-            //cardCore.Click += (s, e) => StartActivity(new Intent(this, typeof(CoreActivity)));
+            cardCore.Click += (s, e) => StartActivity(new Intent(this, typeof(CoreActivity)));
             //cardUI.Click += (s, e) => StartActivity(new Intent(this, typeof(UIActivity)));
         }
 

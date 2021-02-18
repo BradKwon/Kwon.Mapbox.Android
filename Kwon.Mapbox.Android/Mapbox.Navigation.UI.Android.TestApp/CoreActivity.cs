@@ -6,7 +6,6 @@ using Android.OS;
 using Android.Widget;
 using AndroidX.AppCompat.App;
 using AndroidX.RecyclerView.Widget;
-using CheeseBind;
 using MapboxNavigation.UI.Droid.TestApp.Core;
 
 namespace MapboxNavigation.UI.Droid.TestApp
@@ -17,7 +16,6 @@ namespace MapboxNavigation.UI.Droid.TestApp
         private LinearLayoutManager layoutManager;
         private ExamplesAdapter adapter;
 
-        [BindView(Resource.Id.coreRecycler)]
         private RecyclerView coreRecycler;
 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -25,6 +23,7 @@ namespace MapboxNavigation.UI.Droid.TestApp
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.activity_core);
+            coreRecycler = FindViewById<RecyclerView>(Resource.Id.coreRecycler);
 
             var sampleItemList = BuildSampleList();
             adapter = new ExamplesAdapter(this, (position) =>
