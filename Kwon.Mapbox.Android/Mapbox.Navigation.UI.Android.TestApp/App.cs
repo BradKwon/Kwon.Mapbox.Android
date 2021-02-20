@@ -61,7 +61,7 @@ namespace MapboxNavigation.UI.Droid.TestApp
 
         private void SetupMapbox()
         {
-            var mapboxAccessToken = Utils.GetMapboxAccessToken(ApplicationContext);
+            var mapboxAccessToken = Utils.GetMapboxAccessToken(Context);
             if (TextUtils.IsEmpty(mapboxAccessToken))
             {
                 MapboxLogger.Instance.W(new Mapbox.Base.Common.Logger.Model.Message("Mapbox access token isn't set!"));
