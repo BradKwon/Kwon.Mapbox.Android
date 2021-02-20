@@ -394,9 +394,6 @@
   <PackageReference Include="Xamarin.AndroidX.Lifecycle.Extensions">
     <Version>2.2.0.1</Version>
   </PackageReference>
-  <PackageReference Include="Karamunting.KotlinX.Coroutines.Android">
-    <Version>1.4.2</Version>
-  </PackageReference>
 </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\directions-route.json" />
@@ -404,6 +401,9 @@
     <AndroidAsset Include="Assets\long_step.json" />
     <AndroidAsset Include="Assets\reroute.json" />
     <AndroidAsset Include="Assets\morning_row.gpx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProguardConfiguration Include="proguard.cfg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

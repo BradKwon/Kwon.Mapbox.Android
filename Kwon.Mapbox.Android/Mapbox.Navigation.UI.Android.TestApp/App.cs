@@ -22,7 +22,7 @@ namespace MapboxNavigation.UI.Droid.TestApp
             base.OnCreate();
             AppCompatDelegate.CompatVectorFromResourcesEnabled = true;
             SetupTimber();
-            SetupStrictMode();
+            //SetupStrictMode();
             SetupCanary();
             SetupMapbox();
         }

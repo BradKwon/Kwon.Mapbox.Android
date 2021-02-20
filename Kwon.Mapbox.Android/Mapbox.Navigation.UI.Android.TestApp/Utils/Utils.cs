@@ -2,7 +2,9 @@
 using Android.Content;
 using Android.Graphics;
 using Android.Graphics.Drawables;
+using Android.OS;
 using AndroidX.Core.Content.Resources;
+using Mapbox.Api.Directions.V5.Models;
 using Mapbox.Mapboxsdk.Annotations;
 using Mapbox.Mapboxsdk.Geometry;
 using TimberLog;
@@ -54,6 +56,31 @@ namespace MapboxNavigation.UI.Droid.TestApp
             LatLng latLng = new LatLng(randomLat, randomLon);
             Timber.D("GetRandomLatLng: %s", latLng.ToString());
             return latLng;
+        }
+
+        public static string PRIMARY_ROUTE_BUNDLE_KEY = "myPrimaryRouteBundleKey";
+
+        /**
+           * Used by the example activities to get a DirectionsRoute from a bundle.
+           *
+           * @param bundle to get the DirectionsRoute from
+           * @return a DirectionsRoute or null
+           */
+        public static DirectionsRoute GetRouteFromBundle(Bundle bundle)
+        {
+            try
+            {
+                if (bundle.ContainsKey(PRIMARY_ROUTE_BUNDLE_KEY))
+                {
+                    string routeAsJson = bundle.GetString(PRIMARY_ROUTE_BUNDLE_KEY);
+                    return DirectionsRoute.FromJson(routeAsJson);
+                }
+            }
+            catch (Exception ex)
+            {
+                Timber.I(ex.Message);
+            }
+            return null;
         }
     }
 }
