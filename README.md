@@ -2,13 +2,16 @@
 
 [![Build status](https://bradkwon.visualstudio.com/Xamarin%20Binding%20Libraries/_apis/build/status/Mapbox-NavigationUI-Xamarin.Android-CI)](https://bradkwon.visualstudio.com/Xamarin%20Binding%20Libraries/_build/latest?definitionId=11)
 
-# Mapbox Navigation UI
-### Mapbox version: ![Maven](https://maven-badges.herokuapp.com/maven-central/com.mapbox.mapboxsdk/mapbox-android-navigation/badge.svg) 
-### Xamarin Nuget version: ![Nuget](https://img.shields.io/nuget/v/Kwon.Mapbox.Android.Navigation.UI.svg) 
+**`IMPORTANT:`** **Please use legacy version v0.42.6. v1.0.1 is not usable at the moment due to kotlin coroutine support.**
 
-# Mapbox Navigation
-### Mapbox version: ![Maven](https://maven-badges.herokuapp.com/maven-central/com.mapbox.mapboxsdk/mapbox-android-navigation/badge.svg)
-### Xamarin Nuget version: ![Nuget](https://img.shields.io/nuget/v/Kwon.Mapbox.Android.Navigation.svg)
+# Legacy
+## Mapbox Navigation UI
+#### Mapbox version: `v0.42.6`
+#### Xamarin Nuget version: `v0.42.6`
+
+# Latest
+#### Mapbox version: `v1.1.0`
+#### Xamarin Nuget version: `v1.0.1.3`
 
 ## How to get it
 Find below package on Nuget.org. Other dependent packages will come with this package.
